@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Safe Learning for Autonomous Driving
-excerpt: ICML 2022 Workshop + Challenge
+title: "XAI in Action: Past, Present, and Future Applications Across Diverse Use Cases"
+excerpt: NeurIPS 2023 Workshop
 menu: true
 show_info: true
 titles:
@@ -16,7 +16,7 @@ article_header:
   theme: dark
   align: left
   actions:
-    - text: 22 July 2022 | Baltimore, Maryland, USA (Hybrid)
+    - text: 15 Dec 2023 | New Orleans, USA 
   background_image:
     src: /assets/images/l2r_banner3.png
 #    gradient: 'linear-gradient(135deg, rgba(52, 140, 96, 0.4), rgba(136, 73, 107, 0.4))'
@@ -87,7 +87,7 @@ article_header:
 }
 
 ul.menu li::after {
-    content:"22 July 2022 | Baltimore, Maryland, USA (Hybrid)";
+    content:"15 Dec 2023 | New Orleans, USA";
 }
 
 ul.menu a {
@@ -200,51 +200,34 @@ img {
 
 ## About
 
-Welcome to the 1st Workshop on <i>Safe Learning for Autonomous Driving</i> (SL4AD), co-located with the International Conference on Machine Learning (ICML 2022), to be held on 22 July 2022 in hybrid format.
+As AI models continue to advance in complexity and sophistication, understanding how they work and make decisions is becoming increasingly challenging. This challenge has prompted a surge of research into developing methods and tools that can enhance the transparency and explainability of these models. Nowadays, there are many such methods available, to the point that their specific applications have become somewhat unclear.
 
-While there have been significant advances in vehicle autonomy (e.g., perception, trajectory forecasting, planning and control, etc.), it is of paramount importance for autonomous systems to adhere to safety specifications, as any safety infraction in urban and highway driving, or high-speed racing could lead to catastrophic failures. Given this inherent tension between safety and performance, we introduce a new simulation environment in autonomous racing as a particularly challenging proving ground for safe learning algorithms.<br>
+This workshop will specifically explore the diverse applications of explainable artificial intelligence (XAI) methods in various areas. The areas will include, but not limited to XAI in Healthcare, Natural Science, Auditing, Fairness, Natural Language Processing and Law. By examining the use of XAI in these fields, the workshop will provide attendees with insights into the latest trends and challenges within the different domains. 
 
-We envision this workshop bringing together researchers and industry practitioners from different AI subfields to work towards safer and more robust autonomous technology. We encourage participants to take part in the Challenge by competing for top leaderboard positions, to submit articles for review, and to engage with us at ICML 2022.<br>
+The workshop discussions aim to delve into the latest advancements in applied XAI and devise ways to further progress the field. The objective is to foster an open and productive dialogue that enhances our understanding of the potential opportunities and constraints of XAI and its impact across different domains. The purpose of this discourse is to identify strategies that can extend the frontiers of applied XAI and make notable progress in this rapidly evolving area. Specifically, the workshop aims to:
+
 
 ### Topics covered
 
 <div>
 <div style="width:49%; display:inline-block; font-size:14px; vertical-align:top">
 <ul>
-<li>Safe reinforcement learning, safe exploration, constrained reinforcement learning, safe learning + control theory</li>
-<li>Safety verification, certifying learning-based control under dynamical uncertainty, dependability analysis</li>
-<li>Robustness to out-of-distribution road scenes</li>
-<li>Learning vehicle dynamics at high-speeds and in unstable regimes</li>
-<li>Vision-based perception and scene understanding for autonomous driving</li>
-<li>Representation learning for visuomotor control</li>
-<li>Transfer learning; simulation to real-world; meta-learning; domain adaptation; *-shot learning; self/semi/weakly-supervised learning; multi-task learning</li>
-<li>End-to-end and real-time autonomous driving systems</li>
-<li>Novel automotive sensors and their applications</li>
-<li>Trajectory forecasting; Behavior prediction of pedestrians, vehicles, and animals</li>
-<li>Explainability in autonomous driving</li>
-<li>Learning to drive via imitation learning</li>
-<li>Learning to drive via distribution awareness</li>
+<li>Examine various applications of XAI from the past and present </li>
+<li>Discuss potential applications of XAI in the future</li>
+<li>Identify the obstacles that hinder progress in each use case and how can we overcome them</li>
+<li>Explore the necessary methodological requirements for applying XAI</li>
 </ul>
 </div>
 <div style="width:49%; display:inline-block; font-size:14px; vertical-align:top">
 <ul>
-<li>Uncertainty propagation through autonomous driving pipelines</li>
-<li>Classical planning and control for autonomous driving</li>
-<li>Cooperative and competitive multi-agent systems</li>
-<li>Visual grounding and its application to autonomous driving</li>
-<li>Vision-language navigation for autonomous driving</li>
-<li>Audio-visual navigation for autonomous driving</li>
-<li>Neuro-symbolic approaches in autonomous driving; Knowledge representation and reasoning</li>
-<li>Auditory perception (detection, tracking, segmentation, motion estimation, etc)</li>
-<li>Brain-inspired autonomous control systems</li>
-<li>Human factors in autonomous driving</li>
-<li>AI ethics in autonomous driving</li>
-<li>Autonomous driving datasets, simulation, evaluations, and metrics</li>
-<li>Connected autonomous driving, vehicle-to-vehicle, vehicle-to-infrastructure communication, digital twins</li>
-<li>Autonomous driving for traffic management and emission reduction; intelligent transportation systems</li>
+<li>Identify new domains where XAI can be useful in the future</li>
+<li>Understand the inherent limitations of XAI</li>
+<li>Explore whether insights gained from one use case can be transferred to other use cases</li>
 </ul>
 </div>
 </div>
+
+The workshop will provide a valuable learning opportunity for researchers, practitioners, and students seeking to apply XAI in their work, as it will feature presentations by experts in the field, as well as interactive discussions and insights into the latest trends and future directions in applied XAI. By bringing together a diverse group of participants with a shared interest in XAI, the workshop aims to foster collaboration, innovation, and knowledge sharing in this rapidly growing field.
 
 ## Dates
 
@@ -642,39 +625,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </a>
 
 </div>
-
-## Challenge
-
-We also feature an exciting and new AI Challenge in high-speed autonomous racing. Here, the goal is to evaluate the joint safety, performance, and generalisation capabilities of perception and control algorithms, as they operate simulated Formula-style racing vehicles at their physical limits! The Learn-to-Race Autonomous Racing Virtual Challenge is now active. <a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge" target="_blank">Participate now</a>!
-
-<!--div class="swiper swiper-demo">
-  <div class="swiper__wrapper">
-    <div class="swiper__slide">
-      <img src="{{ site.baseurl }}/assets/images/challenge/lvms-overhead.png" alt="LVMS">
-    </div>
-    <div class="swiper__slide">
-      <img src="{{ site.baseurl }}/assets/images/challenge/anglesey-overhead.png" alt="LVMS">
-    </div>
-    <div class="swiper__slide">
-      <img src="{{ site.baseurl }}/assets/images/challenge/thruxton-overhead.png" alt="LVMS">
-    </div>
-  </div>
-  <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
-  <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
-</div-->
-
-<div style="display:block; width:100%;">
-<div style="display:block; margin-bottom:7px;">
-<div style="display:inline; margin-right:5px;"><a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge" target="_blank"><img width="410px" height="226px" src="{{ site.baseurl }}/assets/images/challenge/banner-l2rc-text.png" alt="L2R Autonomous Racing Virtual Challenge: Safe Learning for Autonomous Driving"></a></div>
-<div style="display:inline;"><a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge" target="_blank"><img width="410px" height="226px" src="{{ site.baseurl }}/assets/images/challenge/banner-lvms.png" alt="L2R Autonomous Racing Virtual Challenge: Safe Learning for Autonomous Driving"></a></div>
-</div>
-<div style="display:block;">
-<div style="display:inline; margin-right:5px;"><a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge" target="_blank"><img width="410px" height="226px" src="{{ site.baseurl }}/assets/images/challenge/banner-driving.gif" alt="L2R Autonomous Racing Virtual Challenge: Safe Learning for Autonomous Driving"></a></div>
-<div style="display:inline;"><a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge" target="_blank"><img width="410px" height="226px" src="{{ site.baseurl }}/assets/images/challenge/banner-car.png" alt="L2R Autonomous Racing Virtual Challenge: Safe Learning for Autonomous Driving"></a></div>
-</div>
-</div>
-
-<a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge" target="_blank"><img src="{{ site.baseurl }}/assets/images/challenge/aicrowd_challenge_steps.gif" alt="Steps to victory!"></a>
 
 ## Organisers
 
