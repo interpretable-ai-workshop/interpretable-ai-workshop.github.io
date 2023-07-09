@@ -28,8 +28,8 @@ twitter_username: Learn2Race
 github_username: learn-to-race
 
 # Build settings
-theme: jekyll-text-theme
-#remote_theme: kitian616/jekyll-text-theme
+#theme: jekyll-text-theme
+remote_theme: kitian616/jekyll-text-theme
 highlight_theme: default
 plugins:
   - jekyll-feed
