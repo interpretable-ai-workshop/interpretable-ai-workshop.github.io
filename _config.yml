@@ -23,7 +23,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
 #   Learn-to-Race Challenges in Autononous Driving
 baseurl: "/xai-neurips2023" # the subpath of your site, e.g. /blog
-url: "learn-to-race.org" # l2r-workshop-website" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bingqingchen.github.io/" # l2r-workshop-website" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Learn2Race
 github_username: learn-to-race
 
