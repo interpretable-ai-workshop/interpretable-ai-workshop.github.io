@@ -1,0 +1,1117 @@
+<!DOCTYPE html><html lang="en">
+  <head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Challenge - XAI Workshop</title>
+
+<meta name="description" content="">
+<link rel="canonical" href="http://localhost:4000/workshop-xai-neurips2023/challenge.html"><link rel="alternate" type="application/rss+xml" title="XAI Workshop" href="/workshop-xai-neurips2023/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/workshop-xai-neurips2023/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/workshop-xai-neurips2023/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/workshop-xai-neurips2023/assets/favicon-16x16.png"><link rel="manifest" href="/workshop-xai-neurips2023/assets/site.webmanifest"><link rel="mask-icon" href="/workshop-xai-neurips2023/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/workshop-xai-neurips2023/assets/favicon.ico">
+
+<meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/workshop-xai-neurips2023/assets/browserconfig.xml">
+
+<meta name="theme-color" content="#ffffff">
+<!-- end favicons snippet --><link rel="stylesheet" href="/workshop-xai-neurips2023/assets/css/main.css"><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.css" ><!-- start custom head snippets -->
+
+<!-- end custom head snippets -->
+<script>(function() {
+  window.isArray = function(val) {
+    return Object.prototype.toString.call(val) === '[object Array]';
+  };
+  window.isString = function(val) {
+    return typeof val === 'string';
+  };
+
+  window.hasEvent = function(event) {
+    return 'on'.concat(event) in window.document;
+  };
+
+  window.isOverallScroller = function(node) {
+    return node === document.documentElement || node === document.body || node === window;
+  };
+
+  window.isFormElement = function(node) {
+    var tagName = node.tagName;
+    return tagName === 'INPUT' || tagName === 'SELECT' || tagName === 'TEXTAREA';
+  };
+
+  window.pageLoad = (function () {
+    var loaded = false, cbs = [];
+    window.addEventListener('load', function () {
+      var i;
+      loaded = true;
+      if (cbs.length > 0) {
+        for (i = 0; i < cbs.length; i++) {
+          cbs[i]();
+        }
+      }
+    });
+    return {
+      then: function(cb) {
+        cb && (loaded ? cb() : (cbs.push(cb)));
+      }
+    };
+  })();
+})();
+(function() {
+  window.throttle = function(func, wait) {
+    var args, result, thisArg, timeoutId, lastCalled = 0;
+
+    function trailingCall() {
+      lastCalled = new Date;
+      timeoutId = null;
+      result = func.apply(thisArg, args);
+    }
+    return function() {
+      var now = new Date,
+        remaining = wait - (now - lastCalled);
+
+      args = arguments;
+      thisArg = this;
+
+      if (remaining <= 0) {
+        clearTimeout(timeoutId);
+        timeoutId = null;
+        lastCalled = now;
+        result = func.apply(thisArg, args);
+      } else if (!timeoutId) {
+        timeoutId = setTimeout(trailingCall, remaining);
+      }
+      return result;
+    };
+  };
+})();
+(function() {
+  var Set = (function() {
+    var add = function(item) {
+      var i, data = this._data;
+      for (i = 0; i < data.length; i++) {
+        if (data[i] === item) {
+          return;
+        }
+      }
+      this.size ++;
+      data.push(item);
+      return data;
+    };
+
+    var Set = function(data) {
+      this.size = 0;
+      this._data = [];
+      var i;
+      if (data.length > 0) {
+        for (i = 0; i < data.length; i++) {
+          add.call(this, data[i]);
+        }
+      }
+    };
+    Set.prototype.add = add;
+    Set.prototype.get = function(index) { return this._data[index]; };
+    Set.prototype.has = function(item) {
+      var i, data = this._data;
+      for (i = 0; i < data.length; i++) {
+        if (this.get(i) === item) {
+          return true;
+        }
+      }
+      return false;
+    };
+    Set.prototype.is = function(map) {
+      if (map._data.length !== this._data.length) { return false; }
+      var i, j, flag, tData = this._data, mData = map._data;
+      for (i = 0; i < tData.length; i++) {
+        for (flag = false, j = 0; j < mData.length; j++) {
+          if (tData[i] === mData[j]) {
+            flag = true;
+            break;
+          }
+        }
+        if (!flag) { return false; }
+      }
+      return true;
+    };
+    Set.prototype.values = function() {
+      return this._data;
+    };
+    return Set;
+  })();
+
+  window.Lazyload = (function(doc) {
+    var queue = {js: [], css: []}, sources = {js: {}, css: {}}, context = this;
+    var createNode = function(name, attrs) {
+      var node = doc.createElement(name), attr;
+      for (attr in attrs) {
+        if (attrs.hasOwnProperty(attr)) {
+          node.setAttribute(attr, attrs[attr]);
+        }
+      }
+      return node;
+    };
+    var end = function(type, url) {
+      var s, q, qi, cbs, i, j, cur, val, flag;
+      if (type === 'js' || type ==='css') {
+        s = sources[type], q = queue[type];
+        s[url] = true;
+        for (i = 0; i < q.length; i++) {
+          cur = q[i];
+          if (cur.urls.has(url)) {
+            qi = cur, val = qi.urls.values();
+            qi && (cbs = qi.callbacks);
+            for (flag = true, j = 0; j < val.length; j++) {
+              cur = val[j];
+              if (!s[cur]) {
+                flag = false;
+              }
+            }
+            if (flag && cbs && cbs.length > 0) {
+              for (j = 0; j < cbs.length; j++) {
+                cbs[j].call(context);
+              }
+              qi.load = true;
+            }
+          }
+        }
+      }
+    };
+    var load = function(type, urls, callback) {
+      var s, q, qi, node, i, cur,
+        _urls = typeof urls === 'string' ? new Set([urls]) : new Set(urls), val, url;
+      if (type === 'js' || type ==='css') {
+        s = sources[type], q = queue[type];
+        for (i = 0; i < q.length; i++) {
+          cur = q[i];
+          if (_urls.is(cur.urls)) {
+            qi = cur;
+            break;
+          }
+        }
+        val = _urls.values();
+        if (qi) {
+          callback && (qi.load || qi.callbacks.push(callback));
+          callback && (qi.load && callback());
+        } else {
+          q.push({
+            urls: _urls,
+            callbacks: callback ? [callback] : [],
+            load: false
+          });
+          for (i = 0; i < val.length; i++) {
+            node = null, url = val[i];
+            if (s[url] === undefined) {
+              (type === 'js' ) && (node = createNode('script', { src: url }));
+              (type === 'css') && (node = createNode('link', { rel: 'stylesheet', href: url }));
+              if (node) {
+                node.onload = (function(type, url) {
+                  return function() {
+                    end(type, url);
+                  };
+                })(type, url);
+                (doc.head || doc.body).appendChild(node);
+                s[url] = false;
+              }
+            }
+          }
+        }
+      }
+    };
+    return {
+      js: function(url, callback) {
+        load('js', url, callback);
+      },
+      css: function(url, callback) {
+        load('css', url, callback);
+      }
+    };
+  })(this.document);
+})();
+</script><script>
+  (function() {
+    var TEXT_VARIABLES = {
+      version: '2.2.6',
+      sources: {
+        font_awesome: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.css',
+        jquery: 'https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js',
+        leancloud_js_sdk: '//cdn.jsdelivr.net/npm/leancloud-storage@3.13.2/dist/av-min.js',
+        chart: 'https://cdn.bootcss.com/Chart.js/2.7.2/Chart.bundle.min.js',
+        gitalk: {
+          js: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.js',
+          css: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.css'
+        },
+        valine: 'https://unpkg.com/valine/dist/Valine.min.js',
+        mathjax: 'https://cdn.bootcss.com/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML',
+        mermaid: 'https://cdn.bootcss.com/mermaid/8.0.0-rc.8/mermaid.min.js'
+      },
+      site: {
+        toc: {
+          selectors: 'h1,h2,h3'
+        }
+      },
+      paths: {
+        search_js: '/workshop-xai-neurips2023/assets/search.js'
+      }
+    };
+    window.TEXT_VARIABLES = TEXT_VARIABLES;
+  })();
+</script>
+</head>
+  <body>
+    <div class="root" data-is-touch="false">
+      <div class="layout--page layout--page--sidebar clearfix js-page-root">
+  <div class="page__mask d-print-none js-page-mask js-sidebar-hide"></div>
+  <div class="page__viewport">
+    <div class="page__actions d-print-none">
+      <div class="button button--circle button--lg box-shadow-2 sidebar-button js-sidebar-show">
+        <i class="fas fa-bars icon--show"></i>
+      </div>
+    </div>
+
+    <div class="grid page__grid">
+
+      <div class="page__sidebar d-print-none"><div class="sidebar-toc"><ul class="toc toc--navigator"><li class="toc-h1">Overview</li><li class="toc-h2"><a href="/workshop-xai-neurips2023/challenge.html#challenge-overview">Overview</a></li><li class="toc-h2"><a href="/workshop-xai-neurips2023/challenge.html#getting-started">Getting Started</a></li><li class="toc-h1">Environment</li><li class="toc-h2"><a href="/workshop-xai-neurips2023/challenge.html#action-space">Action Space</a></li><li class="toc-h2"><a href="/workshop-xai-neurips2023/challenge.html#observation-space">Observation Space</a></li><li class="toc-h2"><a href="/workshop-xai-neurips2023/challenge.html#runtime-environment">Runtime Environment</a></li><li class="toc-h2"><a href="/workshop-xai-neurips2023/challenge.html#file-structure">File Structure</a></li><li class="toc-h1">Evaluation</li><li class="toc-h2"><a href="/workshop-xai-neurips2023/challenge.html#rules">Rules</a></li><li class="toc-h2"><a href="/workshop-xai-neurips2023/challenge.html#competition-stages">Competition Stages</a></li><li class="toc-h2"><a href="/workshop-xai-neurips2023/challenge.html#metrics">Metrics</a></li></ul></div></div><div class="page__main js-page-main cell cell--auto">
+
+      <div class="page__main-inner"><div class="page__header d-print-none"><header class="header"><div class="main">
+      <div class="header__title">
+        <div class="header__brand"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24">
+<style type="text/css">
+	.st0{fill:#515151;}
+</style>
+<path class="st0" d="M1.7,22.3c5.7-5.7,11.3-5.7,17,0c3.3-3.3,3.5-5.3,0.8-6c2.7,0.7,3.5-1.1,2.3-5.6s-3.3-5.2-6.3-2.1
+	c3-3,2.3-5.2-2.1-6.3S7,1.8,7.7,4.6C7,1.8,5,2.1,1.7,5.3C7.3,11,7.3,16.7,1.7,22.3"/>
+</svg>
+<a title="" href="/workshop-xai-neurips2023/">XAI Workshop</a></div></div><nav class="navigation">
+        <ul><li class="navigation__item"><a href="/workshop-xai-neurips2023/#schedule">Schedule</a></li><li class="navigation__item"><a href="/workshop-xai-neurips2023/#organisers">Organisers</a></li><li class="navigation__item"><a href="/workshop-xai-neurips2023/calls.html">Calls</a></li><li class="navigation__item"><a href="/workshop-xai-neurips2023/papers.html">Papers</a></li><li class="navigation__item"><a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge">Challenge <svg width="12px" height="12px" viewBox="0 0 24 24" style="cursor:pointer"><g stroke-width="2.1" stroke="#666" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline><path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path></g></svg></a></li><li class="navigation__item"><a href="https://learn-to-race.org">Learn-to-Race <svg width="12px" height="12px" viewBox="0 0 24 24" style="cursor:pointer"><g stroke-width="2.1" stroke="#666" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 13.5 17 19.5 5 19.5 5 7.5 11 7.5"></polyline><path d="M14,4.5 L20,4.5 L20,10.5 M20,4.5 L11,13.5"></path></g></svg></a></li></ul>
+      </nav></div>
+  </header>
+</div><div class="page__content"><div class ="main"><div class="grid grid--reverse">
+
+              <div class="col-aside d-print-none js-col-aside"></div>
+
+              <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
+
+<!-- end custom main top snippet -->
+<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Challenge</h1></header></div><meta itemprop="headline" content="Challenge"><div class="article__info clearfix"><ul class="right-col menu"></ul></div><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+
+<!-- end custom article top snippet -->
+<div class="article__content" itemprop="articleBody"><style>
+.article__header h1 {
+    display: none;
+}
+</style>
+
+<script>(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    function swiper(options) {
+      var $window = $(window), $root = this, $swiperWrapper, $swiperSlides, $swiperButtonPrev, $swiperButtonNext,
+        initialSlide, animation, onChange, onChangeEnd,
+        rootWidth, count, preIndex, curIndex, translateX, CRITICAL_ANGLE = Math.PI / 3;
+
+      function setOptions(options) {
+        var _options = options || {};
+        initialSlide = _options.initialSlide || 0;
+        animation = _options.animation === undefined && true;
+        onChange = onChange || _options.onChange;
+        onChangeEnd = onChangeEnd || _options.onChangeEnd;
+      }
+
+      function init() {
+        $swiperWrapper = $root.find('.swiper__wrapper');
+        $swiperSlides = $root.find('.swiper__slide');
+        $swiperButtonPrev = $root.find('.swiper__button--prev');
+        $swiperButtonNext = $root.find('.swiper__button--next');
+        animation && $swiperWrapper.addClass('swiper__wrapper--animation');
+        calc(true);
+      }
+
+      function preCalc() {
+        rootWidth = $root.width();
+        count = $swiperWrapper.children('.swiper__slide').length;
+        if (count < 2) {
+          $swiperButtonPrev.addClass('d-none');
+          $swiperButtonNext.addClass('d-none');
+        }
+        curIndex = initialSlide || 0;
+        translateX = getTranslateXFromCurIndex();
+      }
+
+      var calc = (function() {
+        var preAnimation, $swiperSlide, $preSwiperSlide;
+        return function (needPreCalc, params) {
+          needPreCalc && preCalc();
+          var _animation = (params && params.animation !== undefined) ? params.animation : animation;
+          if (preAnimation === undefined || preAnimation !== _animation) {
+            preAnimation = _animation ? $swiperWrapper.addClass('swiper__wrapper--animation') :
+              $swiperWrapper.removeClass('swiper__wrapper--animation');
+          }
+          if (preIndex !== curIndex) {
+            ($preSwiperSlide = $swiperSlides.eq(preIndex)).removeClass('active');
+            ($swiperSlide = $swiperSlides.eq(curIndex)).addClass('active');
+            onChange && onChange(curIndex, $swiperSlides.eq(curIndex), $swiperSlide, $preSwiperSlide);
+            if (onChangeEnd) {
+              if (_animation) {
+                setTimeout(function() {
+                  onChangeEnd(curIndex, $swiperSlides.eq(curIndex), $swiperSlide, $preSwiperSlide);
+                }, 400);
+              } else {
+                onChangeEnd(curIndex, $swiperSlides.eq(curIndex), $swiperSlide, $preSwiperSlide);
+              }
+            }
+            preIndex = curIndex;
+          }
+          $swiperWrapper.css('transform', 'translate(' + translateX + 'px, 0)');
+          if (count > 1) {
+            if (curIndex <= 0) {
+              $swiperButtonPrev.addClass('disabled');
+            } else {
+              $swiperButtonPrev.removeClass('disabled');
+            }
+            if (curIndex >= count - 1) {
+              $swiperButtonNext.addClass('disabled');
+            } else {
+              $swiperButtonNext.removeClass('disabled');
+            }
+          }
+        };
+      })();
+
+      function getTranslateXFromCurIndex() {
+        return curIndex <= 0 ? 0 : - rootWidth * curIndex;
+      }
+
+      function moveToIndex(index ,params) {
+        preIndex = curIndex;
+        curIndex = index;
+        translateX = getTranslateXFromCurIndex();
+        calc(false, params);
+      }
+
+      function move(type) {
+        var nextIndex = curIndex, unstableTranslateX;
+        if (type === 'prev') {
+          nextIndex > 0 && nextIndex--;
+        } else if (type === 'next') {
+          nextIndex < count - 1 && nextIndex++;
+        }
+        if (type === 'cur') {
+          moveToIndex(curIndex, { animation: true });
+          return;
+        }
+        unstableTranslateX = translateX % rootWidth !== 0;
+        if (nextIndex !== curIndex || unstableTranslateX) {
+          unstableTranslateX ? moveToIndex(nextIndex, { animation: true }) : moveToIndex(nextIndex);
+        }
+      }
+
+      setOptions(options);
+      init();
+      preIndex = curIndex;
+
+      $swiperButtonPrev.on('click', function(e) {
+        e.stopPropagation();
+        move('prev');
+      });
+      $swiperButtonNext.on('click', function(e) {
+        e.stopPropagation();
+        move('next');
+      });
+      $window.on('resize', function() {
+        calc(true, { animation: false });
+      });
+
+      (function() {
+        var pageX, pageY, velocityX, preTranslateX = translateX, timeStamp, touching;
+        function handleTouchstart(e) {
+          var point = e.touches ? e.touches[0] : e;
+          pageX = point.pageX;
+          pageY = point.pageY;
+          velocityX = 0;
+          preTranslateX = translateX;
+        }
+        function handleTouchmove(e) {
+          if (e.touches && e.touches.length > 1) {
+            return;
+          }
+          var point = e.touches ? e.touches[0] : e;
+          var deltaX = point.pageX - pageX;
+          var deltaY = point.pageY - pageY;
+          velocityX = deltaX / (e.timeStamp - timeStamp);
+          timeStamp = e.timeStamp;
+          if (e.cancelable && Math.abs(Math.atan(deltaY / deltaX)) < CRITICAL_ANGLE) {
+            touching = true;
+            translateX += deltaX;
+            calc(false, { animation: false });
+          }
+          pageX = point.pageX;
+          pageY = point.pageY;
+        }
+        function handleTouchend() {
+          touching = false;
+          var deltaX = translateX - preTranslateX;
+          var distance = deltaX + velocityX * rootWidth;
+          if (Math.abs(distance) > rootWidth / 2) {
+            distance > 0 ? move('prev') : move('next');
+          } else {
+            move('cur');
+          }
+        }
+        $swiperWrapper.on('touchstart', handleTouchstart);
+        $swiperWrapper.on('touchmove', handleTouchmove);
+        $swiperWrapper.on('touchend', handleTouchend);
+        $swiperWrapper.on('touchcancel', handleTouchend);
+
+        (function() {
+          var pressing = false, moved = false;
+          $swiperWrapper.on('mousedown', function(e) {
+            pressing = true; handleTouchstart(e);
+          });
+          $swiperWrapper.on('mousemove', function(e) {
+            pressing && (e.preventDefault(), moved = true, handleTouchmove(e));
+          });
+          $swiperWrapper.on('mouseup', function(e) {
+            pressing && (pressing = false, handleTouchend(e));
+          });
+          $swiperWrapper.on('mouseleave', function(e) {
+            pressing && (pressing = false, handleTouchend(e));
+          });
+          $swiperWrapper.on('click', function(e) {
+            moved && (e.stopPropagation(), moved = false);
+          });
+        })();
+
+        $root.on('touchmove', function(e) {
+          if (e.cancelable & touching) {
+            e.preventDefault();
+          }
+        });
+      })();
+
+      return {
+        setOptions: setOptions,
+        previous: function(){
+          move('prev');
+        },
+        next: function(){
+          move('next');
+        },
+        refresh: function() {
+          calc(true, { animation: false });
+        }
+      };
+    }
+    $.fn.swiper = swiper;
+  });
+})();
+var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    $('.swiper-demo').swiper();
+  });
+</script>
+
+<h1 id="challenge-overview">Challenge Overview</h1>
+
+<p>Racing is the ultimate proving ground for automotive technology, which involves fast decision making in a complex, fast-changing environment. For this challenge, we use the <a href="https://learn-to-race.org" target="_blank">Learn-to-Race</a> framework, which is an OpenAI-gym compliant training environment that enables autonomous agents to interact with a high-fidelity racing simulator. The objective of this competition is to push the boundary of autonomous technology through this challenging task, with focus on achieving the safety benefits of autonomous driving.</p>
+
+<p>Participants will be evaluated on an unseen track, the North Road Track at the Las Vegas Motor Speedway, <em>left</em>, but have the opportunity to explore the environment with unfrozen model weights for a 1-hour prior to evaluation laps similar to a professional race car driver’s practice session. Participants will also have access to <a href="https://www.angleseycircuit.com/">Anglesey National</a>, <em>middle</em>, and <a href="https://thruxtonracing.co.uk/">Thruxton Circuit</a>, <em>right</em>, racetracks to develop their agents.</p>
+
+<div class="swiper swiper-demo">
+  <div class="swiper__wrapper">
+    <div class="swiper__slide">
+      <img src="/workshop-xai-neurips2023/assets/images/challenge/lvms-overhead.png" alt="LVMS" />
+    </div>
+    <div class="swiper__slide">
+      <img src="/workshop-xai-neurips2023/assets/images/challenge/anglesey-overhead.png" alt="LVMS" />
+    </div>
+    <div class="swiper__slide">
+      <img src="/workshop-xai-neurips2023/assets/images/challenge/thruxton-overhead.png" alt="LVMS" />
+    </div>
+  </div>
+  <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
+  <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
+</div>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>Please visit our AICrowd <a href="https://www.aicrowd.com/challenges/learn-to-race-autonomous-racing-virtual-challenge">Challenge</a> page, in order to get started!</p>
+
+<h2 id="competition-stages">Competition Stages</h2>
+
+<p>The competition consists of 2 stages.</p>
+<ul>
+  <li>In Stage 1, participants will submit model checkpoints to AICrowd for evaluation on <a href="https://thruxtonracing.co.uk/">Thruxton Circuit</a>. The submissions will first be ranked on success rate, and then submissions with the same success rate will be ranked on average speed. Aside from Thruxton Circuit, additional race tracks are available in the Learn-to-Race environment for development.</li>
+  <li>The top 10 teams on the leader board will enter Stage 2, where their agents will be evaluated on an unseen track. The top-performing teams will submit their models (with checkpoints) to AICrowd for training on the unseen track for a fixed period of one hour. During the one-hour ‘practice’ period, participants are free to perform any model updates or exploration strategies of their choice. The number of safety infractions will be accumulated under the consideration that an autonomous agent should remain safe throughout its interaction with the environment. After the ‘practice’ period, the agent will be evaluated on the unseen track. The participating teams will first be ranked on success rate, and then submissions with the same success rate will be ranked on a weighted sum of the total number of safety infractions and the average speed. To prevent the participants from achieving high success rate by driving very slowly, we will set maximum episode length based on average speed of 30km/h during evaluation.</li>
+</ul>
+
+<h4 id="metrics">Metrics</h4>
+<ul>
+  <li><em>Success Rate:</em> Each race track will be partitioned into a fixed number of segments and the success rate is calculated as the number of successfully completed segments over the total number of segments. If the agent fails at a certain segment, it will respawn stationarily at the beginning of the next segment. If the agent successfully completes a segment, it will continue on to the next segment carrying over the current speed.</li>
+  <li><em>Average Speed:</em> Average speed is defined as the total distance traveled over time, which is used as a proxy for performance.</li>
+  <li><em>Number of Safety Infractions:</em> The number of safety infractions is accumulated during the 1-hour ‘practice’ period in Stage 2 of the competition. The agent is considered to have incurred a safety infraction if 2 wheels of the vehicle leave the drivable area, the vehicle collides with an object, or does not make sufficient progress (e.g. get stuck). In Learn-to-Race, the episode terminates upon a safety infraction.</li>
+</ul>
+
+<h4 id="rules">Rules</h4>
+
+<p>Participants will be:</p>
+
+<ul>
+  <li>limited to <strong>1</strong> submission every 24 hours</li>
+  <li>restricted from accessing model weights or custom logs during evaluation</li>
+  <li>required to submit source code, for top performers</li>
+</ul>
+
+<h2 id="environment">Environment</h2>
+<h4 id="action-space">Action Space</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Action</th>
+      <th style="text-align: center">Type</th>
+      <th style="text-align: center">Range</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Steering</td>
+      <td style="text-align: center">Continuous</td>
+      <td style="text-align: center"><em>[-1.0, 1.0]</em></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Acceleration</td>
+      <td style="text-align: center">Continuous</td>
+      <td style="text-align: center"><em>[-1.0, 1.0]</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="observation-space">Observation Space</h4>
+
+<ul>
+  <li>We do not restrict the usage of pose information or segmentation cameras or the placement of cameras, including off-vehicle, during training.</li>
+  <li>During evaluation, agents will only have access to RGB images from cameras placed on the front, right, and left of the vehicle as well as vehicle speed.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">observation</span> <span class="o">=</span>
+<span class="p">{</span>
+  <span class="s">'CameraFrontRGB'</span><span class="p">:</span> <span class="n">front_img</span><span class="p">,</span> <span class="c1"># numpy array of shape (width, height, 3)
+</span>  <span class="s">'CameraLeftRGB'</span><span class="p">:</span> <span class="n">left_img</span><span class="p">,</span> <span class="c1"># numpy array of shape (width, height, 3)
+</span>  <span class="s">'CameraRightRGB'</span><span class="p">:</span> <span class="n">right_img</span><span class="p">,</span> <span class="c1"># numpy array of shape (width, height, 3)
+</span>  <span class="s">'track_id'</span><span class="p">:</span> <span class="n">track_id</span><span class="p">,</span> <span class="c1"># integer value associated with a specific racetrack
+</span>  <span class="s">'speed'</span><span class="p">:</span> <span class="n">speed</span> <span class="c1"># float value of vehicle speed in m/s
+</span><span class="p">}</span>
+</code></pre></div></div>
+
+<h4 id="runtime-environment">Runtime Environment</h4>
+
+<p>Your submission will be run in an Ubuntu 18.04, <a href="https://hub.docker.com/r/nvidia/cudagl">nvidia/cudagl</a> Docker image with Cuda 11.0.3 drivers. By default, a Python 3.6.9 environment is used, and we expect submissions to use Python3 versions &gt;= 3.6.9. The evaluation structure allows for a variety of Python3 environments:</p>
+
+<ul>
+  <li>For conda environments, include <code class="language-plaintext highlighter-rouge">environment.yml</code> in the top directory of your submission</li>
+  <li>For pip3 installation, include <code class="language-plaintext highlighter-rouge">requirements.txt</code> in the top directory of your submission, run after the above step</li>
+  <li>For Python3 virtual environments, include a directory named <code class="language-plaintext highlighter-rouge">venv</code> in the top directory of your submission, and our script will activate <code class="language-plaintext highlighter-rouge">venv/bin/activate</code></li>
+</ul>
+
+<h4 id="file-structure">File Structure</h4>
+
+<p>You submission will be a single file named <code class="language-plaintext highlighter-rouge">submission.zip</code> which contains:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">.</span>
+│   <span class="c"># required files</span>
+├── eval.py
+├── conf.yml
+│
+│   <span class="c"># optional environment files &amp; directories</span>
+├── environment.yml
+├── requirements.txt
+├── venv
+│   ├── bin
+│       ├── activate
+│        ...
+│   ├── include
+│   ...
+│
+│   <span class="c"># optional additional files</span>
+├── <span class="o">(</span>model weights<span class="o">)</span>
+├── <span class="o">(</span>additional utilities<span class="o">)</span>
+└── ...
+</code></pre></div></div>
+
+<h5 id="evalpy">eval.py</h5>
+
+<p>This is the primary file that you will modify and include in your submission. The <a href="https://github.com/hermgerm29/learn-to-race/blob/main/l2r/eval/eval.py">template</a> you will use is located in <code class="language-plaintext highlighter-rouge">l2r/eval/eval.py</code> in the Learn-to-Race repository. You are free to modify any methods that are marked <strong>“Modify this method”</strong>, and you will, at minimum, need to modify the following methods:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Evaluator.load_agent</code> to create your agent and load in policy weights</li>
+  <li><code class="language-plaintext highlighter-rouge">Evaluator.pre_evaluate</code> to define your 1-hour pre-evaluation phase during which you will likely want to take gradient updates and perform exploration and fine-tuning on the new racetrack</li>
+</ul>
+
+<p>A variety of mechanisms are implemented to strictly check that <strong>“Do not modify”</strong> methods are not modified, and submissions that do modify these methods will result in a thrown exception and no provided score.</p>
+
+<h5 id="confyml">conf.yml</h5>
+
+<p>The other required file is <code class="language-plaintext highlighter-rouge">conf.yml</code> which defines a number of configurations for the racing environment. A template of this file is shown below. We also impose a few modest restrictions including:</p>
+
+<ul>
+  <li>You must include the keys <code class="language-plaintext highlighter-rouge">env_kwargs</code> and <code class="language-plaintext highlighter-rouge">sim_kwargs</code> in the configuration</li>
+  <li>You cannot use segmentation cameras during pre-evaluation or evaluation</li>
+  <li>We impose a maximum limit of 1080 pixels for a single camera dimension</li>
+  <li>A maximum observation delay of <code class="language-plaintext highlighter-rouge">0.15</code> seconds</li>
+</ul>
+
+<p>Furthermore, we recommend:</p>
+
+<ul>
+  <li>Not modifying any of the interface addresses</li>
+  <li>Removing cameras that you don’t intend on using</li>
+</ul>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">env_kwargs</span><span class="pi">:</span>
+  <span class="na">multimodal</span><span class="pi">:</span> <span class="s">True</span>
+  <span class="na">max_timesteps</span><span class="pi">:</span> <span class="m">500</span>
+  <span class="na">obs_delay</span><span class="pi">:</span> <span class="m">0.1</span>
+  <span class="na">not_moving_timeout</span><span class="pi">:</span> <span class="m">50</span>
+  <span class="na">reward_pol</span><span class="pi">:</span> <span class="s1">'</span><span class="s">default'</span>
+  <span class="na">reward_kwargs</span><span class="pi">:</span>
+    <span class="na">oob_penalty</span><span class="pi">:</span> <span class="m">5.0</span>
+    <span class="na">min_oob_penalty</span><span class="pi">:</span> <span class="m">25.0</span>
+  <span class="c1"># Our script will replace controller_kwargs with the appropriate settings</span>
+  <span class="na">controller_kwargs</span><span class="pi">:</span>
+    <span class="na">sim_version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">ArrivalSim-linux-0.7.0-cmu4'</span>
+    <span class="na">quiet</span><span class="pi">:</span> <span class="s">True</span>
+    <span class="na">user</span><span class="pi">:</span> <span class="s1">'</span><span class="s">ubuntu'</span>
+    <span class="na">start_container</span><span class="pi">:</span> <span class="s">False</span>
+    <span class="na">sim_path</span><span class="pi">:</span> <span class="s1">'</span><span class="s">/home/ArrivalSim-linux-0.7.0.182276/LinuxNoEditor'</span>
+  <span class="na">action_if_kwargs</span><span class="pi">:</span>
+    <span class="na">max_accel</span><span class="pi">:</span> <span class="s">6.</span>
+    <span class="na">min_accel</span><span class="pi">:</span> <span class="s">3.</span>
+    <span class="na">max_steer</span><span class="pi">:</span> <span class="m">0.2</span>
+    <span class="na">min_steer</span><span class="pi">:</span> <span class="s">-0.2</span>
+    <span class="na">ip</span><span class="pi">:</span> <span class="s1">'</span><span class="s">0.0.0.0'</span>
+    <span class="na">port</span><span class="pi">:</span> <span class="m">7077</span>
+  <span class="na">pose_if_kwargs</span><span class="pi">:</span>
+    <span class="na">ip</span><span class="pi">:</span> <span class="s1">'</span><span class="s">0.0.0.0'</span>
+    <span class="na">port</span><span class="pi">:</span> <span class="m">7078</span>
+  <span class="na">cameras</span><span class="pi">:</span>
+    <span class="na">CameraFrontRGB</span><span class="pi">:</span>
+      <span class="na">Addr</span><span class="pi">:</span> <span class="s1">'</span><span class="s">tcp://0.0.0.0:8008'</span>
+      <span class="na">Format</span><span class="pi">:</span> <span class="s">ColorBGR8</span>
+      <span class="na">FOVAngle</span><span class="pi">:</span> <span class="m">90</span>
+      <span class="na">Width</span><span class="pi">:</span> <span class="m">512</span>
+      <span class="na">Height</span><span class="pi">:</span> <span class="m">384</span>
+      <span class="na">bAutoAdvertise</span><span class="pi">:</span> <span class="s">True</span>
+    <span class="na">CameraLeftRGB</span><span class="pi">:</span>
+      <span class="na">Addr</span><span class="pi">:</span> <span class="s1">'</span><span class="s">tcp://0.0.0.0:8009'</span>
+      <span class="na">Format</span><span class="pi">:</span> <span class="s">ColorBGR8</span>
+      <span class="na">FOVAngle</span><span class="pi">:</span> <span class="m">90</span>
+      <span class="na">Width</span><span class="pi">:</span> <span class="m">512</span>
+      <span class="na">Height</span><span class="pi">:</span> <span class="m">384</span>
+      <span class="na">bAutoAdvertise</span><span class="pi">:</span> <span class="s">True</span>
+    <span class="na">CameraRightRGB</span><span class="pi">:</span>
+      <span class="na">Addr</span><span class="pi">:</span> <span class="s1">'</span><span class="s">tcp://0.0.0.0:8010'</span>
+      <span class="na">Format</span><span class="pi">:</span> <span class="s">ColorBGR8</span>
+      <span class="na">FOVAngle</span><span class="pi">:</span> <span class="m">90</span>
+      <span class="na">Width</span><span class="pi">:</span> <span class="m">512</span>
+      <span class="na">Height</span><span class="pi">:</span> <span class="m">384</span>
+      <span class="na">bAutoAdvertise</span><span class="pi">:</span> <span class="s">True</span>
+
+<span class="na">sim_kwargs</span><span class="pi">:</span>
+  <span class="na">racetrack</span><span class="pi">:</span> <span class="pi">[</span><span class="s1">'</span><span class="s">VegasNorthRoad'</span><span class="pi">]</span>
+  <span class="na">driver_params</span><span class="pi">:</span>
+    <span class="na">DriverAPIClass</span><span class="pi">:</span> <span class="s1">'</span><span class="s">VApiUdp'</span>
+    <span class="na">DriverAPI_UDP_SendAddress</span><span class="pi">:</span> <span class="s1">'</span><span class="s">0.0.0.0'</span>
+</code></pre></div></div>
+</div><div class="d-print-none"><footer class="article__footer"><!-- start custom article footer snippet -->
+
+<!-- end custom article footer snippet -->
+</footer>
+<div class="article__section-navigator clearfix"><div class="previous"><span>PREVIOUS</span><a href="/workshop-xai-neurips2023/challenge.html#metrics">Metrics</a></div></div></div>
+
+</div>
+
+<script>(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    $(function() {
+      var $this ,$scroll;
+      var $articleContent = $('.js-article-content');
+      var hasSidebar = $('.js-page-root').hasClass('layout--page--sidebar');
+      var scroll = hasSidebar ? '.js-page-main' : 'html, body';
+      $scroll = $(scroll);
+
+      $articleContent.find('.highlight').each(function() {
+        $this = $(this);
+        $this.attr('data-lang', $this.find('code').attr('data-lang'));
+      });
+      $articleContent.find('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]').each(function() {
+        $this = $(this);
+        $this.append($('<a class="anchor d-print-none" aria-hidden="true"></a>').html('<i class="fas fa-anchor"></i>'));
+      });
+      $articleContent.on('click', '.anchor', function() {
+        $scroll.scrollToAnchor('#' + $(this).parent().attr('id'), 400);
+      });
+    });
+  });
+})();
+</script>
+</div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
+
+<!-- end custom main bottom snippet -->
+</div>
+            </div></div></div><div class="page__footer d-print-none">
+<footer class="footer py-4 js-page-footer">
+  <div class="main"><div itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content=""><meta itemprop="url" content="/workshop-xai-neurips2023/"><div class="footer__author-links"><div class="author-links">
+  <ul class="menu menu--nowrap menu--inline"></ul>
+</div>
+</div>
+    </div><div class="site-info mt-2">
+      <div>© XAI Workshop 2021,
+        Powered by <a title="Jekyll is a simple, blog-aware, static site generator." href="http://jekyllrb.com/">Jekyll</a> & <a
+        title="TeXt is a super customizable Jekyll theme." href="https://github.com/kitian616/jekyll-TeXt-theme">TeXt Theme</a>.
+      </div>
+    </div>
+  </div>
+</footer>
+</div></div>
+    </div></div></div><script>(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    var $body = $('body'), $window = $(window);
+    var $pageRoot = $('.js-page-root'), $pageMain = $('.js-page-main');
+    var activeCount = 0;
+    function modal(options) {
+      var $root = this, visible, onChange, hideWhenWindowScroll = false;
+      var scrollTop;
+      function setOptions(options) {
+        var _options = options || {};
+        visible = _options.initialVisible === undefined ? false : show;
+        onChange = _options.onChange;
+        hideWhenWindowScroll = _options.hideWhenWindowScroll;
+      }
+      function init() {
+        setState(visible);
+      }
+      function setState(isShow) {
+        if (isShow === visible) {
+          return;
+        }
+        visible = isShow;
+        if (visible) {
+          activeCount++;
+          scrollTop = $(window).scrollTop() || $pageMain.scrollTop();
+          $root.addClass('modal--show');
+          $pageMain.scrollTop(scrollTop);
+          activeCount === 1 && ($pageRoot.addClass('show-modal'), $body.addClass('of-hidden'));
+          hideWhenWindowScroll && window.hasEvent('touchstart') && $window.on('scroll', hide);
+          $window.on('keyup', handleKeyup);
+        } else {
+          activeCount > 0 && activeCount--;
+          $root.removeClass('modal--show');
+          $window.scrollTop(scrollTop);
+          activeCount === 0 && ($pageRoot.removeClass('show-modal'), $body.removeClass('of-hidden'));
+          hideWhenWindowScroll && window.hasEvent('touchstart') && $window.off('scroll', hide);
+          $window.off('keyup', handleKeyup);
+        }
+        onChange && onChange(visible);
+      }
+      function show() {
+        setState(true);
+      }
+      function hide() {
+        setState(false);
+      }
+      function handleKeyup(e) {
+        // Char Code: 27  ESC
+        if (e.which ===  27) {
+          hide();
+        }
+      }
+      setOptions(options);
+      init();
+      return {
+        show: show,
+        hide: hide,
+        $el: $root
+      };
+    }
+    $.fn.modal = modal;
+  });
+})();
+</script><div class="modal modal--overflow page__search-modal d-print-none js-page-search-modal"></div></div>
+
+
+<script>(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    function scrollToAnchor(anchor, duration, callback) {
+      var $root = this;
+      $root.animate({ scrollTop: $(anchor).position().top }, duration, function() {
+        window.history.replaceState(null, '', window.location.href.split('#')[0] + anchor);
+        callback && callback();
+      });
+    }
+    $.fn.scrollToAnchor = scrollToAnchor;
+  });
+})();
+(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    function affix(options) {
+      var $root = this, $window = $(window), $scrollTarget, $scroll,
+        offsetBottom = 0, scrollTarget = window, scroll = window.document, disabled = false, isOverallScroller = true,
+        rootTop, rootLeft, rootHeight, scrollBottom, rootBottomTop,
+        hasInit = false, curState;
+
+      function setOptions(options) {
+        var _options = options || {};
+        _options.offsetBottom && (offsetBottom = _options.offsetBottom);
+        _options.scrollTarget && (scrollTarget = _options.scrollTarget);
+        _options.scroll && (scroll = _options.scroll);
+        _options.disabled !== undefined && (disabled = _options.disabled);
+        $scrollTarget = $(scrollTarget);
+        isOverallScroller = window.isOverallScroller($scrollTarget[0]);
+        $scroll = $(scroll);
+      }
+      function preCalc() {
+        top();
+        rootHeight = $root.outerHeight();
+        rootTop = $root.offset().top + (isOverallScroller ? 0 :  $scrollTarget.scrollTop());
+        rootLeft = $root.offset().left;
+      }
+      function calc(needPreCalc) {
+        needPreCalc && preCalc();
+        scrollBottom = $scroll.outerHeight() - offsetBottom - rootHeight;
+        rootBottomTop = scrollBottom - rootTop;
+      }
+      function top() {
+        if (curState !== 'top') {
+          $root.removeClass('fixed').css({
+            left: 0,
+            top: 0
+          });
+          curState = 'top';
+        }
+      }
+      function fixed() {
+        if (curState !== 'fixed') {
+          $root.addClass('fixed').css({
+            left: rootLeft + 'px',
+            top: 0
+          });
+          curState = 'fixed';
+        }
+      }
+      function bottom() {
+        if (curState !== 'bottom') {
+          $root.removeClass('fixed').css({
+            left: 0,
+            top: rootBottomTop + 'px'
+          });
+          curState = 'bottom';
+        }
+      }
+      function setState() {
+        var scrollTop = $scrollTarget.scrollTop();
+        if (scrollTop >= rootTop && scrollTop <= scrollBottom) {
+          fixed();
+        } else if (scrollTop < rootTop) {
+          top();
+        } else {
+          bottom();
+        }
+      }
+      function init() {
+        if(!hasInit) {
+          var interval, timeout;
+          calc(true); setState();
+          // run calc every 100 millisecond
+          interval = setInterval(function() {
+            calc();
+          }, 100);
+          timeout = setTimeout(function() {
+            clearInterval(interval);
+          }, 45000);
+          window.pageLoad.then(function() {
+            setTimeout(function() {
+              clearInterval(interval);
+              clearTimeout(timeout);
+            }, 3000);
+          });
+          $scrollTarget.on('scroll', function() {
+            disabled || setState();
+          });
+          $window.on('resize', function() {
+            disabled || (calc(true), setState());
+          });
+          hasInit = true;
+        }
+      }
+
+      setOptions(options);
+      if (!disabled) {
+        init();
+      }
+      $window.on('resize', window.throttle(function() {
+        init();
+      }, 200));
+      return {
+        setOptions: setOptions,
+        refresh: function() {
+          calc(true, { animation: false }); setState();
+        }
+      };
+    }
+    $.fn.affix = affix;
+  });
+})();
+(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    function toc(options) {
+      var $root = this, $window = $(window), $scrollTarget, $scroller, $tocUl = $('<ul class="toc toc--ellipsis"></ul>'), $tocLi, $headings, $activeLast, $activeCur,
+        selectors = 'h1,h2,h3', container = 'body', scrollTarget = window, scroller = 'html, body', disabled = false,
+        headingsPos, scrolling = false, hasRendered = false, hasInit = false;
+
+      function setOptions(options) {
+        var _options = options || {};
+        _options.selectors && (selectors = _options.selectors);
+        _options.container && (container = _options.container);
+        _options.scrollTarget && (scrollTarget = _options.scrollTarget);
+        _options.scroller && (scroller = _options.scroller);
+        _options.disabled !== undefined && (disabled = _options.disabled);
+        $headings = $(container).find(selectors).filter('[id]');
+        $scrollTarget = $(scrollTarget);
+        $scroller = $(scroller);
+      }
+      function calc() {
+        headingsPos = [];
+        $headings.each(function() {
+          headingsPos.push(Math.floor($(this).position().top));
+        });
+      }
+      function setState(element, disabled) {
+        var scrollTop = $scrollTarget.scrollTop(), i;
+        if (disabled || !headingsPos || headingsPos.length < 1) { return; }
+        if (element) {
+          $activeCur = element;
+        } else {
+          for (i = 0; i < headingsPos.length; i++) {
+            if (scrollTop >= headingsPos[i]) {
+              $activeCur = $tocLi.eq(i);
+            } else {
+              $activeCur || ($activeCur = $tocLi.eq(i));
+              break;
+            }
+          }
+        }
+        $activeLast && $activeLast.removeClass('active');
+        ($activeLast = $activeCur).addClass('active');
+      }
+      function render() {
+        if(!hasRendered) {
+          $root.append($tocUl);
+          $headings.each(function() {
+            var $this = $(this);
+            $tocUl.append($('<li></li>').addClass('toc-' + $this.prop('tagName').toLowerCase())
+              .append($('<a></a>').text($this.text()).attr('href', '#' + $this.prop('id'))));
+          });
+          $tocLi = $tocUl.children('li');
+          $tocUl.on('click', 'a', function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            scrolling = true;
+            setState($this.parent());
+            $scroller.scrollToAnchor($this.attr('href'), 400, function() {
+              scrolling = false;
+            });
+          });
+        }
+        hasRendered = true;
+      }
+      function init() {
+        var interval, timeout;
+        if(!hasInit) {
+          render(); calc(); setState(null, scrolling);
+          // run calc every 100 millisecond
+          interval = setInterval(function() {
+            calc();
+          }, 100);
+          timeout = setTimeout(function() {
+            clearInterval(interval);
+          }, 45000);
+          window.pageLoad.then(function() {
+            setTimeout(function() {
+              clearInterval(interval);
+              clearTimeout(timeout);
+            }, 3000);
+          });
+          $scrollTarget.on('scroll', function() {
+            disabled || setState(null, scrolling);
+          });
+          $window.on('resize', window.throttle(function() {
+            if (!disabled) {
+              render(); calc(); setState(null, scrolling);
+            }
+          }, 100));
+        }
+        hasInit = true;
+      }
+
+      setOptions(options);
+      if (!disabled) {
+        init();
+      }
+      $window.on('resize', window.throttle(function() {
+        init();
+      }, 200));
+      return {
+        setOptions: setOptions
+      };
+    }
+    $.fn.toc = toc;
+  });
+})();
+/*(function () {
+
+})();*/
+</script><script>(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+
+  window.Lazyload.js(SOURCES.jquery, function() {
+    var $pageMask = $('.js-page-mask');
+    var $pageRoot = $('.js-page-root');
+    var $sidebarShow = $('.js-sidebar-show');
+    var $sidebarHide = $('.js-sidebar-hide');
+
+    function freeze(e) {
+      if (e.target === $pageMask[0]) {
+        e.preventDefault();
+      }
+    }
+    function stopBodyScrolling(bool) {
+      if (bool === true) {
+        window.addEventListener('touchmove', freeze, { passive: false });
+      } else {
+        window.removeEventListener('touchmove', freeze, { passive: false });
+      }
+    }
+
+    $sidebarShow.on('click', function() {
+      stopBodyScrolling(true); $pageRoot.addClass('show-sidebar');
+    });
+    $sidebarHide.on('click', function() {
+      stopBodyScrolling(false); $pageRoot.removeClass('show-sidebar');
+    });
+  });
+})();
+</script>
+    </div>
+    <script>(function () {
+  var $root = document.getElementsByClassName('root')[0];
+  if (window.hasEvent('touchstart')) {
+    $root.dataset.isTouch = true;
+    document.addEventListener('touchstart', function(){}, false);
+  }
+})();
+</script>
+  </body>
+</html>
+
