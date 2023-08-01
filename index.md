@@ -730,7 +730,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Zico Kolter</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Professor in the Computer Science Department at CMU, and chief scientist of AI research for the Bosch Center for Artificial Intelligence</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Professor in the Computer Science Department at CMU, and chief scientist of AI research for the Bosch center for AI</p>
 </div>
 </div>
 </a>
@@ -742,7 +742,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Dotan Di Castro</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Research scientist and lab manager at Bosch-AI</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Research scientist and lab manager at Bosch center for AI</p>
 </div>
 </div>
 </a>
@@ -750,7 +750,7 @@ To be announced.
 <a href="https://cseweb.ucsd.edu/~kamalika/" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_kamalika.png" alt="Kamalika Chaudhuri">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="assets/images/organizers/AXAI_workshop_kamalika.png" alt="Kamalika Chaudhuri">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Kamalika Chaudhuri</p>

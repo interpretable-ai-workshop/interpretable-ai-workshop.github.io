@@ -22,7 +22,7 @@ title: XAI in Action Workshop
 email:
 description: >- # this means to ignore newlines until "baseurl:"
 #   Learn-to-Race Challenges in Autononous Driving
-baseurl: "/xai-in-action.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xai-in-action.github.io/"
 twitter_username: Learn2Race
 github_username: xai-in-action
