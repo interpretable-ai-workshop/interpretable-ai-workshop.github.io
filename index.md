@@ -633,27 +633,26 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 
 <div style="display:inline; width:900px; vertical-align: top;">
 
-<a href="https://www.linkedin.com/in/jonmfrancis/" target="_blank" class="organiser_profile">
+<a href="https://www.chhaviyadav.org" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/jonathan_francis.png" alt="Jonathan Francis">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_chhavi.png" alt="Chhavi Yadav">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Jonathan Francis</p>
-<!--p style="margin:0 0 0 10px;">CMU + Bosch</p-->
-<p style="margin:0 0 0 10px; font-size:10px;">Research Scientist at Bosch Research, focusing domain knowledge-enhanced representation learning, applied to robotics and autonomous driving</p>
+<p style="margin:0 0 0 10px;">Chhavi Yadav</p>
+<p style="margin:0 0 0 10px; font-size:10px;">PhD student in the CSE department at UCSD</p>
 </div>
 </div>
 </a>
 
-<a href="https://www.linkedin.com/in/hitesharora11" target="_blank" class="organiser_profile">
+<a href="https://sites.google.com/view/michal-moshkovitz" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/hitesh_arora.png" alt="Hitesh Arora">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_michal.jpg" alt="Michal Moshkovitz">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Hitesh Arora</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Researcher at Amazon, focusing on multimodal perception and reinforcement learning, applied to autonomous driving</p>
+<p style="margin:0 0 0 10px;">Michal Moshkovitz </p>
+<p style="margin:0 0 0 10px; font-size:10px;">Research Scientist at Bosch center for AI</p>
 </div>
 </div>
 </a>
@@ -665,103 +664,92 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Bingqing Chen</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Machine Learning Research Scientist at Bosch Research, focusing on constraint-based optimisation, physical mechanisms, and safe learning, applied to autonomous driving</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Machine Learning Research Scientist at Bosch Research</p>
 </div>
 </div>
 </a>
 
-<a href="https://xinshuoweng.com/" target="_blank" class="organiser_profile">
+<a href="https://www.linkedin.com/in/nave-frost/" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/xinshuo_weng.png" alt="Xinshuo Weng">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_nave.jpg" alt="Nave Frost">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Xinshuo Weng</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Research Scientist at NVIDIA Research; focusing on 3D computer vision and generative models for autonomous systems</p>
+<p style="margin:0 0 0 10px;">Nave Frost</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Research Scientist at eBay Research</p>
 </div>
 </div>
 </a>
 
-<a href="https://www.linkedin.com/in/sidgan/" target="_blank" class="organiser_profile">
+<a href="https://suraj-srinivas.github.io" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/siddha_ganju.png" alt="Siddha Ganju">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_suraj.jpeg" alt="Suraj Srinivas">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Siddha Ganju</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Researcher and Data Scientist at NVIDIA, focusing on computer vision optimization for vehicle autonomy and medical instruments</p>
+<p style="margin:0 0 0 10px;">Suraj Srinivas</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Suraj postdoctoral research fellow at Harvard University</p>
 </div>
 </div>
 </a>
 
-<a href="https://www.linkedin.com/in/bhat-manoj/" target="_blank" class="organiser_profile">
+<a href="https://scholar.google.com/citations?user=gzRuY4cAAAAJ&hl=en" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/manoj_bhat.png" alt="Manoj Bhat">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_valentyn.jpeg" alt="Valentyn Boreiko">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Manoj Bhat</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Machine Learning Researcher at Amazon, focusing on Neural Radiance fields, reinforcement learning, and representation learning applied to autonomous driving</p>
+<p style="margin:0 0 0 10px;">Valentyn Boreiko</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Ph.D. student at the University of Tübingen and a sabbatical student at Bosch-AI</p>
 </div>
 </div>
 </a>
 
-<a href="https://danielomeiza.github.io/" target="_blank" class="organiser_profile">
+<a href="https://himalakkaraju.github.io" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/daniel_omeiza.png" alt="Daniel Omeiza">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_hima.png" alt="Hima Lakkaraju">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Daniel Omeiza</p>
-<p style="margin:0 0 0 10px; font-size:10px;">PhD student at Oxford, focusing on explainable AI and decision-making, in autonomous driving</p>
+<p style="margin:0 0 0 10px;">Hima Lakkaraju</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at Harvard University</p>
 </div>
 </div>
 </a>
 
-<a href="https://www.cs.cmu.edu/~./jeanoh/" target="_blank" class="organiser_profile">
+
+<a href="http://zicokolter.com" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/jean_oh.png" alt="Jean Oh">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_zico.png" alt="Zico Kolter">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Jean Oh</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Research Professor in Robotics Institute at CMU and Director of Bot Intelligence Group; multimodal perception, navigation, and artificial intelligence</p>
+<p style="margin:0 0 0 10px;">Zico Kolter</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Professor in the Computer Science Department at CMU, and chief scientist of AI research for the Bosch Center for Artificial Intelligence</p>
 </div>
 </div>
 </a>
 
-<a href="https://www.cs.cmu.edu/~ehn/" target="_blank" class="organiser_profile">
+<a href="https://scholar.google.co.il/citations?user=zhQaFaMAAAAJ&hl=en" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/eric_nyberg.png" alt="Eric Nyberg">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_dotan.jpeg" alt="Dotan Di Castro">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Eric Nyberg</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Professor of Computer Science at CMU and Program Director, Masters of Computational Data Science; hybrid reasoning systems and artificial intelligence</p>
+<p style="margin:0 0 0 10px;">Dotan Di Castro</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Research scientist and lab manager at Bosch-AI</p>
 </div>
 </div>
 </a>
 
-<a href="https://sylviaherbert.com" target="_blank" class="organiser_profile">
+<a href="https://cseweb.ucsd.edu/~kamalika/" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/sylvia_herbert.png" alt="Sylvia Herbert">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_kamalika.JPEG" alt="Kamalika Chaudhuri">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Sylvia Herbert</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at UCSD and Director of Safe Autonomous Systems Lab; uncertainty modeling in control, safety-aware learning, autonomy</p>
-</div>
-</div>
-</a>
-
-<a href="http://www.cs.columbia.edu/~lierranli/" target="_blank" class="organiser_profile">
-<div style="display:inline-block; width:270px;">
-<div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/li_erran_li.png" alt="Li Erran Li">
-</div>
-<div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Li Erran Li</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Head of Science/HIL at Amazon AWS AI and Adjunct Professor at Columbia; Computer Vision, Machine Learning Systems, and Algorithms</p>
+<p style="margin:0 0 0 10px;">Kamalika Chaudhuri</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Associate Professor at the University of California, San Diego and a Research Scientist at Meta AI</p>
 </div>
 </div>
 </a>
