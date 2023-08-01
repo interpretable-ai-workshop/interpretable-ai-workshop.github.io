@@ -23,9 +23,9 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
 #   Learn-to-Race Challenges in Autononous Driving
 baseurl: "/workshop-xai-neurips2023" # the subpath of your site, e.g. /blog
-url: "https://bingqingchen.github.io/" # l2r-workshop-website" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://xai-in-action.github.io/"
 twitter_username: Learn2Race
-github_username: learn-to-race
+github_username: xai-in-action
 
 # Build settings
 #theme: jekyll-text-theme

@@ -1656,11 +1656,12 @@ a > .item__header.disabled, a > .item__header:disabled, a.item__header.disabled,
 
 @media (max-width: 499px) { .article__header { margin-top: 1.5rem; } }
 
-.article__header header { display: inline; font-size:40px;}
+.article__header header { display: inline; font-size:32px;}
 
-.article__header h1 { display: inline; font-size: 7em; letter-spacing: -0.04em; line-height: 1.0;}
-
-.article__header h1 { word-wrap: break-word; }
+.article__header h1 {
+    display: inline;
+    word-wrap: break-word;
+}
 
 .article__header .split-space { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 

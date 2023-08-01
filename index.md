@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "XAI in Action: Past, Present, and Future Applications Across Diverse Use Cases"
+title: "XAI in Action: Past, Present, and Future Applications"
 excerpt: NeurIPS 2023 Workshop
 menu: true
 show_info: true
@@ -16,7 +16,7 @@ article_header:
   theme: dark
   align: left
   actions:
-    - text: 15 Dec 2023 | New Orleans, USA 
+    - text: 15 or 16 December 2023 | New Orleans, USA 
   background_image:
     src: /assets/images/l2r_banner3.png
 #    gradient: 'linear-gradient(135deg, rgba(52, 140, 96, 0.4), rgba(136, 73, 107, 0.4))'
@@ -236,19 +236,29 @@ Note: all deadlines are in <b>Anywhere on Earth</b>.
 ### Paper Submission
 
 <div>
+<b>Submissions due:</b> September 22, 2023<br>
+<b>Notification:</b> October 20, 2023<br>
+<b>Camera Ready</b>: November 10, 2023<br>
+
+<!---
 <b>Submissions open:</b> 23 March 2022<br>
 <b>Submissions due:</b> <p style="display:inline; text-decoration:line-through;">20 May 2022</p><p style="display:inline; color:red;">&nbsp;27 May 2022</p><br>
 <b>Notification:</b> 6 June 2022<br>
 <b>Camera Ready</b>: 17 June 2022<br>
 <b>Oral/Poster video upload</b>: 1 July 2022
+--->
+
 </div>
 
 ### Workshop Event
 
-<b>Date:</b> 22 July 2022
+<b>Date:</b> 15 or 16 December 2023
 
 ## Schedule
 
+To be announced.
+
+<!---
 Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current time is <span id="edt"></span>.
 
 <div style="display:block; width:900px; padding:20px; border:solid 4px #CCCCCC;">
@@ -296,14 +306,13 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <div class="schedule-table-row-odd">
 <div class="schedule-table-timecol">10:00</div>
 <div class="schedule-table-eventcol">Social + Poster Session</div>
-<!--div class="schedule-table-contentcol">Paper IDs: 1, 2, 3, 4, 5, 6, 9, 10, 13, 17, 18, 21, 22</div-->
+
 <div class="schedule-table-contentcol"><b>Gathertown</b> and in-person displays</div>
 </div>
 
 <div class="schedule-table-row-even">
 <div class="schedule-table-timecol">11:00</div>
 <div class="schedule-table-eventcol">Spotlight Talks</div>
-<!--div class="schedule-table-contentcol">Content</div-->
 </div>
 
 <div class="schedule-table-row-even">
@@ -339,7 +348,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <div class="schedule-table-row-odd">
 <div class="schedule-table-timecol" style="vertical-align: 10px;">11:30</div>
 <div class="schedule-table-eventcol">Autonomous Racing Virtual Challenge: Contributed Talks</div>
-<!--div class="schedule-table-contentcol">Content</div-->
 </div>
 
 <div class="schedule-table-row-odd">
@@ -353,8 +361,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <p style="margin:0 0 0 10px; font-size:10px;">IIIT Allahabad</p>
 </div>
 </div>
-</div>
-<div class="schedule-table-contentcol" style="margin:0 0 0 35px;"><a target="_blank" href="https://slideslive.com/38987763/solving-learntorace-autonomous-racing-challenge-by-planning-in-latent-space?ref=folder-105306"><i>#11: Solving Learn-to-Race Autonomous Racing Challenge by Planning in Latent Space</i></a></div>
 </div>
 
 <div class="schedule-table-row-odd">
@@ -375,7 +381,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <div class="schedule-table-row-even">
 <div class="schedule-table-timecol">12:00</div>
 <div class="schedule-table-eventcol">Lunch Break</div>
-<!--div class="schedule-table-contentcol">Content</div-->
 </div>
 
 <div class="schedule-table-row-odd">
@@ -396,7 +401,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <div class="schedule-table-row-even">
 <div class="schedule-table-timecol">14:00</div>
 <div class="schedule-table-eventcol">Spotlight Talks</div>
-<!--div class="schedule-table-contentcol">Content</div-->
 </div>
 
 <div class="schedule-table-row-even">
@@ -458,13 +462,12 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 </div>
 </div>
-<div class="schedule-table-contentcol"><a target="_blank" href="https://slideslive.com/38987744/robots-that-learn-to-be-safe?ref=folder-105306"><i>Robots that Learn to Be Safe</i></a></div>
-</div>
+
 
 <div class="schedule-table-row-odd">
 <div class="schedule-table-timecol">15:30</div>
 <div class="schedule-table-eventcol">Social + Poster Session</div>
-<!--div class="schedule-table-contentcol">Paper IDs: 1, 2, 3, 4, 5, 6, 9, 10, 13, 17, 18, 21, 22</div-->
+
 <div class="schedule-table-contentcol"><b>Gathertown</b> and in-person displays</div>
 </div>
 
@@ -522,7 +525,7 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 
 </div>
 
-<!--Poster Presentation Gathertown link: https://app.gather.town/app/wLuHBtWDuNBoHgun/SL4AD%2022  -->
+--->
 
 ## Speakers
 
@@ -650,7 +653,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Hitesh Arora</p>
-<!--p style="margin:0 0 0 10px;">CMU</p-->
 <p style="margin:0 0 0 10px; font-size:10px;">Researcher at Amazon, focusing on multimodal perception and reinforcement learning, applied to autonomous driving</p>
 </div>
 </div>
@@ -663,7 +665,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Bingqing Chen</p>
-<!--p style="margin:0 0 0 10px;">CMU</p-->
 <p style="margin:0 0 0 10px; font-size:10px;">Machine Learning Research Scientist at Bosch Research, focusing on constraint-based optimisation, physical mechanisms, and safe learning, applied to autonomous driving</p>
 </div>
 </div>
@@ -676,7 +677,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Xinshuo Weng</p>
-<!--p style="margin:0 0 0 10px;">CMU</p-->
 <p style="margin:0 0 0 10px; font-size:10px;">Research Scientist at NVIDIA Research; focusing on 3D computer vision and generative models for autonomous systems</p>
 </div>
 </div>
@@ -689,7 +689,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Siddha Ganju</p>
-<!--p style="margin:0 0 0 10px;">NVIDIA</p-->
 <p style="margin:0 0 0 10px; font-size:10px;">Researcher and Data Scientist at NVIDIA, focusing on computer vision optimization for vehicle autonomy and medical instruments</p>
 </div>
 </div>
@@ -702,7 +701,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Manoj Bhat</p>
-<!--p style="margin:0 0 0 10px;">CMU</p-->
 <p style="margin:0 0 0 10px; font-size:10px;">Machine Learning Researcher at Amazon, focusing on Neural Radiance fields, reinforcement learning, and representation learning applied to autonomous driving</p>
 </div>
 </div>
@@ -715,7 +713,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Daniel Omeiza</p>
-<!--p style="margin:0 0 0 10px;">CMU</p-->
 <p style="margin:0 0 0 10px; font-size:10px;">PhD student at Oxford, focusing on explainable AI and decision-making, in autonomous driving</p>
 </div>
 </div>
@@ -728,7 +725,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Jean Oh</p>
-<!--p style="margin:0 0 0 10px;">CMU</p-->
 <p style="margin:0 0 0 10px; font-size:10px;">Research Professor in Robotics Institute at CMU and Director of Bot Intelligence Group; multimodal perception, navigation, and artificial intelligence</p>
 </div>
 </div>
@@ -772,9 +768,12 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 
 </div>
 
+
+<!--
 ## Program Committee
 
 <!-- column 1 -->
+<!--
 <div class="pc-column">
 <ul>
 <li>Arav Agarwal (<b>ER</b>, <b>TR</b>)</li>
@@ -789,8 +788,10 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <li>S. Alireza Golestaneh (<b>TR</b>)</li>
 </ul>
 </div>
+-->
 
 <!-- column 2 -->
+<!--
 <div class="pc-column" style="margin:0 30px 0 0;">
 <ul>
 <li>David Held (<b>SMR</b>)</li>
@@ -805,8 +806,11 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <li>João Pinho (<b>ER</b>)</li>
 </ul>
 </div>
+-->
+
 
 <!-- column 3 -->
+<!--
 <div class="pc-column">
 <ul>
 <li>Daniele Reda</li>
@@ -819,45 +823,11 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <li>Weiran Yao</li>
 </ul>
 </div>
+-->
 
 ---
-
+<!--
 <b>ER</b> — <i>Recognises PC member who served ("+" additionally) as an Emergency Reviewer.</i><br>
 <b>TR</b> — <i>Recognises PC member who, according to Chair ratings, ranked in the Top 15% of Reviewers.</i><br>
 <b>SMR</b> — <i>Recognises PC member who agreed to provide their services as a Senior Meta-Reviewer.</i>
-
-## Sponsors
-
-<img src="{{ site.baseurl }}/assets/images/sponsors/sponsor_banner.png">
-
-<!--
-<div class="col-lg-12 col-xl-6">
-            <div class="logos-organizers">
-              <div class="logo-organizer">
-                <img class="img-fluid" src="{{ site.baseurl }}/assets/images/sponsors/arrival_logo.png">
-              </div>
-              <div class="logo-organizer">
-                <img class="img-fluid" src="{{ site.baseurl }}/assets/images/sponsors/cmu_logo.png">
-              </div>
-              <div class="logo-organizer">
-                <img class="img-fluid" src="{{ site.baseurl }}/assets/images/sponsors/aicrowd_logo.png">
-              </div>
-              <div class="logo-organizer">
-                <img class="img-fluid" src="{{ site.baseurl }}/assets/images/sponsors/aws_logo.png">
-              </div>
-              <div class="logo-organizer">
-                <img class="img-fluid" src="{{ site.baseurl }}/assets/images/sponsors/bosch_logo.png">
-              </div>
-            </div>
-          </div>
--->
-<!--
-<div style="width:900px; display:inline-block;">
-<img style="height:100px; width:186px;" src="{{ site.baseurl }}/assets/images/sponsors/arrival_logo.png">
-<img style="height:100px; width:157px;" src="{{ site.baseurl }}/assets/images/sponsors/cmu_logo.png">
-<img style="height:100px; width:100px;" src="{{ site.baseurl }}/assets/images/sponsors/aicrowd_logo.png">
-<img style="height:100px; width:98px;" src="{{ site.baseurl }}/assets/images/sponsors/aws_logo.png">
-<img style="height:100px; width:272px;" src="{{ site.baseurl }}/assets/images/sponsors/bosch_logo.png">
-<img style="height:100px; width:354px;" src="{{ site.baseurl }}/assets/images/sponsors/honda_logo.png">
-</div>
 -->
