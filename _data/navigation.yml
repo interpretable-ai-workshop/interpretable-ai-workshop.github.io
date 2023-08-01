@@ -97,12 +97,12 @@ header:
       # @end locale config
     url: /calls.html
 
-  - titles:
-      # @start locale config
-      en      : &EN       Papers
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
-    url: /papers.html
+#  - titles:
+#      # @start locale config
+#      en      : &EN       Papers
+#      en-GB   : *EN
+#      en-US   : *EN
+#      en-CA   : *EN
+#      en-AU   : *EN
+#      # @end locale config
+#    url: /papers.html

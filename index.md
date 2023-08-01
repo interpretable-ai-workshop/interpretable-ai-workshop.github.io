@@ -528,6 +528,9 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 --->
 
 ## Speakers
+To be announced.
+
+<!---
 
 <div style="display:block; padding:10px 0 0 0; width:900px;">
 
@@ -629,6 +632,8 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 
 </div>
 
+--->
+
 ## Organisers
 
 <div style="display:inline; width:900px; vertical-align: top;">
@@ -708,10 +713,10 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <a href="https://himalakkaraju.github.io" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_hima.png" alt="Hima Lakkaraju">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_hima.png" alt="Himabindu (Hima) Lakkaraju">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Hima Lakkaraju</p>
+<p style="margin:0 0 0 10px;">Himabindu (Hima) Lakkaraju</p>
 <p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at Harvard University</p>
 </div>
 </div>
