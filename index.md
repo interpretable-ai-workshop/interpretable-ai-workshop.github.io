@@ -16,7 +16,7 @@ article_header:
   theme: dark
   align: left
   actions:
-    - text: 15 or 16 December 2023 | New Orleans, USA 
+    - text: December 15 or 16, 2023 | New Orleans, USA 
   background_image:
     src: /assets/images/l2r_banner3.png
 #    gradient: 'linear-gradient(135deg, rgba(52, 140, 96, 0.4), rgba(136, 73, 107, 0.4))'
@@ -87,7 +87,7 @@ article_header:
 }
 
 ul.menu li::after {
-    content:"15 Dec 2023 | New Orleans, USA";
+    content:"December 15 or 16, 2023 | New Orleans, USA";
 }
 
 ul.menu a {
@@ -645,7 +645,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Chhavi Yadav</p>
-<p style="margin:0 0 0 10px; font-size:10px;">PhD student in the CSE department at UCSD</p>
+<p style="margin:0 0 0 10px; font-size:10px;">PhD student at UCSD</p>
 </div>
 </div>
 </a>
@@ -657,7 +657,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Michal Moshkovitz </p>
-<p style="margin:0 0 0 10px; font-size:10px;">Research Scientist at Bosch center for AI</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Machine Learning Research Scientist at Bosch Research</p>
 </div>
 </div>
 </a>
@@ -693,7 +693,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Suraj Srinivas</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Suraj postdoctoral research fellow at Harvard University</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Postdoctoral research fellow at Harvard University</p>
 </div>
 </div>
 </a>
@@ -705,7 +705,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Valentyn Boreiko</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Ph.D. student at the University of Tübingen and a sabbatical student at Bosch-AI</p>
+<p style="margin:0 0 0 10px; font-size:10px;">PhD student at the University of Tübingen and a sabbatical student at Bosch Research</p>
 </div>
 </div>
 </a>
@@ -730,7 +730,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Zico Kolter</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Professor in the Computer Science Department at CMU, and chief scientist of AI research for the Bosch center for AI</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Aassociate Professor at CMU, and chief scientist at Bosch Research</p>
 </div>
 </div>
 </a>
@@ -742,7 +742,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Dotan Di Castro</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Research scientist and lab manager at Bosch center for AI</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Research scientist and lab manager at Bosch Research</p>
 </div>
 </div>
 </a>
@@ -754,7 +754,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Kamalika Chaudhuri</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Associate Professor at the University of California, San Diego and a Research Scientist at Meta AI</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Associate Professor at UCSD and a Research Scientist at Meta AI</p>
 </div>
 </div>
 </a>
