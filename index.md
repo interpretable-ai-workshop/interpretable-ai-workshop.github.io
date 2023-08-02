@@ -636,7 +636,10 @@ To be announced.
 
 ## Organisers
 
+
 <div style="display:inline; width:900px; vertical-align: top;">
+
+
 
 <a href="https://www.chhaviyadav.org" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
@@ -645,7 +648,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Chhavi Yadav</p>
-<p style="margin:0 0 0 10px; font-size:10px;">PhD student at UCSD</p>
+<p style="margin:0 0 0 10px; font-size:10px;">PhD student at UCSD, her interests lie in XAI, Secure Verification, Auditing and societal impacts of deep generative models</p>
 </div>
 </div>
 </a>
@@ -657,7 +660,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Michal Moshkovitz </p>
-<p style="margin:0 0 0 10px; font-size:10px;">Machine Learning Research Scientist at Bosch Research</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Machine Learning Research Scientist at Bosch Research, she has been focused on developing the foundations of explainable machine learning</p>
 </div>
 </div>
 </a>
@@ -669,7 +672,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Bingqing Chen</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Machine Learning Research Scientist at Bosch Research</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Machine Learning Research Scientist at Bosch Research, her research lies at the intersection of machine learning and energy systems</p>
 </div>
 </div>
 </a>
@@ -681,7 +684,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Nave Frost</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Research Scientist at eBay Research</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Research Scientist at eBay Research, his research interests focus on supplying explanations for data science applications</p>
 </div>
 </div>
 </a>
@@ -693,7 +696,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Suraj Srinivas</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Postdoctoral research fellow at Harvard University</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Postdoctoral research fellow at Harvard University, his research focuses on developing the foundations for interpretable machine learning</p>
 </div>
 </div>
 </a>
@@ -705,7 +708,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Valentyn Boreiko</p>
-<p style="margin:0 0 0 10px; font-size:10px;">PhD student at the University of Tübingen and a sabbatical student at Bosch Research</p>
+<p style="margin:0 0 0 10px; font-size:10px;">PhD student at the University of Tübingen and a sabbatical student at Bosch Research, his research focuses on development of interpretability technique for vision classifiers</p>
 </div>
 </div>
 </a>
@@ -713,11 +716,11 @@ To be announced.
 <a href="https://himalakkaraju.github.io" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_hima.png" alt="Himabindu (Hima) Lakkaraju">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_hima.png" alt="Hima Lakkaraju">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Himabindu (Hima) Lakkaraju</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at Harvard University</p>
+<p style="margin:0 0 0 10px;">Hima Lakkaraju</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at Harvard University who focuses on the algorithmic and applied aspects of explainability, fairness, robustness, and privacy of machine learning models</p>
 </div>
 </div>
 </a>
@@ -730,7 +733,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Zico Kolter</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Aassociate Professor at CMU, and chief scientist at Bosch Research</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Aassociate Professor at CMU, and chief scientist at Bosch Research, his work spans the intersection of machine learning and optimization</p>
 </div>
 </div>
 </a>
@@ -742,7 +745,7 @@ To be announced.
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Dotan Di Castro</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Research scientist and lab manager at Bosch Research</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Research scientist and lab manager at Bosch Research, his research focuses on Reinforcement Learning and Computer Vision</p>
 </div>
 </div>
 </a>
@@ -750,11 +753,11 @@ To be announced.
 <a href="https://cseweb.ucsd.edu/~kamalika/" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="assets/images/organizers/AXAI_workshop_kamalika.png" alt="Kamalika Chaudhuri">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_kamalika.png" alt="Kamalika Chaudhuri">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Kamalika Chaudhuri</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Associate Professor at UCSD and a Research Scientist at Meta AI</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Associate Professor at UCSD and a Research Scientist at Meta AI, her research interests lie in the foundations of trustworthy machine learning</p>
 </div>
 </div>
 </a>

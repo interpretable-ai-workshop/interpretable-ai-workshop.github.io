@@ -57,3 +57,6 @@ Submissions should be anonymized and double-blind, and should use the official [
 Submission deadline - September 22, 2023 \
 Author notification - October 20, 2023 \
 Camera ready deadline -  November 10, 2023
+
+## Contact
+appliedXAI.neurips2023 [AT] gmail.com
