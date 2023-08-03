@@ -18,7 +18,7 @@ article_header:
   actions:
     - text: December 15 or 16, 2023 | New Orleans, USA 
   background_image:
-    src: /assets/images/banner.PNG
+    src: /assets/images/Slide4.png
 #    gradient: 'linear-gradient(135deg, rgba(52, 140, 96, 0.4), rgba(136, 73, 107, 0.4))'
 ---
 
@@ -79,17 +79,19 @@ article_header:
     letter-spacing: -0.04em;
     line-height: 0.9;
     color: lightyellow;
-    text-shadow: -20px -8px 17px rgb(0 0 0 / 30%);
+    text-shadow: -20px -8px 17px rgb(0 0 0 / 90%);
     word-wrap: break-word;
 }
 
 .overlay__excerpt {
     margin: 20px 0 0 0;
     color: lightyellow;
+    text-shadow: -20px -8px 17px rgb(0 0 0 / 90%);
 }
 
 ul.menu li::after {
     color: lightyellow;
+    text-shadow: -20px -8px 17px rgb(0 0 0 / 90%);
     content:"December 15 or 16, 2023 | New Orleans, USA";
 }
 
