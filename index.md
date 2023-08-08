@@ -16,9 +16,9 @@ article_header:
   theme: dark
   align: left
   actions:
-    - text: December 15 or 16, 2023 | New Orleans, USA 
+    - text: December 16, 2023 | New Orleans, USA 
   background_image:
-    src: /assets/images/Slide4.png
+    src: /assets/images/Slide6.png
 #    gradient: 'linear-gradient(135deg, rgba(52, 140, 96, 0.4), rgba(136, 73, 107, 0.4))'
 ---
 
@@ -88,17 +88,14 @@ article_header:
 .overlay__excerpt {
     margin: 20px 0 0 0;
     font-family: sans-serif;
-    color: lightyellow;
+    color: black;
     text-shadow: -20px -8px 17px rgb(0 0 0 / 90%);
-    -webkit-text-stroke: 1.5px black; /* width and color */
 }
 
 ul.menu li::after {
-    font-family: sans-serif;
-    color: lightyellow;
+    color: black;
     text-shadow: -20px -8px 17px rgb(0 0 0 / 90%);
-    -webkit-text-stroke: 1px black; /* width and color */
-    content:"December 15 or 16, 2023 | New Orleans, USA";
+    content:"December 16, 2023 | New Orleans, USA";
 }
 
 ul.menu a {
@@ -263,7 +260,7 @@ Note: all deadlines are in <b>Anywhere on Earth</b>.
 
 ### Workshop Event
 
-<b>Date:</b> 15 or 16 December 2023
+<b>Date:</b> December 16, 2023
 
 ## Schedule
 
