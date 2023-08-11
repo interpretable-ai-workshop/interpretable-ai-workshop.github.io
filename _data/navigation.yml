@@ -69,6 +69,17 @@ header:
 
   - titles:
       # @start locale config
+      en      : &EN       Calls
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /calls.html
+
+
+  - titles:
+      # @start locale config
       en      : &EN       Schedule
       en-GB   : *EN
       en-US   : *EN
@@ -76,6 +87,16 @@ header:
       en-AU   : *EN
       # @end locale config
     url: /index.html#schedule
+
+  - titles:
+      # @start locale config
+      en      : &EN       Speakers
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /index.html#speakers
 
   - titles:
       # @start locale config
@@ -87,15 +108,6 @@ header:
       # @end locale config
     url: /index.html#organisers
 
-  - titles:
-      # @start locale config
-      en      : &EN       Calls
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
-    url: /calls.html
 
 #  - titles:
 #      # @start locale config
@@ -106,3 +118,14 @@ header:
 #      en-AU   : *EN
 #      # @end locale config
 #    url: /papers.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Contact
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /index.html#contact
+
