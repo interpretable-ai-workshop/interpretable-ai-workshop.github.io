@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 #   Learn-to-Race Challenges in Autononous Driving
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xai-in-action.github.io/"
-twitter_username: Learn2Race
+twitter_username: XAI_in_Action
 github_username: xai-in-action
 
 # Build settings

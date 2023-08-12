@@ -18,7 +18,7 @@ title:
 
 # Call for Papers
 
-We invite submissions in two tracks.
+We invite submissions of previously unpublished papers, in two tracks.
 
 
 **Full paper track**: In this track, we invite papers up to **6 pages** with unlimited references and supplementary materials. 
@@ -45,7 +45,8 @@ We plan to share the insights derived from this survey during the workshop.
 
 Submitted work can be of preliminary nature. We also invite **position papers** that provide a commentary on the current state of XAI or its usage in practice, as these may be of broader interest.
 
-This workshop is **non-archival**, and will not have formal proceedings. All the accepted papers will be publicly available on our workshop website. The selection of oral presentations will be made based on the PC’s recommendations and the fit to the topics of the workshop. Concurrent submissions and submission of previously accepted work are allowed, but it is the authors' responsibility to verify compliance with other venues' policies. 
+This workshop is **non-archival**, and will not have formal proceedings. All the accepted papers will be publicly available on our workshop website. The selection of oral presentations will be made based on the PC’s recommendations and the fit to the topics of the workshop. Concurrent submissions are allowed, but it is the authors' responsibility to verify compliance with other venues' policies. 
+
 
 
 

@@ -547,7 +547,7 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Julius Adebayo</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Postdoctoral Fellow<br>Prescient Design<br>Genentech</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Postdoctoral Fellow<br>Prescient Design</p>
 </div>
 </div>
 </a>
@@ -742,8 +742,10 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 
 
-## Contact
-appliedXAI.neurips2023 [AT] gmail.com
+# Contact information
+
+- Email: appliedXAI.neurips2023 [AT] gmail.com
+- Twitter: [@XAI_in_Action](https://twitter.com/XAI_in_Action)
 
 
 <!--
