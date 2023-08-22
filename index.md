@@ -538,7 +538,7 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 ## Speakers
 
 
-<div style="display:block; padding:10px 0 0 0; width:900px;">
+<div style="display:inline; width:900px; vertical-align: top;">
 
 <a href="https://juliusadebayo.com/" target="_blank" class="speaker_profile">
 <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
