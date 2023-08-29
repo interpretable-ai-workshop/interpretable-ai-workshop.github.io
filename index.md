@@ -567,6 +567,17 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 </div>
 </a>
 
+<a href="https://aims.cs.washington.edu/su-in-lee" target="_blank" class="speaker_profile">
+<div style="display:inline-block; width:270px; margin:20px 0 0 0;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="/assets/images/speakers/AXAI_workshop_Lee.png" alt="Su-In Lee" />
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Su-In Lee</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Professor<br />Paul G. Allen School of Computer Science & Engineering</p>
+</div>
+</div>
+</a>
 
 <a href="https://www.tml.cs.uni-tuebingen.de/team/luxburg/" target="_blank" class="speaker_profile">
 <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
@@ -602,18 +613,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Kush Varshney</p>
 <p style="margin:0 0 0 10px; font-size:10px;">Distinguished research scientist and senior manager<br>IBM Research</p>
-</div>
-</div>
-</a>
-
-<a href="https://aims.cs.washington.edu/su-in-lee" target="_blank" class="speaker_profile">
-<div style="display:inline-block; width:270px; margin:20px 0 0 0;">
-<div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="/assets/images/speakers/AXAI_workshop_Lee.png" alt="Su-In Lee" />
-</div>
-<div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Su-In Lee</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Professor<br />Paul G. Allen School of Computer Science & Engineering</p>
 </div>
 </div>
 </a>
