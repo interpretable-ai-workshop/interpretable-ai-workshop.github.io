@@ -29,10 +29,10 @@ github_username: xai-in-action
 
 # Build settings
 #theme: jekyll-text-theme
-remote_theme: kitian616/jekyll-text-theme
-highlight_theme: default
-plugins:
-  - jekyll-feed
+#remote_theme: kitian616/jekyll-text-theme
+#highlight_theme: default
+#plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
