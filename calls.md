@@ -37,9 +37,9 @@ We encourage submissions that incorporate interpretability or explainable AI, pa
 
 
 One of the goals of this workshop is to understand how XAI is applied in practice. To this end, we require that authors of submitted papers separately address the following survey questions to the best of their ability: 
-- **What are the disadvantages of uninterpretable models in the specific application of interest?**
-- **What is the definition of interpretability that is of interest, and which interpretability methods do you use?** 
-- **How does this notion of interpretability help in practice?**
+- **Please provide a concise overview of your work for someone who isn't an expert in your field. Elaborate on the role of explainability in your work**
+- **What motivated your choice to incorporate explainability into your approach for this problem? In other words, what limitations or drawbacks are associated with using methods that lack explainability?** 
+- **Which specific method for achieving explainability do you employ in your work? For instance, do you utilize techniques like LIME, SHAP, GradCAM, influence functions or others?**
 
 We plan to share the insights derived from this survey during the workshop.
 
