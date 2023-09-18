@@ -245,9 +245,9 @@ Note: all deadlines are in <b>Anywhere on Earth</b>.
 ### Paper Submission
 
 <div>
-<b>Submissions due:</b> September 22, 2023<br>
-<b>Notification:</b> October 20, 2023<br>
-<b>Camera Ready</b>: November 10, 2023<br>
+<b>Submissions due:</b> October 2 (23:59 GMT), 2023<br>
+<b>Notification:</b> October 25 (23:59 GMT), 2023<br>
+<b>Camera Ready</b>: November 10 (23:59 GMT), 2023<br>
 
 <!---
 <b>Submissions open:</b> 23 March 2022<br>
