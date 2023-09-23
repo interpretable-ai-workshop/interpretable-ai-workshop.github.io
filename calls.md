@@ -53,7 +53,7 @@ This workshop is **non-archival**, and will not have formal proceedings. All the
 
 ## Submission Instructions
 
-Submissions should be anonymized and double-blind, and should use the official [NeurIPS - XAI in Action 2023 template](https://www.overleaf.com/read/zhfxgcyjcknh), and submit to the official [openreview portal](https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/XAIA&referrer=%5BHomepage%5D(%2F)). 
+Submissions should be anonymized and double-blind, and should use the official [NeurIPS - XAI in Action 2023 template](https://www.overleaf.com/read/szkkwjrmxzjq), and submit to the official [openreview portal](https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/XAIA&referrer=%5BHomepage%5D(%2F)). 
 
 ### Deadlines 
 Submission deadline - ~~September 22~~ October 2 (23:59 GMT), 2023 \
