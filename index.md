@@ -812,3 +812,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <b>SMR</b> — <i>Recognises PC member who agreed to provide their services as a Senior Meta-Reviewer.</i>
 -->
 
+## Sponsors
+
+<img src="{{ site.baseurl }}/assets/images/sponsors/bosch_logo.png">
