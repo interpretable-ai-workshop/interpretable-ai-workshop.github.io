@@ -57,7 +57,7 @@ Submissions should be anonymized and double-blind, and should use the official [
 
 ### Deadlines 
 Submission deadline - ~~September 22~~ October 2 (23:59 AoE), 2023 \
-Author notification - ~~October 20~~ October 25 (23:59 AoE), 2023 \
+Author notification - ~~October 20~~ October 27 (23:59 AoE), 2023 \
 Camera ready deadline -  November 10 (23:59 AoE), 2023
 
 ## Contact
