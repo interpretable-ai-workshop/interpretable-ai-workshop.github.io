@@ -254,7 +254,22 @@ Camera ready deadline -  November 10 (23:59 AoE), 2023
 
 ## Schedule
 
-To be announced.
+Time          | Event
+--------------|-----------------------------
+8:50 - 9:00   | Opening Remarks
+9:00 - 9:30   | Invited Talk
+9:30 - 10:00  | Invited Talk
+10:00 - 10:30 | Coffee & Games
+10:30 - 11:00 | Invited Talk
+11:00 - 11:30 | Contributed Talks
+11:30 - 12:30 | Poster Session 1
+12:30 - 1:30  | Lunch
+1:30 - 2:00   | Invited Talk
+2:00 - 2:30   | Invited Talk
+2:30 - 3:00   | Invited Talk
+3:00 - 3:30   | Coffee & Games
+3:30 - 4:30   | Panel
+4:30 - 5:30   | Poster Session 2
 
 <!---
 Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current time is <span id="edt"></span>.
