@@ -252,24 +252,24 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
 
 <b>Date:</b> December 16, 2023
 
-## Schedule (All times are CST - Central Standard Time)
+## Updated Schedule (All times are CST - Central Standard Time)
 
-Time               | Event
--------------------|-----------------------------------------
-8:50 AM - 9:00 AM  | Opening Remarks
-9:00 AM - 9:30 AM  | Invited Talk
-9:30 AM - 10:00 AM | Invited Talk
-10:00 AM - 10:30 AM| Coffee & Games
-10:30 AM - 11:00 AM| Invited Talk
-11:00 AM - 11:30 AM| Invited Talk 
-11:30 AM - 12:30 PM| Poster Session 1
-12:30 PM - 1:30 PM | Lunch
-1:30 PM - 2:00 PM  | Contributed Talks
-2:00 PM - 2:30 PM  | Invited Talk
-2:30 PM - 3:00 PM  | Invited Talk
-3:00 PM - 3:30 PM  | Coffee & Games
-3:30 PM - 4:30 PM  | Panel
-4:30 PM - 5:30 PM  | Poster Session 2
+| Time              | Event                                            |
+|-------------------|--------------------------------------------------|
+| 8:50 AM - 9:00 AM | Starting Remarks                                 |
+| 9:00 AM - 9:30 AM | IT1 (Invited Talk 1)                             |
+| 9:30 AM - 10:00 AM| IT2 (Invited Talk 2)                             |
+| 10:00 AM - 10:30 AM| Coffee & Games                                  |
+| 10:30 AM - 11:00 AM| IT3 (Invited Talk 3)                            |
+| 11:00 AM - 12:00 PM| Panel                                           |
+| 12:00 PM - 1:30 PM | Lunch                                           |
+| 1:30 PM - 2:00 PM  | IT4 (Invited Talk 4)                            |
+| 2:00 PM - 3:00 PM  | Poster Session 1                                |
+| 3:00 PM - 3:30 PM  | Coffee & Games                                  |
+| 3:30 PM - 4:00 PM  | IT5 (Invited Talk 5)                            |
+| 4:00 PM - 4:30 PM  | Contributed Talks                               |
+| 4:30 PM - 5:30 PM  | Poster Session 2                                |
+
 
 <!---
 Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current time is <span id="edt"></span>.
