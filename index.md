@@ -238,6 +238,10 @@ The workshop discussions aim to delve into the latest advancements in applied XA
 
 The workshop will provide a valuable learning opportunity for researchers, practitioners, and students seeking to apply XAI in their work, as it will feature presentations by experts in the field, as well as interactive discussions and insights into the latest trends and future directions in applied XAI. By bringing together a diverse group of participants with a shared interest in XAI, the workshop aims to foster collaboration, innovation, and knowledge sharing in this rapidly growing field.
 
+## Accepted Papers
+
+A full list of accepted papers can be found [here](https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/XAIA&referrer=%5BHomepage%5D(%2F)#tab-accept).
+
 ## Dates
 
 Note: all deadlines are in <b>Anywhere on Earth (AoE)</b>.
@@ -257,16 +261,16 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
 | Time              | Event                                            |
 |-------------------|--------------------------------------------------|
 | 8:50 AM - 9:00 AM | Starting Remarks                                 |
-| 9:00 AM - 9:30 AM | IT1 (Invited Talk 1)                             |
-| 9:30 AM - 10:00 AM| IT2 (Invited Talk 2)                             |
+| 9:00 AM - 9:30 AM | IT1: Sameer                                      |
+| 9:30 AM - 10:00 AM| IT2: Ulrike (Online)                             |
 | 10:00 AM - 10:30 AM| Coffee & Games                                  |
-| 10:30 AM - 11:00 AM| IT3 (Invited Talk 3)                            |
+| 10:30 AM - 11:00 AM| IT3: Su-In                                      |
 | 11:00 AM - 12:00 PM| Panel                                           |
 | 12:00 PM - 1:30 PM | Lunch                                           |
-| 1:30 PM - 2:00 PM  | IT4 (Invited Talk 4)                            |
+| 1:30 PM - 2:00 PM  | IT4: Julius                                     |
 | 2:00 PM - 3:00 PM  | Poster Session 1                                |
 | 3:00 PM - 3:30 PM  | Coffee & Games                                  |
-| 3:30 PM - 4:00 PM  | IT5 (Invited Talk 5)                            |
+| 3:30 PM - 4:00 PM  | IT5: Leilani                                    |
 | 4:00 PM - 4:30 PM  | Contributed Talks                               |
 | 4:30 PM - 5:30 PM  | Poster Session 2                                |
 
@@ -605,19 +609,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Sameer Singh</p>
 <p style="margin:0 0 0 10px; font-size:10px;">Associate Professor<br>University of California, Irvine</p>
-</div>
-</div>
-</a>
-
-
-<a href="https://krvarshney.github.io/" target="_blank" class="speaker_profile">
-<div style="display:inline-block; width:270px; margin:20px 0 0 0;">
-<div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/AXAI_workshop_kush.png" alt="Kush Varshney">
-</div>
-<div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Kush Varshney</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Distinguished research scientist and senior manager<br>IBM Research</p>
 </div>
 </div>
 </a>
