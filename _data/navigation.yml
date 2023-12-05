@@ -86,7 +86,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /index.html#accepted_papers
+    url: /index.html#accepted-papers
     
   - titles:
       # @start locale config
