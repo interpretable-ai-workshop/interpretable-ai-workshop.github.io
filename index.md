@@ -146,17 +146,7 @@ img {
     border-style: none;
 }
 
-  .reviewers-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
 
-  .reviewers-container > div {
-    padding: 5px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    margin: 5px;
-  }
 
 
 
@@ -240,10 +230,49 @@ img {
     width: auto;
   }
 }
+
+  .dropdown-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+    .reviewers-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .reviewers-container > div {
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 5px;
+  }
 </style>
 
 
 <script>
+  document.querySelector('.dropdown-btn').addEventListener('click', function() {
+  document.querySelector('.dropdown-content').classList.toggle('show');
+});
+</script>
+
+<script>
+
+  
   var x = setInterval(function() {
     var d = new Date();
     var n = d.toLocaleTimeString("en-US", {timeZone: "America/New_York", hour: '2-digit', minute:'2-digit', hour12: false})
@@ -356,7 +385,8 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
 
 ### All Reviewers
 
-<div class="reviewers-container">
+<button class="dropdown-btn">Show All Reviewers</button>
+<div class="reviewers-container dropdown-content">
   <div>Sahib Singh</div>
   <div>Shah Nawaz</div>
   <div>Raj Korpan</div>
