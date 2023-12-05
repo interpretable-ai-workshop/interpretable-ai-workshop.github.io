@@ -160,44 +160,16 @@ img {
 }
 
 
-  .dropdown-btn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 8px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.reviewers-container > div {
+  padding: 12px 16px;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 200px;
-  overflow: auto;
-  border: 1px solid #ddd;
-  z-index: 1;
+.reviewers-container > div:hover {
+  background-color: #ddd;
 }
-
-    .reviewers-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .reviewers-container > div {
-    padding: 5px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    margin: 5px;
-  }
+  
 </style>
 
-
-<script>
-  document.querySelector('.dropdown-btn').addEventListener('click', function() {
-  document.querySelector('.dropdown-content').classList.toggle('show');
-});
-</script>
 
 <script>
 
