@@ -242,6 +242,22 @@ The workshop will provide a valuable learning opportunity for researchers, pract
 
 A full list of accepted papers can be found [here](https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/XAIA&referrer=%5BHomepage%5D(%2F)#tab-accept).
 
+### Highlighted Reviewers
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <span>Sichao Li</span>
+  <span>Bardh Prenkaj</span>
+  <span>Arnaud Pannatier</span>
+  <span>Kyle Matoba</span>
+  <span>Amir Akbarnejad</span>
+  <span>Nari Johnson</span>
+  <span>Davin Hill</span>
+  <span>Eike Peterson</span>
+  <span>Karel D'Oosterlinck</span>
+  <span>Bitya Neuhof</span>
+  <span>Sebastian Bordt</span>
+</div>
+
 ## Dates
 
 Note: all deadlines are in <b>Anywhere on Earth (AoE)</b>.
