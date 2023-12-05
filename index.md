@@ -144,6 +144,19 @@ img {
     vertical-align: middle;
     border-style: none;
 }
+
+  .reviewers-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .reviewers-container > div {
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
 </style>
 
 
@@ -244,19 +257,101 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
 
 ### Highlighted Reviewers
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <span>Sichao Li</span>
-  <span>Bardh Prenkaj</span>
-  <span>Arnaud Pannatier</span>
-  <span>Kyle Matoba</span>
-  <span>Amir Akbarnejad</span>
-  <span>Nari Johnson</span>
-  <span>Davin Hill</span>
-  <span>Eike Peterson</span>
-  <span>Karel D'Oosterlinck</span>
-  <span>Bitya Neuhof</span>
-  <span>Sebastian Bordt</span>
+<div class="reviewers-container">
+  <div>Sichao Li</div>
+  <div>Bardh Prenkaj</div>
+  <div>Arnaud Pannatier</div>
+  <div>Kyle Matoba</div>
+  <div>Amir Akbarnejad</div>
+  <div>Nari Johnson</div>
+  <div>Davin Hill</div>
+  <div>Eike Peterson</div>
+  <div>Karel D'Oosterlinck</div>
+  <div>Bitya Neuhof</div>
+  <div>Sebastian Bordt</div>
 </div>
+
+<div class="reviewers-container">
+  <div>Sahib Singh</div>
+  <div>Shah Nawaz</div>
+  <div>Raj Korpan</div>
+  <div>Zhenjie Zhao</div>
+  <div>Sichao Li</div>
+  <div>Eike Petersen</div>
+  <div>Kiet Van Nguyen</div>
+  <div>Rakshit Naidu</div>
+  <div>Sukriti Verma</div>
+  <div>Chris Lin</div>
+  <div>Gabriel Kasmi</div>
+  <div>Kilian Kluge</div>
+  <div>Pulkit Verma</div>
+  <div>Jacopo Teneggi</div>
+  <div>Wei Qiu</div>
+  <div>Muhammad Usman Shahid Khan</div>
+  <div>Bardh Prenkaj</div>
+  <div>Gökhan Özbulak</div>
+  <div>Daniel Barrejon</div>
+  <div>Fan Feng</div>
+  <div>Hangzhi Guo</div>
+  <div>Debarpan Bhattacharya</div>
+  <div>Zeming Wei</div>
+  <div>Sagnik Dakshit</div>
+  <div>Arnav Wadhwa</div>
+  <div>Beepul Bharti</div>
+  <div>Sukrut Rao</div>
+  <div>Pouya Khani</div>
+  <div>Satyapriya Krishna</div>
+  <div>Akshay R. Kulkarni</div>
+  <div>Nitsan Soffair</div>
+  <div>Bhawesh Kumar</div>
+  <div>Yuri Feldman</div>
+  <div>Lenka Tětková</div>
+  <div>Wenbo Zhang</div>
+  <div>Vinitra Swamy</div>
+  <div>Sree Harsha Tanneru</div>
+  <div>Daniel Flores Araiza</div>
+  <div>Vidhya Kamakshi</div>
+  <div>Goutham Rajendran</div>
+  <div>Aditya Bhattacharya</div>
+  <div>Swagatam Haldar</div>
+  <div>Leonardo Lucio Custode</div>
+  <div>Jaakko Suutala</div>
+  <div>Changjian Shui</div>
+  <div>Sasikanth Kotti</div>
+  <div>Nan Wu</div>
+  <div>Amir Akbarnejad</div>
+  <div>Ido Ben-Shaul</div>
+  <div>Kenza Amara</div>
+  <div>Zeyu Qin</div>
+  <div>Leonard Tang</div>
+  <div>Raghav Singhal</div>
+  <div>Mustafa Cavus</div>
+  <div>Laura O'Mahony</div>
+  <div>Canyu Chen</div>
+  <div>Alex Oesterling</div>
+  <div>Srishti Gautam</div>
+  <div>Usha Bhalla</div>
+  <div>Francesco Croce</div>
+  <div>Alexander Meinke</div>
+  <div>Christian Schlarmann</div>
+  <div>Gal Yona</div>
+  <div>Dana Arad</div>
+  <div>Natalie Shapira</div>
+  <div>Katelyn Morrison</div>
+  <div>Maksym Andriushchenko</div>
+  <div>Sunnie S. Y. Kim</div>
+</div>
+
+<div class="reviewers-container">
+  <div>Suraj Srinivas</div>
+  <div>Valentyn Boreiko</div>
+  <div>Chhavi Yadav</div>
+  <div>Aounon Kumar</div>
+  <div>Cyrus Rashtchian</div>
+  <div>Michal Moshkovitz</div>
+  <div>Nave Frost</div>
+</div>
+
 
 ## Dates
 
