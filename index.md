@@ -271,6 +271,8 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
   <div>Sebastian Bordt</div>
 </div>
 
+### All Reviewers
+
 <div class="reviewers-container">
   <div>Sahib Singh</div>
   <div>Shah Nawaz</div>
@@ -341,6 +343,8 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
   <div>Maksym Andriushchenko</div>
   <div>Sunnie S. Y. Kim</div>
 </div>
+
+### Area Chairs
 
 <div class="reviewers-container">
   <div>Suraj Srinivas</div>
