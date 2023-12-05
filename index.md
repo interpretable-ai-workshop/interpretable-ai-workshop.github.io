@@ -256,24 +256,27 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
 
 <b>Date:</b> December 16, 2023
 
-## Updated Schedule (All times are CST - Central Standard Time)
+## Schedule
 
-| Time              | Event                                            |
-|-------------------|--------------------------------------------------|
-| 8:50 AM - 9:00 AM | Starting Remarks                                 |
-| 9:00 AM - 9:30 AM | IT1: Sameer                                      |
-| 9:30 AM - 10:00 AM| IT2: Ulrike (Online)                             |
-| 10:00 AM - 10:30 AM| Coffee & Games                                  |
-| 10:30 AM - 11:00 AM| IT3: Su-In                                      |
-| 11:00 AM - 12:00 PM| Panel                                           |
-| 12:00 PM - 1:30 PM | Lunch                                           |
-| 1:30 PM - 2:00 PM  | IT4: Julius                                     |
-| 2:00 PM - 3:00 PM  | Poster Session 1                                |
-| 3:00 PM - 3:30 PM  | Coffee & Games                                  |
-| 3:30 PM - 4:00 PM  | IT5: Leilani                                    |
-| 4:00 PM - 4:30 PM  | Contributed Talks                               |
-| 4:30 PM - 5:30 PM  | Poster Session 2                                |
+|       Time        | Event                                             |
+|:-----------------:|:--------------------------------------------------|
+| **8:50 - 9:00 AM**  | Opening Remarks                                   |
+| **9:00 - 9:30 AM**  | IT1: Sameer Singh                                 |
+| **9:30 - 10:00 AM** | IT2: Ulrike von Luxburg ※                             |
+| **10:00 - 10:30 AM**| Coffee Break & Interactive Games                  |
+| **10:30 - 11:00 AM**| IT3: Su-In Lee                                    |
+| **11:00 - 12:00 PM**| Panel Discussion                          |
+| **12:00 - 1:30 PM** | Lunch                                 |
+| **1:30 - 2:00 PM**  | IT4: Julius Adebayo                         |
+| **2:00 - 3:00 PM**  | Poster Session 1          |
+| **3:00 - 3:30 PM**  | Coffee Break & Interactive Games                 |
+| **3:30 - 4:00 PM**  | IT5: Leilani Gilpin                              |
+| **4:00 - 4:30 PM**  | Contributed Talks             |
+| **4:30 - 5:30 PM**  | Poster Session 2          |
 
+※ Indicates virtual participation
+
+_All times are in Central Standard Time_  
 
 <!---
 Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current time is <span id="edt"></span>.
@@ -622,8 +625,6 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 
 
 <div style="display:inline; width:900px; vertical-align: top;">
-
-
 
 <a href="https://www.chhaviyadav.org" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
