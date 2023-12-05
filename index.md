@@ -170,6 +170,16 @@ img {
     border-radius: 5px;
     margin: 5px;
   }
+
+  .sponsor-logos img {
+    width: 150px; /* Adjust this value as needed */
+    margin-right: 20px; /* Space between images */
+}
+
+/* Remove margin from the last image */
+.sponsor-logos img:last-child {
+    margin-right: 0;
+}
   
 </style>
 
@@ -890,5 +900,7 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 
 ## Sponsors
 
-<img src="{{ site.baseurl }}/assets/images/sponsors/bosch_logo.png">
-<img src="{{ site.baseurl }}/assets/images/sponsors/Google_2015_logo.svg.png">
+<div class="sponsor-logos">
+    <img src="{{ site.baseurl }}/assets/images/sponsors/bosch_logo.png" alt="Bosch Logo">
+    <img src="{{ site.baseurl }}/assets/images/sponsors/Google_2015_logo.svg.png" alt="Google Logo">
+</div>
