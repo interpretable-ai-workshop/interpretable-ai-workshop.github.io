@@ -380,7 +380,7 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
 | **9:30 - 10:00 AM** | IT2: Ulrike von Luxburg ※                             |
 | **10:00 - 10:30 AM**| Coffee Break & Interactive Games                  |
 | **10:30 - 11:00 AM**| IT3: Su-In Lee                                    |
-| **11:00 - 12:00 PM**| Panel Discussion                          |
+| **11:00 - 12:00 PM**| Panel Discussion (featuring Shai Ben David, moderated by Kamalika Chaudhuri)                          |
 | **12:00 - 1:30 PM** | Lunch                                 |
 | **1:30 - 2:00 PM**  | IT4: Julius Adebayo                         |
 | **2:00 - 3:00 PM**  | Poster Session 1          |
