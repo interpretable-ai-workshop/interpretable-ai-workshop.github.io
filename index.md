@@ -891,3 +891,4 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 ## Sponsors
 
 <img src="{{ site.baseurl }}/assets/images/sponsors/bosch_logo.png">
+<img src="{{ site.baseurl }}/assets/images/sponsors/Google_2015_logo.svg.png">
