@@ -159,14 +159,17 @@ img {
   color: #333;
 }
 
+  .reviewers-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.reviewers-container > div {
-  padding: 12px 16px;
-}
-
-.reviewers-container > div:hover {
-  background-color: #ddd;
-}
+  .reviewers-container > div {
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin: 5px;
+  }
   
 </style>
 
