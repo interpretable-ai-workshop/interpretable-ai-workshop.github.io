@@ -299,7 +299,6 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
 
 ### All Reviewers
 
-<button class="dropdown-btn">Show All Reviewers</button>
 <div class="reviewers-container dropdown-content">
   <div>Sahib Singh</div>
   <div>Shah Nawaz</div>
