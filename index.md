@@ -23,6 +23,7 @@ article_header:
 ---
 
 <style>
+  
 .schedule-table-heading {
     display: inline;
     font-weight: bold;
@@ -156,7 +157,89 @@ img {
     border-radius: 5px;
     margin: 5px;
   }
+
+
+
   
+
+
+   body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+  .header {
+  background: #005f73; /* Adjust the color to match your theme */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.navigation li {
+  margin: 0 15px;
+}
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+}
+.organiser_profile, .speaker_profile {
+  display: inline-block;
+  width: 270px;
+  margin: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+.organiser_profile img, .speaker_profile img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+  .schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.schedule-table th, .schedule-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.schedule-table th {
+  background-color: #005f73;
+  color: white;
+}
+
+  .footer {
+  background-color: #005f73;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+  @media screen and (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navigation li {
+    margin: 5px 0;
+  }
+  .organiser_profile, .speaker_profile {
+    width: auto;
+  }
+}
 </style>
 
 
