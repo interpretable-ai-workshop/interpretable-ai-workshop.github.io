@@ -80,6 +80,16 @@ header:
 
   - titles:
       # @start locale config
+      en      : &EN       Accepted Papers
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /index.html#accepted_papers
+    
+  - titles:
+      # @start locale config
       en      : &EN       Schedule
       en-GB   : *EN
       en-US   : *EN
