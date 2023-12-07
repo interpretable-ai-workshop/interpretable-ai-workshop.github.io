@@ -202,6 +202,17 @@ img {
 .toggle-button.active::after {
     content: ' ▲'; /* Up arrow when the section is visible */
 }
+
+
+/* Optional: Style for paper titles */
+.paper-title {
+    font-weight: bold;
+}
+
+/* Optional: Style for authors */
+.authors {
+    font-style: italic;
+}
   
 </style>
 
@@ -307,11 +318,11 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
 
 <button id="toggle-oral-papers" class="toggle-button">Show Oral Papers</button>
 <div id="oral-papers-list" class="reviewers-container" style="display: none;">
-  <div>"Scale Alone Does not Improve Mechanistic Interpretability in Vision Models". Roland Zimmermann, Thomas Klein, Wieland Brendel.</div>
-  <div>"Understanding Scalable Perovskite Solar Cell Manufacturing with Explainable AI". Lukas Klein, Sebastian Ziegler, Felix Laufer, Charlotte Debus, Markus Götz, Klaus Maier-Hein, Ulrich Paetzold, Fabian Isensee, Paul Jaeger.</div>
-  <div>"Emergence of Segmentation with Minimalistic White-Box Transformers". Yaodong Yu, Tianzhe Chu, Shengbang Tong, Ziyang Wu, Druv Pai, Sam Buchanan, Yi Ma.</div>
-  <div>"On Evaluating Explanation Utility for Human-AI Decision-Making in NLP". Fateme Hashemi Chaleshtori, Atreya Ghosal, Ana Marasovic.</div>
-  <div>"On the Relationship Between Explanation and Prediction: A Causal View". Amir-Hossein Karimi, Krikamol Muandet, Simon Kornblith, Bernhard Schölkopf, Been Kim.</div>
+  <div><span class="paper-title">"Scale Alone Does not Improve Mechanistic Interpretability in Vision Models".</span> <span class="authors">Roland Zimmermann, Thomas Klein, Wieland Brendel.</span></div>
+  <div><span class="paper-title">"Understanding Scalable Perovskite Solar Cell Manufacturing with Explainable AI".</span> <span class="authors">Lukas Klein, Sebastian Ziegler, Felix Laufer, Charlotte Debus, Markus Götz, Klaus Maier-Hein, Ulrich Paetzold, Fabian Isensee, Paul Jaeger.</span></div>
+  <div><span class="paper-title">"Emergence of Segmentation with Minimalistic White-Box Transformers".</span> <span class="authors">Yaodong Yu, Tianzhe Chu, Shengbang Tong, Ziyang Wu, Druv Pai, Sam Buchanan, Yi Ma.</span></div>
+  <div><span class="paper-title">"On Evaluating Explanation Utility for Human-AI Decision-Making in NLP".</span> <span class="authors">Fateme Hashemi Chaleshtori, Atreya Ghosal, Ana Marasovic.</span></div>
+  <div><span class="paper-title">"On the Relationship Between Explanation and Prediction: A Causal View".</span> <span class="authors">Amir-Hossein Karimi, Krikamol Muandet, Simon Kornblith, Bernhard Schölkopf, Been Kim.</span></div>
 </div>
 
 ### Highlighted Reviewers
