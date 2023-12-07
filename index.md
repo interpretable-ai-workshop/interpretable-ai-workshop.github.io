@@ -305,8 +305,8 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
 
 ### Highlighted Reviewers
 
-<button id="toggle-highlighted">Toggle Highlighted Reviewers</button>
-<div id="highlighted-reviewers" class="reviewers-container" style="display: none;">
+<button id="toggle-highlighted" class="toggle-button">Show Highlighted Reviewers</button>
+<div id="highlighted-reviewers-list" class="reviewers-container" style="display: none;">
   <div>Sichao Li</div>
   <div>Bardh Prenkaj</div>
   <div>Arnaud Pannatier</div>
@@ -322,8 +322,8 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
 
 ### All Reviewers
 
-<button id="toggle-all">Toggle All Reviewers</button>
-<div id="all-reviewers" class="reviewers-container dropdown-content" style="display: none;">
+<button id="toggle-all" class="toggle-button">Show All Reviewers</button>
+<div id="all-reviewers-list" class="reviewers-container dropdown-content" style="display: none;">
   <div>Sahib Singh</div>
   <div>Shah Nawaz</div>
   <div>Raj Korpan</div>
@@ -396,8 +396,8 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
 
 ### Area Chairs
 
-<button id="toggle-area-chairs">Toggle Area Chairs</button>
-<div id="area-chairs" class="reviewers-container" style="display: none;">
+<button id="toggle-area-chairs" class="toggle-button">Show Area Chairs</button>
+<div id="area-chairs-list" class="reviewers-container" style="display: none;">
   <div>Suraj Srinivas</div>
   <div>Valentyn Boreiko</div>
   <div>Chhavi Yadav</div>
@@ -934,7 +934,7 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
     // Toggle for Highlighted Reviewers
     var toggleHighlighted = document.getElementById('toggle-highlighted');
     toggleHighlighted.addEventListener('click', function() {
-        var div = document.getElementById('highlighted-reviewers');
+        var div = document.getElementById('highlighted-reviewers-list');
         var isVisible = div.style.display === 'block';
         div.style.display = isVisible ? 'none' : 'block';
         toggleHighlighted.classList.toggle('active', !isVisible);
@@ -943,7 +943,7 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
     // Toggle for All Reviewers
     var toggleAll = document.getElementById('toggle-all');
     toggleAll.addEventListener('click', function() {
-        var div = document.getElementById('all-reviewers');
+        var div = document.getElementById('all-reviewers-list');
         var isVisible = div.style.display === 'block';
         div.style.display = isVisible ? 'none' : 'block';
         toggleAll.classList.toggle('active', !isVisible);
@@ -952,7 +952,7 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
     // Toggle for Area Chairs
     var toggleAreaChairs = document.getElementById('toggle-area-chairs');
     toggleAreaChairs.addEventListener('click', function() {
-        var div = document.getElementById('area-chairs');
+        var div = document.getElementById('area-chairs-list');
         var isVisible = div.style.display === 'block';
         div.style.display = isVisible ? 'none' : 'block';
         toggleAreaChairs.classList.toggle('active', !isVisible);
