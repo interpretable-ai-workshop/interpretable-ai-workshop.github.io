@@ -303,6 +303,17 @@ The workshop will provide a valuable learning opportunity for researchers, pract
 
 A full list of accepted papers can be found [here](https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/XAIA&referrer=%5BHomepage%5D(%2F)#tab-accept).
 
+### Oral Papers
+
+<button id="toggle-oral-papers" class="toggle-button">Show Oral Papers</button>
+<div id="oral-papers-list" class="reviewers-container" style="display: none;">
+  <div>"Scale Alone Does not Improve Mechanistic Interpretability in Vision Models". Roland Zimmermann, Thomas Klein, Wieland Brendel.</div>
+  <div>"Understanding Scalable Perovskite Solar Cell Manufacturing with Explainable AI". Lukas Klein, Sebastian Ziegler, Felix Laufer, Charlotte Debus, Markus Götz, Klaus Maier-Hein, Ulrich Paetzold, Fabian Isensee, Paul Jaeger.</div>
+  <div>"Emergence of Segmentation with Minimalistic White-Box Transformers". Yaodong Yu, Tianzhe Chu, Shengbang Tong, Ziyang Wu, Druv Pai, Sam Buchanan, Yi Ma.</div>
+  <div>"On Evaluating Explanation Utility for Human-AI Decision-Making in NLP". Fateme Hashemi Chaleshtori, Atreya Ghosal, Ana Marasovic.</div>
+  <div>"On the Relationship Between Explanation and Prediction: A Causal View". Amir-Hossein Karimi, Krikamol Muandet, Simon Kornblith, Bernhard Schölkopf, Been Kim.</div>
+</div>
+
 ### Highlighted Reviewers
 
 <button id="toggle-highlighted" class="toggle-button">Show Highlighted Reviewers</button>
@@ -931,6 +942,17 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 
 <script>
  document.addEventListener('DOMContentLoaded', function() {
+
+   // Toggle for Oral Papers
+    var toggleHighlighted = document.getElementById('toggle-oral-papers');
+    toggleHighlighted.addEventListener('click', function() {
+        var div = document.getElementById('oral-papers-list');
+        var isVisible = div.style.display === 'block';
+        div.style.display = isVisible ? 'none' : 'block';
+        toggleHighlighted.classList.toggle('active', !isVisible);
+    });
+
+   
     // Toggle for Highlighted Reviewers
     var toggleHighlighted = document.getElementById('toggle-highlighted');
     toggleHighlighted.addEventListener('click', function() {
