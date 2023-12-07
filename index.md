@@ -180,6 +180,28 @@ img {
 .sponsor-logos img:last-child {
     margin-right: 0;
 }
+
+
+  .toggle-button {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toggle-button::after {
+    content: ' ▼'; /* Down arrow by default */
+}
+
+.toggle-button.active::after {
+    content: ' ▲'; /* Up arrow when the section is visible */
+}
   
 </style>
 
@@ -283,7 +305,8 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
 
 ### Highlighted Reviewers
 
-<div class="reviewers-container">
+<button id="toggle-highlighted">Toggle Highlighted Reviewers</button>
+<div id="highlighted-reviewers" class="reviewers-container" style="display: none;">
   <div>Sichao Li</div>
   <div>Bardh Prenkaj</div>
   <div>Arnaud Pannatier</div>
@@ -299,7 +322,8 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
 
 ### All Reviewers
 
-<div class="reviewers-container dropdown-content">
+<button id="toggle-all">Toggle All Reviewers</button>
+<div id="all-reviewers" class="reviewers-container dropdown-content" style="display: none;">
   <div>Sahib Singh</div>
   <div>Shah Nawaz</div>
   <div>Raj Korpan</div>
@@ -372,7 +396,8 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
 
 ### Area Chairs
 
-<div class="reviewers-container">
+<button id="toggle-area-chairs">Toggle Area Chairs</button>
+<div id="area-chairs" class="reviewers-container" style="display: none;">
   <div>Suraj Srinivas</div>
   <div>Valentyn Boreiko</div>
   <div>Chhavi Yadav</div>
@@ -903,3 +928,34 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
     <img src="{{ site.baseurl }}/assets/images/sponsors/bosch_logo.png" alt="Bosch Logo">
     <img src="{{ site.baseurl }}/assets/images/sponsors/Google_2015_logo.svg.png" alt="Google Logo">
 </div>
+
+<script>
+ document.addEventListener('DOMContentLoaded', function() {
+    // Toggle for Highlighted Reviewers
+    var toggleHighlighted = document.getElementById('toggle-highlighted');
+    toggleHighlighted.addEventListener('click', function() {
+        var div = document.getElementById('highlighted-reviewers');
+        var isVisible = div.style.display === 'block';
+        div.style.display = isVisible ? 'none' : 'block';
+        toggleHighlighted.classList.toggle('active', !isVisible);
+    });
+
+    // Toggle for All Reviewers
+    var toggleAll = document.getElementById('toggle-all');
+    toggleAll.addEventListener('click', function() {
+        var div = document.getElementById('all-reviewers');
+        var isVisible = div.style.display === 'block';
+        div.style.display = isVisible ? 'none' : 'block';
+        toggleAll.classList.toggle('active', !isVisible);
+    });
+
+    // Toggle for Area Chairs
+    var toggleAreaChairs = document.getElementById('toggle-area-chairs');
+    toggleAreaChairs.addEventListener('click', function() {
+        var div = document.getElementById('area-chairs');
+        var isVisible = div.style.display === 'block';
+        div.style.display = isVisible ? 'none' : 'block';
+        toggleAreaChairs.classList.toggle('active', !isVisible);
+    });
+});
+</script>
