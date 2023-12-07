@@ -322,7 +322,6 @@ A full list of accepted papers can be found [here](https://openreview.net/group?
   <div><span class="paper-title">"Understanding Scalable Perovskite Solar Cell Manufacturing with Explainable AI".</span> <span class="authors">Lukas Klein, Sebastian Ziegler, Felix Laufer, Charlotte Debus, Markus Götz, Klaus Maier-Hein, Ulrich Paetzold, Fabian Isensee, Paul Jaeger.</span></div>
   <div><span class="paper-title">"Emergence of Segmentation with Minimalistic White-Box Transformers".</span> <span class="authors">Yaodong Yu, Tianzhe Chu, Shengbang Tong, Ziyang Wu, Druv Pai, Sam Buchanan, Yi Ma.</span></div>
   <div><span class="paper-title">"On Evaluating Explanation Utility for Human-AI Decision-Making in NLP".</span> <span class="authors">Fateme Hashemi Chaleshtori, Atreya Ghosal, Ana Marasovic.</span></div>
-  <div><span class="paper-title">"On the Relationship Between Explanation and Prediction: A Causal View".</span> <span class="authors">Amir-Hossein Karimi, Krikamol Muandet, Simon Kornblith, Bernhard Schölkopf, Been Kim.</span></div>
 </div>
 
 ### Highlighted Reviewers
