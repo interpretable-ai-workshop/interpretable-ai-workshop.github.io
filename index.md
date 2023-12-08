@@ -445,21 +445,21 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
 
 ## Schedule
 
-|       Time        | Event                                             |
-|:-----------------:|:--------------------------------------------------|
-| **8:50 - 9:00 AM**  | Opening Remarks                                   |
-| **9:00 - 9:30 AM**  | IT1: Sameer Singh                                 |
-| **9:30 - 10:00 AM** | IT2: Ulrike von Luxburg ※                             |
-| **10:00 - 10:30 AM**| Coffee Break & Interactive Games                  |
-| **10:30 - 11:00 AM**| IT3: Su-In Lee                                    |
-| **11:00 - 12:00 PM**| Panel Discussion (featuring Shai Ben David, moderated by Kamalika Chaudhuri)                          |
-| **12:00 - 1:30 PM** | Lunch                                 |
-| **1:30 - 2:00 PM**  | IT4: Julius Adebayo                         |
-| **2:00 - 3:00 PM**  | Poster Session 1          |
-| **3:00 - 3:30 PM**  | Coffee Break & Interactive Games                 |
-| **3:30 - 4:00 PM**  | IT5: Leilani Gilpin                              |
-| **4:00 - 4:30 PM**  | Contributed Talks             |
-| **4:30 - 5:30 PM**  | Poster Session 2          |
+ Time | Event | Additional Information |
+| --- | --- | --- |
+| **8:50 - 9:00 AM** | Opening Remarks |  |
+| **9:00 - 9:30 AM** | IT1: Sameer Singh |  |
+| **9:30 - 10:00 AM** | IT2: Ulrike von Luxburg ※ |  |
+| **10:00 - 10:30 AM** | Coffee Break & Interactive Games |  |
+| **10:30 - 11:00 AM** | IT3: Su-In Lee | **Title:** Explainable AI: where we are and how to move forward for cancer pharmacogenomics |
+| **11:00 - 12:00 PM** | Panel Discussion (featuring Shai Ben David, moderated by Kamalika Chaudhuri) |  |
+| **12:00 - 1:30 PM** | Lunch |  |
+| **1:30 - 2:00 PM** | IT4: Julius Adebayo | **Title:** Confronting the Faithfulness Challenge with Post-hoc Model Explanations. <br>**Abstract:** Explaining the output of a trained deep neural network has emerged as a key research challenge. Several classes of explanation methods have been proposed to address that challenge. However, despite significant research contributions, evidence points to their ineffectiveness. In this talk, I'll highlight a key challenge that undercuts the effectiveness of current post hoc explanations methods: faithfulness. I'll close with two vignettes: the first on emerging recipes for overcoming the faithfulness challenge, and the second on an alternative paradigm that involves developing intrinsically interpretable models. |
+| **2:00 - 3:00 PM** | Poster Session 1 |  |
+| **3:00 - 3:30 PM** | Coffee Break & Interactive Games |  |
+| **3:30 - 4:00 PM** | IT5: Leilani Gilpin | **Title:** Explaining Self-Driving Cars for Accountable Autonomy. <br> **Abstract:** Autonomous systems are prone to errors and failures without knowing why. In critical domains like driving, these autonomous counterparts must be able to recount their actions for safety, accountability, and trust. An explanation: a model-dependent reason or justification for the decision of the autonomous agent being assessed, is a key component for post-mortem failure analysis, but also for pre-deployment verification. I will present neuro-symbolic systems that use neural networks and commonsense knowledge to detect and explain unreasonable vehicle scenarios, even if the autonomous vehicle has not seen that error before. In the second part of the talk, I will motivate the use of explanations as a testing framework for autonomous systems. I will conclude by discussing new challenges at the intersection of explainable AI and autonomy toward autonomous vehicles systems that are explainable by design. |
+| **4:00 - 4:30 PM** | Contributed Talks |  |
+| **4:30 - 5:30 PM** | Poster Session 2 |  |
 
 ※ Indicates virtual participation
 
