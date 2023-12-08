@@ -497,7 +497,7 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
     <tr>
         <td class="time">11:00 - 12:00 PM</td>
         <td>Panel Discussion</td>
-        <td><strong>Moderator:</strong> Kamalika Chaudhuri. <br><strong>Panelists:</strong> Shai Ben-David, Julius Adebayo, Sameer Singh.</td>
+        <td><strong>Moderator:</strong> Kamalika Chaudhuri. <br><strong>Panelists:</strong> Shai Ben-David, Julius Adebayo, Sameer Singh, Su-In Lee.</td>
     </tr>
     <tr>
         <td class="time">12:00 - 1:30 PM</td>
