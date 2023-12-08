@@ -226,7 +226,12 @@ table {
         th {
             background-color: #f2f2f2;
         }
-    
+
+       .time {
+            font-weight: bold;
+            text-align: center;
+        }
+  
 </style>
 
 
@@ -465,44 +470,42 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
         <th>Additional Information</th>
     </tr>
     <tr>
-        <td>8:50 - 9:00 AM</td>
+        <td class="time">8:50 - 9:00 AM</td>
         <td>Opening Remarks</td>
         <td></td>
     </tr>
     <tr>
-        <td>9:00 - 9:30 AM</td>
+        <td class="time">9:00 - 9:30 AM</td>
         <td>IT1: Sameer Singh</td>
         <td></td>
     </tr>
     <tr>
-        <td>9:30 - 10:00 AM</td>
+        <td class="time">9:30 - 10:00 AM</td>
         <td>IT2: Ulrike von Luxburg ※</td>
         <td></td>
     </tr>
     <tr>
-        <td>10:00 - 10:30 AM</td>
+        <td class="time">10:00 - 10:30 AM</td>
         <td>Coffee Break & Interactive Games</td>
         <td></td>
     </tr>
     <tr>
-        <td>10:30 - 11:00 AM</td>
+        <td class="time">10:30 - 11:00 AM</td>
         <td>IT3: Su-In Lee</td>
-        <td>
-            <strong>Title:</strong> Explainable AI: where we are and how to move forward for cancer pharmacogenomics
-        </td>
+        <td><strong>Title:</strong> Explainable AI: where we are and how to move forward for cancer pharmacogenomics</td>
     </tr>
     <tr>
-        <td>11:00 - 12:00 PM</td>
+        <td class="time">11:00 - 12:00 PM</td>
         <td>Panel Discussion</td>
         <td><strong>Moderator:</strong> Kamalika Chaudhuri. <br><strong>Panelists:</strong> Shai Ben-David, Julius Adebayo, Sameer Singh</td>
     </tr>
     <tr>
-        <td>12:00 - 1:30 PM</td>
+        <td class="time">12:00 - 1:30 PM</td>
         <td>Lunch</td>
         <td></td>
     </tr>
     <tr>
-        <td>1:30 - 2:00 PM</td>
+        <td class="time">1:30 - 2:00 PM</td>
         <td>IT4: Julius Adebayo</td>
         <td>
             <strong>Title:</strong> Confronting the Faithfulness Challenge with Post-hoc Model Explanations. <br>
@@ -514,17 +517,17 @@ In this talk, I'll highlight a key challenge that undercuts the effectiveness of
         </td>
     </tr>
     <tr>
-        <td>2:00 - 3:00 PM</td>
+        <td class="time">2:00 - 3:00 PM</td>
         <td>Poster Session 1</td>
         <td></td>
     </tr>
     <tr>
-        <td>3:00 - 3:30 PM</td>
+        <td class="time">3:00 - 3:30 PM</td>
         <td>Coffee Break & Interactive Games</td>
         <td></td>
     </tr>
     <tr>
-        <td>3:30 - 4:00 PM</td>
+        <td class="time">3:30 - 4:00 PM</td>
         <td>IT5: Leilani Gilpin</td>
         <td>
             <strong>Title:</strong> Explaining Self-Driving Cars for Accountable Autonomy. <br>
@@ -548,12 +551,12 @@ systems that are explainable by design.
         </td>
     </tr>
     <tr>
-        <td>4:00 - 4:30 PM</td>
+        <td class="time">4:00 - 4:30 PM</td>
         <td>Contributed Talks</td>
         <td></td>
     </tr>
     <tr>
-        <td>4:30 - 5:30 PM</td>
+        <td class="time">4:30 - 5:30 PM</td>
         <td>Poster Session 2</td>
         <td></td>
     </tr>
