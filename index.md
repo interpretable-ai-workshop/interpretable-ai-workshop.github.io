@@ -452,7 +452,7 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
 | **9:30 - 10:00 AM** | IT2: Ulrike von Luxburg ※ |  |
 | **10:00 - 10:30 AM** | Coffee Break & Interactive Games |  |
 | **10:30 - 11:00 AM** | IT3: Su-In Lee | **Title:** Explainable AI: where we are and how to move forward for cancer pharmacogenomics |
-| **11:00 - 12:00 PM** | Panel Discussion (featuring Shai Ben David, moderated by Kamalika Chaudhuri) |  |
+| **11:00 - 12:00 PM** | Panel Discussion | **Moderator:**  Kamalika Chaudhuri. **Panelists:** Shai Ben-David, Julius Adebayo, Sameer Singh |
 | **12:00 - 1:30 PM** | Lunch |  |
 | **1:30 - 2:00 PM** | IT4: Julius Adebayo | **Title:** Confronting the Faithfulness Challenge with Post-hoc Model Explanations. <br>**Abstract:** Explaining the output of a trained deep neural network has emerged as a key research challenge. Several classes of explanation methods have been proposed to address that challenge. However, despite significant research contributions, evidence points to their ineffectiveness. In this talk, I'll highlight a key challenge that undercuts the effectiveness of current post hoc explanations methods: faithfulness. I'll close with two vignettes: the first on emerging recipes for overcoming the faithfulness challenge, and the second on an alternative paradigm that involves developing intrinsically interpretable models. |
 | **2:00 - 3:00 PM** | Poster Session 1 |  |
