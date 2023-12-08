@@ -213,7 +213,20 @@ img {
 .authors {
     font-style: italic;
 }
-  
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    
 </style>
 
 
@@ -445,21 +458,96 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
 
 ## Schedule
 
- Time | Event | Additional Information |
-| --- | --- | --- |
-| **8:50 - 9:00 AM** | Opening Remarks |  |
-| **9:00 - 9:30 AM** | IT1: Sameer Singh |  |
-| **9:30 - 10:00 AM** | IT2: Ulrike von Luxburg ※ |  |
-| **10:00 - 10:30 AM** | Coffee Break & Interactive Games |  |
-| **10:30 - 11:00 AM** | IT3: Su-In Lee | **Title:** Explainable AI: where we are and how to move forward for cancer pharmacogenomics |
-| **11:00 - 12:00 PM** | Panel Discussion | **Moderator:**  Kamalika Chaudhuri. **Panelists:** Shai Ben-David, Julius Adebayo, Sameer Singh |
-| **12:00 - 1:30 PM** | Lunch |  |
-| **1:30 - 2:00 PM** | IT4: Julius Adebayo | **Title:** Confronting the Faithfulness Challenge with Post-hoc Model Explanations. <br>**Abstract:** Explaining the output of a trained deep neural network has emerged as a key research challenge. Several classes of explanation methods have been proposed to address that challenge. However, despite significant research contributions, evidence points to their ineffectiveness. In this talk, I'll highlight a key challenge that undercuts the effectiveness of current post hoc explanations methods: faithfulness. I'll close with two vignettes: the first on emerging recipes for overcoming the faithfulness challenge, and the second on an alternative paradigm that involves developing intrinsically interpretable models. |
-| **2:00 - 3:00 PM** | Poster Session 1 |  |
-| **3:00 - 3:30 PM** | Coffee Break & Interactive Games |  |
-| **3:30 - 4:00 PM** | IT5: Leilani Gilpin | **Title:** Explaining Self-Driving Cars for Accountable Autonomy. <br> **Abstract:** Autonomous systems are prone to errors and failures without knowing why. In critical domains like driving, these autonomous counterparts must be able to recount their actions for safety, accountability, and trust. An explanation: a model-dependent reason or justification for the decision of the autonomous agent being assessed, is a key component for post-mortem failure analysis, but also for pre-deployment verification. I will present neuro-symbolic systems that use neural networks and commonsense knowledge to detect and explain unreasonable vehicle scenarios, even if the autonomous vehicle has not seen that error before. In the second part of the talk, I will motivate the use of explanations as a testing framework for autonomous systems. I will conclude by discussing new challenges at the intersection of explainable AI and autonomy toward autonomous vehicles systems that are explainable by design. |
-| **4:00 - 4:30 PM** | Contributed Talks |  |
-| **4:30 - 5:30 PM** | Poster Session 2 |  |
+<table>
+    <tr>
+        <th>Time</th>
+        <th>Event</th>
+        <th>Additional Information</th>
+    </tr>
+    <tr>
+        <td>8:50 - 9:00 AM</td>
+        <td>Opening Remarks</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>9:00 - 9:30 AM</td>
+        <td>IT1: Sameer Singh</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>9:30 - 10:00 AM</td>
+        <td>IT2: Ulrike von Luxburg ※</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10:00 - 10:30 AM</td>
+        <td>Coffee Break & Interactive Games</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10:30 - 11:00 AM</td>
+        <td>IT3: Su-In Lee</td>
+        <td>
+            <strong>Title:</strong> Explainable AI: where we are and how to move forward for cancer pharmacogenomics
+            <button class="toggle-button" onclick="toggleAbstract('abstract3')">Toggle Abstract</button>
+            <div id="abstract3" style="display:none;">
+                Abstract goes here...
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>11:00 - 12:00 PM</td>
+        <td>Panel Discussion</td>
+        <td><strong>Moderator:</strong> Kamalika Chaudhuri. <br><strong>Panelists:</strong> Shai Ben-David, Julius Adebayo, Sameer Singh</td>
+    </tr>
+    <tr>
+        <td>12:00 - 1:30 PM</td>
+        <td>Lunch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>1:30 - 2:00 PM</td>
+        <td>IT4: Julius Adebayo</td>
+        <td>
+            <strong>Title:</strong> Confronting the Faithfulness Challenge with Post-hoc Model Explanations. <br>
+            <button class="toggle-button" onclick="toggleAbstract('abstract4')">Toggle Abstract</button>
+            <div id="abstract4" style="display:none;">
+                Explaining the output of a trained deep neural network has emerged as a key research challenge...
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>2:00 - 3:00 PM</td>
+        <td>Poster Session 1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3:00 - 3:30 PM</td>
+        <td>Coffee Break & Interactive Games</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>3:30 - 4:00 PM</td>
+        <td>IT5: Leilani Gilpin</td>
+        <td>
+            <strong>Title:</strong> Explaining Self-Driving Cars for Accountable Autonomy. <br>
+            <button class="toggle-button" onclick="toggleAbstract('abstract5')">Toggle Abstract</button>
+            <div id="abstract5" style="display:none;">
+                Autonomous systems are prone to errors and failures without knowing why...
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>4:00 - 4:30 PM</td>
+        <td>Contributed Talks</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>4:30 - 5:30 PM</td>
+        <td>Poster Session 2</td>
+        <td></td>
+    </tr>
+</table>
 
 ※ Indicates virtual participation
 
@@ -990,4 +1078,15 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
         toggleAreaChairs.classList.toggle('active', !isVisible);
     });
 });
+
+
+  function toggleAbstract(abstractId) {
+        var abstract = document.getElementById(abstractId);
+        if (abstract.style.display === "none") {
+            abstract.style.display = "block";
+        } else {
+            abstract.style.display = "none";
+        }
+    }
+  
 </script>
