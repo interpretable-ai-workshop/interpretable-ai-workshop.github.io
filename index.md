@@ -489,10 +489,6 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
         <td>IT3: Su-In Lee</td>
         <td>
             <strong>Title:</strong> Explainable AI: where we are and how to move forward for cancer pharmacogenomics
-            <button class="toggle-button" onclick="toggleAbstract('abstract3')">Toggle Abstract</button>
-            <div id="abstract3" style="display:none;">
-                Abstract goes here...
-            </div>
         </td>
     </tr>
     <tr>
@@ -510,9 +506,10 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
         <td>IT4: Julius Adebayo</td>
         <td>
             <strong>Title:</strong> Confronting the Faithfulness Challenge with Post-hoc Model Explanations. <br>
-            <button class="toggle-button" onclick="toggleAbstract('abstract4')">Toggle Abstract</button>
+            <button class="toggle-button" onclick="toggleAbstract('abstract4')">Show Abstract</button>
             <div id="abstract4" style="display:none;">
-                Explaining the output of a trained deep neural network has emerged as a key research challenge...
+                Explaining the output of a trained deep neural network has emerged as a key research challenge. Several classes of explanation methods (feature attributions, training point ranking, post-hoc concept attribution) have been proposed to address that challenge. However, despite significant research contributions, evidence points to their ineffectiveness.
+In this talk, I'll highlight a key challenge that undercuts the effectiveness of current post hoc explanations methods: <i>faithfulness</i>. A model's explanation is faithful if the feature importance score, induced by the explanation, indicates the magnitude of the change in the model's output, when that feature is ablated. However, consistent evidence indicates that post hoc explanations of large-scale deep nets, under standard training regimes, are unfaithful. I'll close with two vignettes: the first on emerging recipes for overcoming the faithfulness challenge, and the second on an alternative paradigm that involves developing intrinsically interpretable models.
             </div>
         </td>
     </tr>
@@ -531,9 +528,22 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
         <td>IT5: Leilani Gilpin</td>
         <td>
             <strong>Title:</strong> Explaining Self-Driving Cars for Accountable Autonomy. <br>
-            <button class="toggle-button" onclick="toggleAbstract('abstract5')">Toggle Abstract</button>
+            <button class="toggle-button" onclick="toggleAbstract('abstract5')">Show Abstract</button>
             <div id="abstract5" style="display:none;">
-                Autonomous systems are prone to errors and failures without knowing why...
+                Autonomous systems are prone to errors and failures without knowing
+why. In critical domains like driving, these autonomous counterparts
+must be able to recount their actions for safety, accountability, and
+trust. An explanation: a model-dependent reason or justification for
+the decision of the autonomous agent being assessed, is a key
+component for post-mortem failure analysis, but also for
+pre-deployment verification. I will present neuro-symbolic systems
+that use neural networks and commonsense knowledge to detect and
+explain unreasonable vehicle scenarios, even if the autonomous vehicle
+has not seen that error before. In the second part of the talk, I will
+motivate the use of explanations as a testing framework for autonomous
+systems. I will conclude by discussing new challenges at the
+intersection of explainable AI and autonomy toward autonomous vehicles
+systems that are explainable by design.
             </div>
         </td>
     </tr>
