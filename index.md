@@ -492,12 +492,12 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
     <tr>
         <td class="time">10:30 - 11:00 AM</td>
         <td>IT3: Su-In Lee</td>
-        <td><strong>Title:</strong> Explainable AI: where we are and how to move forward for cancer pharmacogenomics</td>
+        <td><strong>Title:</strong> Explainable AI: where we are and how to move forward for cancer pharmacogenomics.</td>
     </tr>
     <tr>
         <td class="time">11:00 - 12:00 PM</td>
         <td>Panel Discussion</td>
-        <td><strong>Moderator:</strong> Kamalika Chaudhuri. <br><strong>Panelists:</strong> Shai Ben-David, Julius Adebayo, Sameer Singh</td>
+        <td><strong>Moderator:</strong> Kamalika Chaudhuri. <br><strong>Panelists:</strong> Shai Ben-David, Julius Adebayo, Sameer Singh.</td>
     </tr>
     <tr>
         <td class="time">12:00 - 1:30 PM</td>
