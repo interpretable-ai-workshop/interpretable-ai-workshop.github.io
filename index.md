@@ -524,7 +524,18 @@ In this talk, I'll highlight a key challenge that undercuts the effectiveness of
     <tr>
         <td class="time">3:00 - 3:30 PM</td>
         <td>Coffee Break & Interactive Games</td>
-        <td></td>
+        <td>
+          <button class="toggle-button" onclick="togglePapers('papers1')">Show Papers</button>
+          <div id="papers1" class="papers-container" style="display:none;">
+              <!-- Papers for Session 1 -->
+              <div>Paper ID: 1 - <a href="https://openreview.net/forum?id=gh69Bu7k48">"Geometric Remove-and-Retrain (GOAR): Coordinate-Invariant eXplainable AI Assessment"</a></div>
+              <div>Paper ID: 2 - <a href="https://openreview.net/forum?id=iqXixXrMKa">"How Well Do Feature-Additive Explainers Explain Feature-Additive Predictors?"</a></div>
+              <!-- ... more papers for Session 1 ... -->
+              <div>Paper ID: 37 - <a href="https://openreview.net/forum?id=JqfN8vp1ov">"Interactive Visual Feature Search"</a></div>
+              <div>Paper ID: 40 - <a href="https://openreview.net/forum?id=h5usKrxCH2">"AttributionLab: Faithfulness of Feature Attribution Under Controllable Environments"</a></div>
+              <div>Paper ID: 42 - <a href="https://openreview.net/forum?id=uU1eXPwesa">"FRUNI and FTREE synthetic knowledge graphs for evaluating explainability"</a></div>
+          </div>
+        </td>
     </tr>
     <tr>
         <td class="time">3:30 - 4:00 PM</td>
@@ -558,7 +569,18 @@ systems that are explainable by design.
     <tr>
         <td class="time">4:30 - 5:30 PM</td>
         <td>Poster Session 2</td>
-        <td></td>
+        <td>
+        <button class="toggle-button" onclick="togglePapers('papers2')">Show Papers</button>
+        <div id="papers2" class="papers-container" style="display:none;">
+            <!-- Papers for Session 2 -->
+            <div>Paper ID: 44 - <a href="https://openreview.net/forum?id=9yXEqVKacK">"GLANCE: Global to Local Architecture-Neutral Concept-based Explanations"</a></div>
+            <div>Paper ID: 45 - <a href="https://openreview.net/forum?id=ThwzmgEwm5">"ReLax: An Efficient and Scalable Recourse Explanation Benchmarking Library using JAX"</a></div>
+            <!-- ... more papers for Session 2 ... -->
+            <div>Paper ID: 85 - <a href="https://openreview.net/forum?id=ag1CpSUjPS">"On the Relationship Between Explanation and Prediction: A Causal View"</a></div>
+            <div>Paper ID: 86 - <a href="https://openreview.net/forum?id=bGsW1wSIxQ">"Interactive Model Correction with Natural Language"</a></div>
+        </div>
+        </td>
+
     </tr>
 </table>
 
@@ -1101,5 +1123,9 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
             abstract.style.display = "none";
         }
     }
-  
+
+  function togglePapers(papersId) {
+    var papersDiv = document.getElementById(papersId);
+    papersDiv.style.display = (papersDiv.style.display === "none") ? "block" : "none";
+}
 </script>
