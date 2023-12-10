@@ -519,22 +519,46 @@ In this talk, I'll highlight a key challenge that undercuts the effectiveness of
     <tr>
         <td class="time">2:00 - 3:00 PM</td>
         <td>Poster Session 1</td>
-        <td></td>
+        <td>
+          <button class="toggle-button" onclick="togglePapers('papers1')">Show Papers</button>
+          <div id="papers1" class="papers-container" style="display:none;">
+            <div>Paper ID: 1 - <a href="https://openreview.net/forum?id=gh69Bu7k48">"Geometric Remove-and-Retrain (GOAR): Coordinate-Invariant eXplainable AI Assessment"</a></div>
+            <div>Paper ID: 2 - <a href="https://openreview.net/forum?id=iqXixXrMKa">"How Well Do Feature-Additive Explainers Explain Feature-Additive Predictors?"</a></div>
+            <div>Paper ID: 4 - <a href="https://openreview.net/forum?id=WyBAWwpqTY">"Scale Alone Does not Improve Mechanistic Interpretability in Vision Models"</a></div>
+            <div>Paper ID: 5 <b>(DEMO)</b> - <a href="https://openreview.net/forum?id=fPnpjEhyxv">"Utilizing Explainability Techniques for Reinforcement Learning Model Assurance"</a></div>
+            <div>Paper ID: 8 - <a href="https://openreview.net/forum?id=w6Qnoy2RXG">"GInX-Eval: Towards In-Distribution Evaluation of Graph Neural Network Explanations"</a></div>
+            <div>Paper ID: 9 - <a href="https://openreview.net/forum?id=d7FsEtYjvN">"Towards the next generation explainable AI that promotes AI-human mutual understanding"</a></div>
+            <div>Paper ID: 10 - <a href="https://openreview.net/forum?id=112o4j4VCY">"Assessment of the Reliablity of a Model's Decision by Generalizing Attribution to the Wavelet Domain"</a></div>
+            <div>Paper ID: 11 - <a href="https://openreview.net/forum?id=3oysFpd6Pq">"Influence Based Approaches to Algorithmic Fairness: A Closer Look"</a></div>
+            <div>Paper ID: 12 <b>(DEMO)</b> - <a href="https://openreview.net/forum?id=81FSrQxgEv">"ExpLIMEable: An exploratory framework for LIME"</a></div>
+            <div>Paper ID: 13 - <a href="https://openreview.net/forum?id=xrEpp63kz7">"Understanding Scalable Perovskite Solar Cell Manufacturing with Explainable AI"</a></div>
+            <div>Paper ID: 14 - <a href="https://openreview.net/forum?id=ewagDhIy8Y">"Detecting Spurious Correlations via Robust Visual Concepts in Real and AI-Generated Image Classification"</a></div>
+            <div>Paper ID: 16 - <a href="https://openreview.net/forum?id=3BX9tM03GT">"Explaining black box text modules in natural language with language models"</a></div>
+            <div>Paper ID: 18 - <a href="https://openreview.net/forum?id=lERHoohuX5">"Lessons from Usable ML Deployments and Application to Wind Turbine Monitoring"</a></div>
+            <div>Paper ID: 21 - <a href="https://openreview.net/forum?id=FSmlu6xrUt">"Beyond Concept Bottleneck Models: How to Make Black Boxes Intervenable?"</a></div>
+            <div>Paper ID: 24 - <a href="https://openreview.net/forum?id=yCQC8hLyZj">"Emergence of Segmentation with Minimalistic White-Box Transformers"</a></div>
+            <div>Paper ID: 25 - <a href="https://openreview.net/forum?id=CKPGhnMADQ">"Optimising Human-AI Collaboration by Learning Convincing Explanations"</a></div>
+            <div>Paper ID: 26 - <a href="https://openreview.net/forum?id=9i4AcMYE6o">"Inherent Inconsistencies of Feature Importance"</a></div>
+            <div>Paper ID: 27 - <a href="https://openreview.net/forum?id=2CfzKrx1vr">"Use Perturbations when Learning from Explanations"</a></div>
+            <div>Paper ID: 28 - <a href="https://openreview.net/forum?id=DkyNNQPmSj">"Estimation of Concept Explanations Should be Uncertainty Aware"</a></div>
+            <div>Paper ID: 29 - <a href="https://openreview.net/forum?id=bhvlGMbONN">"Are VideoQA Models Truly Multimodal?"</a></div>
+            <div>Paper ID: 30 - <a href="https://openreview.net/forum?id=cBXiaGUcK8">"Extracting human interpretable structure-property relationships in chemistry using XAI and large language models"</a></div>
+            <div>Paper ID: 31 - <a href="https://openreview.net/forum?id=nVGuWh4S2G">"Towards Explanatory Model Monitoring"</a></div>
+            <div>Paper ID: 32 - <a href="https://openreview.net/forum?id=hkfsR3HMuj">"Diagnosing Transformers: Illuminating Feature Spaces for Clinical Decision-Making"</a></div>
+            <div>Paper ID: 33 - <a href="https://openreview.net/forum?id=se4ojQqjB5">"Explainable AI in Music Performance: Case Studies from Live Coding and Sound Spatialisation"</a></div>
+            <div>Paper ID: 34 - <a href="https://openreview.net/forum?id=YVQSGT6ME0">"COMET: Neural Cost Model Explanation Framework"</a></div>
+            <div>Paper ID: 35 - <a href="https://openreview.net/forum?id=Zbt9z0a95l">"Piecewise Linear Parametrization of Policies: Towards Interpretable Deep Reinforcement Learning"</a></div>
+            <div>Paper ID: 36 <b>(DEMO)</b> - <a href="https://openreview.net/forum?id=jnNixRhhF8">"DeepDecipher: Accessing and Investigating Neuron Activation in Large Language Models"</a></div>
+            <div>Paper ID: 37 <b>(DEMO)</b> - <a href="https://openreview.net/forum?id=JqfN8vp1ov">"Interactive Visual Feature Search"</a></div>
+            <div>Paper ID: 40 - <a href="https://openreview.net/forum?id=h5usKrxCH2">"AttributionLab: Faithfulness of Feature Attribution Under Controllable Environments"</a></div>
+            <div>Paper ID: 42 - <a href="https://openreview.net/forum?id=uU1eXPwesa">"FRUNI and FTREE synthetic knowledge graphs for evaluating explainability"</a></div>
+        </div>
+        </td>
     </tr>
     <tr>
         <td class="time">3:00 - 3:30 PM</td>
         <td>Coffee Break & Interactive Games</td>
         <td>
-          <button class="toggle-button" onclick="togglePapers('papers1')">Show Papers</button>
-          <div id="papers1" class="papers-container" style="display:none;">
-              <!-- Papers for Session 1 -->
-              <div>Paper ID: 1 - <a href="https://openreview.net/forum?id=gh69Bu7k48">"Geometric Remove-and-Retrain (GOAR): Coordinate-Invariant eXplainable AI Assessment"</a></div>
-              <div>Paper ID: 2 - <a href="https://openreview.net/forum?id=iqXixXrMKa">"How Well Do Feature-Additive Explainers Explain Feature-Additive Predictors?"</a></div>
-              <!-- ... more papers for Session 1 ... -->
-              <div>Paper ID: 37 - <a href="https://openreview.net/forum?id=JqfN8vp1ov">"Interactive Visual Feature Search"</a></div>
-              <div>Paper ID: 40 - <a href="https://openreview.net/forum?id=h5usKrxCH2">"AttributionLab: Faithfulness of Feature Attribution Under Controllable Environments"</a></div>
-              <div>Paper ID: 42 - <a href="https://openreview.net/forum?id=uU1eXPwesa">"FRUNI and FTREE synthetic knowledge graphs for evaluating explainability"</a></div>
-          </div>
         </td>
     </tr>
     <tr>
@@ -572,10 +596,33 @@ systems that are explainable by design.
         <td>
         <button class="toggle-button" onclick="togglePapers('papers2')">Show Papers</button>
         <div id="papers2" class="papers-container" style="display:none;">
-            <!-- Papers for Session 2 -->
             <div>Paper ID: 44 - <a href="https://openreview.net/forum?id=9yXEqVKacK">"GLANCE: Global to Local Architecture-Neutral Concept-based Explanations"</a></div>
             <div>Paper ID: 45 - <a href="https://openreview.net/forum?id=ThwzmgEwm5">"ReLax: An Efficient and Scalable Recourse Explanation Benchmarking Library using JAX"</a></div>
-            <!-- ... more papers for Session 2 ... -->
+            <div>Paper ID: 46 - <a href="https://openreview.net/forum?id=SCcOu4hJ97">"Caution to the Exemplars: On the Intriguing Effects of Example Choice on Human Trust in XAI"</a></div>
+            <div>Paper ID: 47 - <a href="https://openreview.net/forum?id=iMR4ukkUFU">"A Simple Scoring Function to Fool SHAP: Stealing from the One Above"</a></div>
+            <div>Paper ID: 48 <b>(DEMO)</b> - <a href="https://openreview.net/forum?id=r1CV7mhvdS">"Transparent Anomaly Detection via Concept-based Explanations"</a></div>
+            <div>Paper ID: 49 - <a href="https://openreview.net/forum?id=KPtW2SU0my">"The Disagreement Problem in Faithfulness Metrics"</a></div>
+            <div>Paper ID: 50 - <a href="https://openreview.net/forum?id=ANrzX5KFAG">"Diffusion-Guided Counterfactual Generation for Model Explainability"</a></div>
+            <div>Paper ID: 52 - <a href="https://openreview.net/forum?id=x9H6lNez5b">"Exploring Practitioner Perspectives On Training Data Attribution Explanations"</a></div>
+            <div>Paper ID: 53 - <a href="https://openreview.net/forum?id=8BR8EaWNTZ">"On Evaluating Explanation Utility for Human-AI Decision-Making in NLP"</a></div>
+            <div>Paper ID: 54 <b>(DEMO)</b> - <a href="https://openreview.net/forum?id=GL7RDOru1k">"Empowering Domain Experts to Detect Social Bias in Generative AI with User-Friendly Interfaces"</a></div>
+            <div>Paper ID: 55 - <a href="https://openreview.net/forum?id=xuT2SDuJX6">"A Critical Survey on Fairness Benefits of XAI"</a></div>
+            <div>Paper ID: 56 - <a href="https://openreview.net/forum?id=uVAiiHFH0L">"Stability Guarantees for Feature Attributions with Multiplicative Smoothing"</a></div>
+            <div>Paper ID: 57 - <a href="https://openreview.net/forum?id=tiLZkab8TP">"On the Consistency of GNN Explainability Methods"</a></div>
+            <div>Paper ID: 59 - <a href="https://openreview.net/forum?id=OIbmpF4ZR9">"Explaining Tree Model Decisions in Natural Language for Network Intrusion Detection"</a></div>
+            <div>Paper ID: 63 - <a href="https://openreview.net/forum?id=F6RPYDUIZr">"Do Concept Bottleneck Models Obey Locality?"</a></div>
+            <div>Paper ID: 64 - <a href="https://openreview.net/forum?id=vVpefYmnsG">"Sanity Checks Revisited: An Exploration to Repair the Model Parameter Randomisation Test"</a></div>
+            <div>Paper ID: 68 - <a href="https://openreview.net/forum?id=h6OT5pzrGc">"Visual Topics via Visual Vocabularies"</a></div>
+            <div>Paper ID: 70 - <a href="https://openreview.net/forum?id=joaWGug1CU">"Explainable Reinforcement Learning for Alzheimer’s Disease Progression Prediction."</a></div>
+            <div>Paper ID: 71 - <a href="https://openreview.net/forum?id=wNhcShUyAf">"Explaining high-dimensional text classifiers"</a></div>
+            <div>Paper ID: 72 - <a href="https://openreview.net/forum?id=wFJoNkiASU">"Sum-of-Parts Models: Faithful Attributions for Groups of Features"</a></div>
+            <div>Paper ID: 74 - <a href="https://openreview.net/forum?id=hpuOA3nkVW">"Explaining Longitudinal Clinical Outcomes using Domain-Knowledge driven Intermediate Concepts"</a></div>
+            <div>Paper ID: 75 - <a href="https://openreview.net/forum?id=lJ63ABWs8V">"Rectifying Group Irregularities in Explanations for Distribution Shift"</a></div>
+            <div>Paper ID: 76 - <a href="https://openreview.net/forum?id=mAzhEP9jPv">"Are Large Language Models Post Hoc Explainers?"</a></div>
+            <div>Paper ID: 78 - <a href="https://openreview.net/forum?id=N5RmOXuTDo">"ObEy: Quantifiable Object-based Explainability without Ground-Truth Annotations"</a></div>
+            <div>Paper ID: 79 - <a href="https://openreview.net/forum?id=Liw9vOCxe2">"Cost-aware counterfactuals for black box explanations"</a></div>
+            <div>Paper ID: 83 - <a href="https://openreview.net/forum?id=qt9yTS7TKc">"Robust Recourse for Binary Allocation Problems"</a></div>
+            <div>Paper ID: 84 <b>(DEMO)</b> - <a href="https://openreview.net/forum?id=QPqL9xsYOf">"Policy graphs in action: explaining single- and multi-agent behaviour using predicates"</a></div>
             <div>Paper ID: 85 - <a href="https://openreview.net/forum?id=ag1CpSUjPS">"On the Relationship Between Explanation and Prediction: A Causal View"</a></div>
             <div>Paper ID: 86 - <a href="https://openreview.net/forum?id=bGsW1wSIxQ">"Interactive Model Correction with Natural Language"</a></div>
         </div>
