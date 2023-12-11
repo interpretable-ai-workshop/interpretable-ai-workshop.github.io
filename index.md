@@ -482,7 +482,19 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
     <tr>
         <td class="time">9:30 - 10:00 AM</td>
         <td>IT2: Ulrike von Luxburg ※</td>
-        <td></td>
+        <td>
+          <strong>Title:</strong> Theoretical guarantees for explainable AI? <br>
+            <button class="toggle-button" onclick="toggleAbstract('abstract_ulrike')">Show Abstract</button>
+            <div id="abstract_ulrike" style="display:none;">
+               Explainable machine learning is often discussed as a tool to
+increase trust in machine learning systems. In my opinion,
+this can only work if the explanations are trustworthy
+themselves: we should be able to prove strong guarantees on
+the explanations provided. In my presentation I will argue
+that strong explanations in interesting scenarios might be
+difficult to achieve.
+            </div>
+        </td>
     </tr>
     <tr>
         <td class="time">10:00 - 10:30 AM</td>
