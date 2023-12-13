@@ -509,7 +509,7 @@ difficult to achieve.
     <tr>
         <td class="time">11:00 - 12:00 PM</td>
         <td>Panel Discussion</td>
-        <td><strong>Moderator:</strong> Kamalika Chaudhuri. <br><strong>Panelists:</strong> Shai Ben-David, Julius Adebayo, Sameer Singh, Su-In Lee.</td>
+        <td><strong>Moderator:</strong> Kamalika Chaudhuri. <br><strong>Panelists:</strong> Shai Ben-David, Julius Adebayo, Sameer Singh, Su-In Lee, Leilani Gilpin.</td>
     </tr>
     <tr>
         <td class="time">12:00 - 1:30 PM</td>
