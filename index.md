@@ -477,7 +477,13 @@ Camera ready deadline -  November 22 (23:59 AoE), 2023
     <tr>
         <td class="time">9:00 - 9:30 AM</td>
         <td>IT1: Sameer Singh</td>
-        <td></td>
+        <td>
+          <strong>Title:</strong> Explanations: Let's talk about them! <br>
+          <button class="toggle-button" onclick="toggleAbstract('abstract_sameer')">Show Abstract</button>
+            <div id="abstract_sameer" style="display:none;">
+                Posthoc explanations aim to give end-users insights and understanding into the workings of complex machine learning models. Despite their potential, posthoc explanations have found limited use in real-world applications and, for some evaluation setups, fail to help end-users achieve their tasks effectively. In a survey we carried out with domain experts to understand why they do not use explanation techniques, they pointed out that explanations are static and inflexible, making it challenging to explore the model behavior intuitively. Based on these insights, we propose a shift towards natural language conversations as a promising avenue for future work for explainability: they are easy to use, flexible, and interactive. We introduce an initial version of such a system, TalkToModel, that uses LLMs to enable open-ended natural language conversations for machine learning explainability. In our evaluation, TalkToModel can accurately identify diverse user intents and support various user queries. Further, users strongly prefer TalkToModel over existing explainability systems, demonstrating the effectiveness of natural language interfaces in supporting model understanding. (This is work with Dylan Slack, Satya Krishna, Hima Lakkaraju, Chenhao Tan, and Yuxin Chen)
+            </div>
+        </td>
     </tr>
     <tr>
         <td class="time">9:30 - 10:00 AM</td>
@@ -504,7 +510,7 @@ difficult to achieve.
     <tr>
         <td class="time">10:30 - 11:00 AM</td>
         <td>IT3: Su-In Lee</td>
-        <td><strong>Title:</strong> Explainable AI: where we are and how to move forward for cancer pharmacogenomics.</td>
+        <td><strong>Title:</strong> Explainable AI, where we are and how to move forward for health AI. </td>
     </tr>
     <tr>
         <td class="time">11:00 - 12:00 PM</td>
