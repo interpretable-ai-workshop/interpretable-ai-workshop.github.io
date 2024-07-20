@@ -535,7 +535,6 @@ To be announced
 # Contact information
 
 - Email: interpretable.ai.neurips.workshop [AT] gmail.com
-- Twitter: [@XAI_in_Action](https://twitter.com/XAI_in_Action)
 
 
 ## Sponsors
