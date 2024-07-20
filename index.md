@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "XAI in Action: Past, Present, and Future Applications"
-excerpt: NeurIPS 2023 Workshop
+title: "Interpretable AI: Past, Present and Future"
+excerpt: NeurIPS 2024 Workshop
 menu: true
 show_info: true
 titles:
@@ -16,7 +16,7 @@ article_header:
   theme: dark
   align: left
   actions:
-    - text: December 16, 2023 | New Orleans, USA 
+    - text: December 14 or December 15, 2024 | Vancouver, Canada
   background_image:
     src: /assets/images/Slide6.png
 #    gradient: 'linear-gradient(135deg, rgba(52, 140, 96, 0.4), rgba(136, 73, 107, 0.4))'
@@ -1127,7 +1127,7 @@ Friday, 22 July, 2022. All times are in Eastern Daylight Time (EDT). Current tim
 
 # Contact information
 
-- Email: appliedXAI.neurips2023 [AT] gmail.com
+- Email: interpretable.ai.neurips.workshop [AT] gmail.com
 - Twitter: [@XAI_in_Action](https://twitter.com/XAI_in_Action)
 
 
