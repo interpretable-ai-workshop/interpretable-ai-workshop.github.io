@@ -96,7 +96,7 @@ article_header:
 ul.menu li::after {
     color: black;
     text-shadow: -20px -8px 17px rgb(0 0 0 / 90%);
-    content:"December 16, 2023 | New Orleans, USA";
+    content:"December 14 or December 15, 2024 | Vancouver, Canada";
 }
 
 ul.menu a {
