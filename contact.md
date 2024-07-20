@@ -18,5 +18,5 @@ title:
 
 # Contact information
 
-- Email: appliedXAI.neurips2023 [AT] gmail.com
+- Email: interpretable.ai.neurips.workshop [AT] gmail.com
 - Twitter: [@XAI_in_Action](https://twitter.com/XAI_in_Action)
