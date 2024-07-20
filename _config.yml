@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: XAI in Action Workshop
+title: Interpretable AI Workshop
 email:
 description: >- # this means to ignore newlines until "baseurl:"
 #   Learn-to-Race Challenges in Autononous Driving
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://xai-in-action.github.io/"
+url: "https://interpretable-ai-workshop.github.io/"
 twitter_username: XAI_in_Action
-github_username: xai-in-action
+github_username: interpretable-ai-workshop
 
 # Build settings
 #theme: jekyll-text-theme
