@@ -299,12 +299,21 @@ table {
 
 ## About
 
-As AI models continue to advance in complexity and sophistication, understanding how they work and make decisions is becoming increasingly challenging. This challenge has prompted a surge of research into developing methods and tools that can enhance the transparency and explainability of these models. Nowadays, there are many such methods available, to the point that their specific applications have become somewhat unclear.
+Interpretability in machine learning revolves around constructing models that are _inherently_ transparent and insightful for human end users. As the scale of machine learning models increases and the range of applications expands across diverse fields, the need for interpretable models is more crucial than ever. The significance of interpretability becomes particularly evident in scenarios where decisions carry substantial real-world consequences, influencing human lives in areas such as healthcare, criminal justice, and lending, where understanding the machine learning process is essential. Interpretability can aid in auditing, verification, debugging, bias detection, ensure safety, and align models more effectively with human intentions. Post-hoc explanations may be unfaithful and thereby unreliable in some applications, which is why it is essential to design inherently interpretable models that provide truthful and complete explanations by default. Motivated by this, researchers have studied interpretability, resulting in a spectrum of distinct approaches.
 
-This workshop will specifically explore the diverse applications of explainable artificial intelligence (XAI) methods in various areas. The areas will include, but not limited to XAI in Healthcare, Natural Science, Auditing, Fairness, Natural Language Processing and Law. By examining the use of XAI in these fields, the workshop will provide attendees with insights into the latest trends and challenges within the different domains. 
+On one end of the spectrum, classical interpretability methods designed for small-scale and tabular datasets often use rule-based models (e.g., decision trees, risk scores) and linear models (e.g., sparse linear models, generalized linear models) that are deemed inherently transparent. On the other end, modern interpretability methods for large-scale foundation models involve incorporating interpretable components into deep neural networks while not being fully interpretable, spawning novel research areas such as mechanistic interpretability.
 
-The workshop discussions aim to delve into the latest advancements in applied XAI and devise ways to further progress the field. The objective is to foster an open and productive dialogue that enhances our understanding of the potential opportunities and constraints of XAI and its impact across different domains. The purpose of this discourse is to identify strategies that can extend the frontiers of applied XAI and make notable progress in this rapidly evolving area. Specifically, the workshop aims to:
+In the workshop we aim to connect researchers working on different sub-fields of _interpretability_, such as rule-based interpretability, attribution-based interpretability, mechanistic interpretability, applied interpretable ML for various domains (e.g. healthcare, earth, material sciences, physics), and AI regulation. We will pose several key questions to foster discussion and insights:
 
+- What interpretability approaches are best suited for large-scale models and foundation models? 
+- How to incorporate domain knowledge and expertise when designing interpretable models?
+- How can we assess the quality and reliability of interpretable models?
+- How to choose between different interpretable models?
+- When is it appropriate to use interpretable models or post-hoc explainability methods
+- What are the inherent limitations of interpretability, and how can we address them?
+- What are the diverse applications of interpretability across different domains?
+- What will the future landscape of interpretability entail?
+- Is there a legal need for interpretable models, and when should they be enforced?
 
 ### Topics covered
 
