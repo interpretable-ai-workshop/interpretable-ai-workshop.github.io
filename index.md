@@ -18,7 +18,7 @@ article_header:
   actions:
     - text: December 14 or December 15, 2024 | Vancouver, Canada
   background_image:
-    src: /assets/images/Slide6.png
+    src: /assets/images/home_button.png
 #    gradient: 'linear-gradient(135deg, rgba(52, 140, 96, 0.4), rgba(136, 73, 107, 0.4))'
 ---
 
