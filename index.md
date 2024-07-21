@@ -338,14 +338,14 @@ To be announced
 
 <div style="display:inline; width:900px; vertical-align: top;">
 
-<a href="https://juliusadebayo.com/" target="_blank" class="speaker_profile">
+<a href="https://users.cs.duke.edu/~cynthia/" target="_blank" class="speaker_profile">
 <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/AXAI_workshop_julius.png" alt="Julius Adebayo">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/Cynthia.png" alt="Cynthia Rudin">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Julius Adebayo</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Postdoctoral Fellow<br>Prescient Design</p>
+<p style="margin:0 0 0 10px;">Cynthia Rudin</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Distinguished Professor<br>Duke University</p>
 </div>
 </div>
 </a>
@@ -353,54 +353,43 @@ To be announced
 
 
 
-<a href="https://people.ucsc.edu/~lgilpin/" target="_blank" class="speaker_profile">
+<a href="https://www.microsoft.com/en-us/research/people/rcaruana/" target="_blank" class="speaker_profile">
 <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/AXAI_workshop_leilani.png" alt="Leilani Gilpin">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/Rich.png" alt="Rich Caruana">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Leilani Gilpin</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor<br>UC Santa Cruz</p>
+<p style="margin:0 0 0 10px;">Rich Caruana</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Senior Principal Researcher<br>Microsoft Research</p>
 </div>
 </div>
 </a>
 
-<a href="https://aims.cs.washington.edu/su-in-lee" target="_blank" class="speaker_profile">
+<a href="https://tongwang-ai.github.io/" target="_blank" class="speaker_profile">
 <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="/assets/images/speakers/AXAI_workshop_Lee.png" alt="Su-In Lee" />
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="/assets/images/speakers/Tong.png" alt="Tong Wang" />
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Su-In Lee</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Professor<br />Paul G. Allen School of Computer Science & Engineering</p>
+<p style="margin:0 0 0 10px;">Tong Wang</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor of Marketing <br />Yale University</p>
 </div>
 </div>
 </a>
 
-<a href="https://www.tml.cs.uni-tuebingen.de/team/luxburg/" target="_blank" class="speaker_profile">
+<a href="https://www.neelnanda.io/about" target="_blank" class="speaker_profile">
 <div style="display:inline-block; width:270px; margin:20px 0 0 0;">
 <div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/AXAI_workshop_ulrike.png" alt="Ulrike von Luxburg">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/Neel.png" alt="Neel Nanda">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Ulrike von Luxburg</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Professor<br>University of Tübingen </p>
+<p style="margin:0 0 0 10px;">Neel Nanda</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Lead of the <br>Google DeepMind Mechanistic Interpretability</p>
 </div>
 </div>
 </a>
 
 
-<a href="https://sameersingh.org/" target="_blank" class="speaker_profile">
-<div style="display:inline-block; width:270px; margin:20px 0 0 0;">
-<div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/AXAI_workshop_sameer.png" alt="Sameer Singh">
-</div>
-<div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Sameer Singh</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Associate Professor<br>University of California, Irvine</p>
-</div>
-</div>
-</a>
 </div>
 
 
@@ -469,6 +458,18 @@ To be announced
 </div>
 </a>
 
+<a href="https://sites.google.com/view/vinayakabrol/home" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/vabrol.png" alt="Zico Kolter">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Vinayak Abrol</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at at IIIT Delhi, his research focuses on the design and analysis of numerical algorithms for information-inspired applications</p>
+</div>
+</div>
+</a>
+
 <a href="https://scholar.google.com/citations?user=gzRuY4cAAAAJ&hl=en" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
@@ -477,31 +478,6 @@ To be announced
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Valentyn Boreiko</p>
 <p style="margin:0 0 0 10px; font-size:10px;">PhD student at the University of Tübingen and a sabbatical student at Bosch Research, his research focuses on development of interpretability technique for vision classifiers</p>
-</div>
-</div>
-</a>
-
-<a href="https://himalakkaraju.github.io" target="_blank" class="organiser_profile">
-<div style="display:inline-block; width:270px;">
-<div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_hima.png" alt="Hima Lakkaraju">
-</div>
-<div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Hima Lakkaraju</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at Harvard University who focuses on the algorithmic and applied aspects of explainability, fairness, robustness, and privacy of machine learning models</p>
-</div>
-</div>
-</a>
-
-
-<a href="http://zicokolter.com" target="_blank" class="organiser_profile">
-<div style="display:inline-block; width:270px;">
-<div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_zico.png" alt="Zico Kolter">
-</div>
-<div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Zico Kolter</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Aassociate Professor at CMU, and chief scientist at Bosch Research, his work spans the intersection of machine learning and optimization</p>
 </div>
 </div>
 </a>
@@ -526,6 +502,18 @@ To be announced
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Kamalika Chaudhuri</p>
 <p style="margin:0 0 0 10px; font-size:10px;">Associate Professor at UCSD and a Research Scientist at Meta AI, her research interests lie in the foundations of trustworthy machine learning</p>
+</div>
+</div>
+</a>
+
+<a href="https://himalakkaraju.github.io" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/AXAI_workshop_hima.png" alt="Hima Lakkaraju">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Hima Lakkaraju</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at Harvard University who focuses on the algorithmic and applied aspects of explainability, fairness, robustness, and privacy of machine learning models</p>
 </div>
 </div>
 </a>
