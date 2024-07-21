@@ -384,7 +384,7 @@ To be announced
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Neel Nanda</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Lead of the <br>Google DeepMind Mechanistic Interpretability</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Lead of the <br>Google DeepMind Mechanistic Interpretability team</p>
 </div>
 </div>
 </a>
