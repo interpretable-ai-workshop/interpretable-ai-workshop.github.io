@@ -321,9 +321,7 @@ Note: all deadlines are in <b>Anywhere on Earth (AoE)</b>.
 
 ### Paper Submission
 
-Submission deadline - ~~September 22~~ October 2 (23:59 AoE), 2023 \
-Author notification - ~~October 20~~ October 27 (23:59 AoE), 2023 \
-Camera ready deadline -  November 22 (23:59 AoE), 2023
+To be announced
 
 ### Workshop Event
 
