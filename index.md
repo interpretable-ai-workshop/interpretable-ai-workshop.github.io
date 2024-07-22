@@ -77,7 +77,6 @@ article_header:
 .article__header h1 {
     display: inline;
     font-family: sans-serif;
-    font-size: 2.5em;
     letter-spacing: -0.04em;
     line-height: 0.9;
     color: lightyellow;
