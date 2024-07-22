@@ -546,6 +546,13 @@ To be announced
     <img src="{{ site.baseurl }}/assets/images/sponsors/Google_2015_logo.svg.png" alt="Google Logo">
 </div>
 
+## Organizers' Institutions
+
+<div class="sponsor-logos">
+    <img src="{{ site.baseurl }}/assets/images/sponsors/bosch_logo.png" alt="Bosch Logo">
+    <img src="{{ site.baseurl }}/assets/images/sponsors/ebay_logo.png" alt="eBay Logo">
+</div>
+
 <script>
  document.addEventListener('DOMContentLoaded', function() {
 
