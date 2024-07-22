@@ -551,6 +551,12 @@ To be announced
 <div class="sponsor-logos">
     <img src="{{ site.baseurl }}/assets/images/sponsors/bosch_logo.png" alt="Bosch Logo">
     <img src="{{ site.baseurl }}/assets/images/sponsors/ebay_logo.png" alt="eBay Logo">
+    <img src="{{ site.baseurl }}/assets/images/sponsors/ucsd_logo.png" alt="UCSD Logo">
+    <img src="{{ site.baseurl }}/assets/images/sponsors/harvard_logo.png" alt="Harvard Logo">
+    <img src="{{ site.baseurl }}/assets/images/sponsors/microsoft_logo.png" alt="Microsoft Logo">
+    <img src="{{ site.baseurl }}/assets/images/sponsors/tubingen_logo.png" alt="Tübingen Logo">
+    <img src="{{ site.baseurl }}/assets/images/sponsors/infosys_logo.jpg" alt="Infosys Logo">
+    <img src="{{ site.baseurl }}/assets/images/sponsors/huji_logo.jpg" alt="HUJI Logo">
 </div>
 
 <script>
