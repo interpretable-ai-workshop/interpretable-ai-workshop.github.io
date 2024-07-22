@@ -465,7 +465,7 @@ To be announced
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Vinayak Abrol</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at at IIIT Delhi, his research focuses on the design and analysis of numerical algorithms for information-inspired applications</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at IIIT Delhi, his research focuses on the design and analysis of numerical algorithms for information-inspired applications</p>
 </div>
 </div>
 </a>
@@ -477,7 +477,7 @@ To be announced
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Valentyn Boreiko</p>
-<p style="margin:0 0 0 10px; font-size:10px;">PhD student at the University of Tübingen and a sabbatical student at Bosch Research, his research focuses on development of interpretability technique for vision classifiers</p>
+<p style="margin:0 0 0 10px; font-size:10px;">PhD student at the University of Tübingen, his research focuses on development of interpretability technique for vision classifiers</p>
 </div>
 </div>
 </a>
