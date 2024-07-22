@@ -482,6 +482,20 @@ To be announced
 </div>
 </a>
 
+
+<a href="https://www.linkedin.com/in/bitya-neuhof/?originalSubdomain=il" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/Bitya.png" alt="Bitya Neuhof">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Bitya Neuhof</p>
+<p style="margin:0 0 0 10px; font-size:10px;">PhD student at the Hebrew University of Jerusalem, exploring the stability and reliability of explainable AI methods</p>
+</div>
+</div>
+</a>
+
+
 <a href="https://scholar.google.co.il/citations?user=zhQaFaMAAAAJ&hl=en" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
