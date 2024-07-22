@@ -70,7 +70,6 @@ article_header:
 
 .article__header h1 {
     display: inline;
-    letter-spacing: -0.04em;
     line-height: 0.9;
     color: lightyellow;
     text-shadow: -20px -8px 17px rgb(0 0 0 / 90%);
