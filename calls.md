@@ -31,4 +31,4 @@ To be announced
 
 ## Contact
 
-appliedXAI.neurips2023 [AT] gmail.com
+interpretable.ai.neurips.workshop [AT] gmail.com
