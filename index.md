@@ -384,7 +384,7 @@ To be announced
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Neel Nanda</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Lead of the <br>Google DeepMind Mechanistic Interpretability team</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Lead of <br>Google DeepMind Mechanistic Interpretability</p>
 </div>
 </div>
 </a>
@@ -458,18 +458,6 @@ To be announced
 </div>
 </a>
 
-<a href="https://sites.google.com/view/vinayakabrol/home" target="_blank" class="organiser_profile">
-<div style="display:inline-block; width:270px;">
-<div style="display:inline-block; width:101px;">
-<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/vabrol.png" alt="Zico Kolter">
-</div>
-<div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Vinayak Abrol</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at IIIT Delhi, his research focuses on the design and analysis of numerical algorithms for information-inspired applications</p>
-</div>
-</div>
-</a>
-
 <a href="https://scholar.google.com/citations?user=gzRuY4cAAAAJ&hl=en" target="_blank" class="organiser_profile">
 <div style="display:inline-block; width:270px;">
 <div style="display:inline-block; width:101px;">
@@ -478,6 +466,18 @@ To be announced
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Valentyn Boreiko</p>
 <p style="margin:0 0 0 10px; font-size:10px;">PhD student at the University of Tübingen, his research focuses on development of interpretability technique for vision classifiers</p>
+</div>
+</div>
+</a>
+
+<a href="https://sites.google.com/view/vinayakabrol/home" target="_blank" class="organiser_profile">
+<div style="display:inline-block; width:270px;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/organizers/vabrol.png" alt="Zico Kolter">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Vinayak Abrol</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor at IIIT Delhi, his research focuses on the design and analysis of numerical algorithms for information-inspired applications</p>
 </div>
 </div>
 </a>
