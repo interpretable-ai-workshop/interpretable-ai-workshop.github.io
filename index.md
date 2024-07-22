@@ -543,7 +543,6 @@ To be announced
 ## Sponsors
 
 <div class="sponsor-logos">
-    <img src="{{ site.baseurl }}/assets/images/sponsors/bosch_logo.png" alt="Bosch Logo">
     <img src="{{ site.baseurl }}/assets/images/sponsors/Google_2015_logo.svg.png" alt="Google Logo">
 </div>
 
