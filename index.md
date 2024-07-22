@@ -64,12 +64,6 @@ article_header:
     padding:10px;
 }
 
-.article__header--overlay .overlay {
-    min-height: 36rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
 .article__header {
     margin: 0 0 0 0;
 }
