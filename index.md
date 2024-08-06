@@ -311,10 +311,10 @@ In the workshop we aim to connect researchers working on different sub-fields of
 Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
 
 ### Paper Submission
-- Submission open on OpenReview: August 8, 2024
-- Submission Deadline: August 29, 2024
-- Notification of Acceptance: September 29, 2024
-- Camera-ready Deadline: November 14, 2024
+- Submission open on OpenReview: August 9, 2024
+- Submission Deadline: August 30, 2024
+- Notification of Acceptance: October 9, 2024
+- Camera-ready Deadline: November 15, 2024
 
 ### Workshop Event
 
