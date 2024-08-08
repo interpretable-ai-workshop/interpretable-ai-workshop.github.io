@@ -30,7 +30,7 @@ We welcome submissions addressing, but not limited to, the following topics:
 - Exploration of ethical and legal needs for enforcing interpretable models in decision-making processes
 
 ## Submission Guidelines
-Authors are invited to submit up to **6 pages** with unlimited references and supplementary materials. Submissions should be **anonymized** and should use the official [**template**](https://media.neurips.cc/Conferences/NeurIPS2024/Styles.zip). Please submit your papers through the official **openreview portal**.
+Authors are invited to submit up to **6 pages** with unlimited references and supplementary materials. Submissions should be **anonymized** and should use the official [**template**](https://www.overleaf.com/read/vjqdmrbfmppm#f22612). Please submit your papers through the official [**openreview portal**](https://openreview.net/group?id=NeurIPS.cc/2024/Workshop/IAI_Workshop).
 
 We also invite **position papers** that provide a commentary on the current state of interpretable machine learning or its usage in practice, as these may be of broader interest. To clearly identify submissions, position papers must be titled beginning with the phrase “Position: <Paper title>”.
 
