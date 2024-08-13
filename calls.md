@@ -17,7 +17,7 @@ title:
 </style>
 
 # Call for Papers
-We invite submissions to the workshop on interpretability in machine learning, titled “Interpretable AI: Past, Present and Future”. This workshop aims to bridge classical interpretability research with modern methods for foundation models, fostering discussions on the mathematical foundations, methodology, design, evaluation, and application of interpretable machine learning models.
+We invite submissions to the workshop on interpretability in machine learning, titled "Interpretable AI: Past, Present and Future". This workshop aims to bridge classical interpretability research with modern methods for foundation models, fostering discussions on the mathematical foundations, methodology, design, evaluation, and application of interpretable machine learning models.
 
 ## Topics of Interest
 We welcome submissions addressing, but not limited to, the following topics:
@@ -40,7 +40,7 @@ For the **main track**, submissions can be exploratory in nature and contain ini
 
 Submissions that have been previously published or accepted for publication in peer-reviewed conferences or journals should be submitted to the **published paper track**. These papers will not undergo the review process and will instead be evaluated by ACs based on the paper's topic and its fit for the workshop. 
 
-We also invite **position papers** that provide a commentary on the current state of interpretable machine learning or its usage in practice, as these may be of broader interest. To clearly identify submissions, position papers must be titled beginning with the phrase “Position: &lt;Paper title&gt;” and submitted to the **position paper track**.
+We also invite **position papers** that provide a commentary on the current state of interpretable machine learning or its usage in practice, as these may be of broader interest. To clearly identify submissions, position papers must be titled beginning with the phrase "Position: &lt;Paper title&gt;" and submitted to the **position paper track**.
 
 This workshop is **non-archival**, and will not have formal proceedings. All the accepted papers will be publicly available on our workshop website. The selection of oral presentations will be made based on the PC’s recommendations and their fit to the topics of the workshop. 
 
