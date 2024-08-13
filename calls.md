@@ -32,13 +32,17 @@ We welcome submissions addressing, but not limited to, the following topics:
 ## Submission Guidelines
 Authors are invited to submit up to **6 pages** with unlimited references and supplementary materials. Submissions should be **anonymized** and should use the official [**template**](https://www.overleaf.com/read/vjqdmrbfmppm#f22612). Please submit your papers through the official [**openreview portal**](https://openreview.net/group?id=NeurIPS.cc/2024/Workshop/InterpretableAI).
 
-We also invite **position papers** that provide a commentary on the current state of interpretable machine learning or its usage in practice, as these may be of broader interest. To clearly identify submissions, position papers must be titled beginning with the phrase “Position: <Paper title>”.
+We have three tracks: **main track**, **published paper track**, and **position paper track**. 
 
-Reviewing for our workshop is double-blind. Submissions should clearly articulate the research problem, methodology, results (if available), and contributions to the field. 
+Reviewing is double-blind. Submissions should clearly articulate the research problem, methodology, results (if available), and contributions to the field. 
+
+For the **main track**, submissions can be exploratory in nature and contain initial novel ideas and results. We welcome submissions undergoing concurrent peer review elsewhere. Papers presented or scheduled for presentation at non-archival venues, such as other workshops, are permitted for submission. However, it is the authors' responsibility to verify compliance with other venues' policies. 
+
+Submissions that have been previously published or accepted for publication in peer-reviewed conferences or journals should be submitted to the **published paper track**. These papers will not undergo the review process and will instead be evaluated by ACs based on the paper's topic and its fit for the workshop. 
+
+We also invite **position papers** that provide a commentary on the current state of interpretable machine learning or its usage in practice, as these may be of broader interest. To clearly identify submissions, position papers must be titled beginning with the phrase “Position: <Paper title>” and submitted to the **position paper track**.
 
 This workshop is **non-archival**, and will not have formal proceedings. All the accepted papers will be publicly available on our workshop website. The selection of oral presentations will be made based on the PC’s recommendations and their fit to the topics of the workshop. 
-
-We welcome submissions undergoing concurrent peer review elsewhere. Papers presented or scheduled for presentation at non-archival venues, such as other workshops, are permitted for submission. However, it is the authors' responsibility to verify compliance with other venues' policies. Submissions that have been previously published or accepted for publication in peer-reviewed conferences or journals will not be accepted. 
 
 ## Important Dates
 - Submission open on OpenReview: August 9, 2024
