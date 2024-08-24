@@ -16,7 +16,7 @@ article_header:
   theme: dark
   align: left
   actions:
-    - text: December 14 or December 15, 2024 | Vancouver, Canada
+    - text: December 15, 2024 | Vancouver, Canada
   background_image:
     src: /assets/images/home_img.png
 #    gradient: 'linear-gradient(135deg, rgba(52, 140, 96, 0.4), rgba(136, 73, 107, 0.4))'
@@ -87,7 +87,7 @@ article_header:
 ul.menu li::after {
     color: black;
     text-shadow: -20px -8px 17px rgb(0 0 0 / 90%);
-    content:"December 14 or December 15, 2024 | Vancouver, Canada";
+    content:"December 15, 2024 | Vancouver, Canada";
 }
 
 ul.menu a {
@@ -318,7 +318,7 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
 
 ### Workshop Event
 
-<b>Date:</b> December 14 or December 15, 2024
+<b>Date:</b> December 15, 2024
 
 ## Schedule
 
