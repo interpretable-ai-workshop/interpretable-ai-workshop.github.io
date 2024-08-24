@@ -49,7 +49,7 @@ This workshop is **non-archival**, and will not have formal proceedings. All the
 - Submission Deadline: August 30, 2024
 - Notification of Acceptance: October 9, 2024
 - Camera-ready Deadline: November 15, 2024
-- Workshop Date: December 14 or December 15, 2024
+- Workshop Date: December 15, 2024
 
 All deadlines are 11:59PM UTC-12:00 (AoE).
 
