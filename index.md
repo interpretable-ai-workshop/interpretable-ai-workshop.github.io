@@ -535,6 +535,7 @@ To be announced
 
 <div class="sponsor-logos">
     <img src="{{ site.baseurl }}/assets/images/sponsors/Google_2015_logo.svg.png" alt="Google Logo">
+    <img src="{{ site.baseurl }}/assets/images/sponsors/intuit-logo.png" alt="Intuit Logo">
 </div>
 
 ## Organizers' Institutions
