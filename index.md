@@ -388,7 +388,7 @@ To be announced
 <img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/Jiaxin.png" alt="Jiaxin Zhang">
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
-<p style="margin:0 0 0 10px;">Neel Nanda</p>
+<p style="margin:0 0 0 10px;">Jiaxin Zhang</p>
 <p style="margin:0 0 0 10px; font-size:10px;">Staff Research Scientst <br>Intuit AI Research</p>
 </div>
 </div>
