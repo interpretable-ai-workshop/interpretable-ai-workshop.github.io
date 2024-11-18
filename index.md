@@ -322,7 +322,81 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
 
 ## Schedule
 
-To be announced
+<table>
+    <tr>
+        <th>Time</th>
+        <th>Event</th>
+        <th>Additional Information</th>
+    </tr>
+    <tr>
+        <td class="time">8:50 - 9:00 AM</td>
+        <td>Opening Remarks</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td class="time">9:00 - 9:30 AM</td>
+        <td>IT1: Cynthia Rudin</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td class="time">9:30 - 10:00 AM</td>
+        <td>IT2: Rich Caruana</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td class="time">10:00 - 11:15 AM</td>
+        <td>Poster Session 1 + Coffee Break</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td class="time">11:15 - 12:00 AM</td>
+        <td>Panel Discussion</td>
+        <td><strong>Moderator:</strong> David Bau. <strong>Panelists:</strong> Cynthia Rudin, Rich Caruana, and Victor Veitch.</td>
+    </tr>
+    <tr>
+        <td class="time">12:00 - 1:00 PM</td>
+        <td>Lunch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td class="time">1:00 - 1:30 PM</td>
+        <td>Contributed Talks 1</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td class="time">1:30 - 2:00 PM</td>
+        <td>IT3: Jiaxin Zhang</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td class="time">2:00 - 2:30 PM</td>
+        <td>IT4: Tong Wang</td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td class="time">2:30 - 3:45 AM</td>
+        <td>Poster Session 2 + Coffee Break</td>
+        <td> </td>
+    </tr>	
+    <tr>
+        <td class="time">3:45 - 4:15 PM</td>
+        <td>IT5: Neel Nanda</td>
+        <td> </td>
+    </tr>    
+    <tr>
+        <td class="time">4:15 - 4:45 PM</td>
+        <td>Contributed Talks 2</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td class="time">4:45 - 5:00 PM</td>
+        <td>Concluding Remarks</td>
+        <td></td>
+    </tr>	
+</table>
+
+
+_All times are in Canada/Pacific Time_  
 
 ## Speakers and panelists
 
