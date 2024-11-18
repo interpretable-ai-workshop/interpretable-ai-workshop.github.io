@@ -346,7 +346,34 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
     <tr>
         <td class="time">10:00 - 11:15 AM</td>
         <td>Poster Session 1 + Coffee Break</td>
-        <td> </td>
+        <td>
+        <button class="toggle-button" onclick="togglePapers('papers1')">Show Papers</button>
+        <div id="papers1" class="papers-container" style="display:none;">		
+        	<div>Paper ID: 58 - <a href="https://openreview.net/forum?id=0w7JBZibDc"> "What do we even know about interpretability?"</a></div>
+        	<div>Paper ID: 40 - <a href="https://openreview.net/forum?id=OPQZa8e6E4"> "Interpretable AI in Human-Machine Systems: Insights from Human-in-the-Loop Product Recommendation Engines"</a></div>
+        	<div>Paper ID: 56 - <a href="https://openreview.net/forum?id=Ce8hCJWO2s"> "Isometry pursuit"</a></div>
+        	<div>Paper ID: 68 - <a href="https://openreview.net/forum?id=r4BofYylBt"> "Subgroup Discovery with the Cox Model"</a></div>
+        	<div>Paper ID: 83 - <a href="https://openreview.net/forum?id=ywxDNmQ2jV"> "A Theory of Interpretable Approximations"</a></div>
+        	<div>Paper ID: 19 - <a href="https://openreview.net/forum?id=bT69IJ5Br5"> "Bivariate Decision Trees: Smaller, Interpretable, More Accurate"</a></div>
+        	<div>Paper ID: 43 - <a href="https://openreview.net/forum?id=vcySq1WUeL"> "PCNN: Probable-Class Nearest-Neighbor Explanations Improve Fine-Grained Image Classification Accuracy for AIs and Humans"</a></div>
+        	<div>Paper ID: 37 - <a href="https://openreview.net/forum?id=0HOHJuNpZl"> "GAMformer: Exploring In-Context Learning for Generalized Additive Models"</a></div>
+        	<div>Paper ID: 70 - <a href="https://openreview.net/forum?id=vr5VRKq09l"> "Residual Stream Analysis with Multi-Layer SAEs"</a></div>
+        	<div>Paper ID: 74 - <a href="https://openreview.net/forum?id=a78CZ8g85n"> "ConceptDrift: Uncovering Biases through the Lens of Foundational Models"</a></div>
+        	<div>Paper ID: 77 - <a href="https://openreview.net/forum?id=6VGkENHc1J"> "Can sparse autoencoders be used to decompose and interpret steering vectors?"</a></div>
+        	<div>Paper ID: 6 - <a href="https://openreview.net/forum?id=zJFvjdW9JS"> "How Do Training Methods Influence the Utilization of Vision Models?"</a></div>
+        	<div>Paper ID: 67 - <a href="https://openreview.net/forum?id=tmpMQLxVHh"> "Measuring the Reliability of Causal Probing Methods: Tradeoffs, Limitations, and the Plight of Nullifying Interventions"</a></div>
+        	<div>Paper ID: 14 - <a href="https://openreview.net/forum?id=zjjtn7P8IG"> "Clustering and Alignment: Understanding the Training Dynamics in Modular Addition"</a></div>
+        	<div>Paper ID: 64 - <a href="https://openreview.net/forum?id=K1lmElBhNo"> "SignAttention: On the Interpretability of Transformer Models for Sign Language Translation"</a></div>
+        	<div>Paper ID: 65 - <a href="https://openreview.net/forum?id=OvmW8HnGzK"> "Interpretability as Compression: Reconsidering SAE Explanations of Neural Activations"</a></div>
+        	<div>Paper ID: 23 - <a href="https://openreview.net/forum?id=Wzav8fesTL"> "A is for Absorption: Studying Sparse Autoencoder Feature Splitting and Absorption in Spelling Tasks"</a></div>
+        	<div>Paper ID: 39 - <a href="https://openreview.net/forum?id=jT1WiYTIHR"> "Words in Motion: Interpreting Motion Forecasting Transformers by Controlling Representations"</a></div>
+        	<div>Paper ID: 53 - <a href="https://openreview.net/forum?id=l2qgijevG0"> "You can remove GPT2's LayerNorm by fine-tuning"</a></div>
+        	<div>Paper ID: 55 - <a href="https://openreview.net/forum?id=jYl7kM1oK0"> "Towards scientific discovery with dictionary learning: Extracting biological concepts from microscopy foundation models"</a></div>
+        	<div>Paper ID: 79 - <a href="https://openreview.net/forum?id=3JEHX31Yy6"> "A Mechanism for Storing Positional Information Without Positional Embeddings"</a></div>
+        	<div>Paper ID: 76 - <a href="https://openreview.net/forum?id=8XuiwERO2A"> "Your Theory Is Wrong: Using Linguistic Frameworks for LLM Probing"</a></div>
+        	<div>Paper ID: 48 - <a href="https://openreview.net/forum?id=Teect8Hlkk"> "CoS: Enhancing Personalization and Mitigating Bias with Context Steering"</a></div>
+        </div>          
+        </td>
     </tr>
     <tr>
         <td class="time">11:15 - 12:00 AM</td>
@@ -376,7 +403,34 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
     <tr>
         <td class="time">2:30 - 3:45 AM</td>
         <td>Poster Session 2 + Coffee Break</td>
-        <td> </td>
+        <td>
+        <button class="toggle-button" onclick="togglePapers('papers2')">Show Papers</button>
+        <div id="papers2" class="papers-container" style="display:none;">		
+        	<div>Paper ID: 63 - <a href="https://openreview.net/forum?id=x6ZM5Is2Po"> "Competence-Based Analysis of Language Models"</a></div>
+        	<div>Paper ID: 13 - <a href="https://openreview.net/forum?id=dIOLgr7nda"> "Error-controlled interaction discovery in deep neural networks"</a></div>
+        	<div>Paper ID: 18 - <a href="https://openreview.net/forum?id=yNgYYzimDb"> "Enhancing patient stratification and interpretability through class-contrastive and feature attribution techniques"</a></div>
+        	<div>Paper ID: 35 - <a href="https://openreview.net/forum?id=cftKAMCl2h"> "Evaluating Machine Learning Models with NERO: Non-Equivariance Revealed on Orbits"</a></div>
+        	<div>Paper ID: 17 - <a href="https://openreview.net/forum?id=SG78tZG9kv"> "A Concept-Based Explainability Framework for Large Multimodal Models"</a></div>
+        	<div>Paper ID: 24 - <a href="https://openreview.net/forum?id=sBPRqxPrWh"> "Exploiting Interpretable Capabilities with Concept-Enhanced Diffusion and Prototype Networks"</a></div>
+        	<div>Paper ID: 28 - <a href="https://openreview.net/forum?id=IxWm8majsV"> "Interactive Semantic Interventions for VLMs: A Human-in-the-Loop Approach to Interpretability"</a></div>
+        	<div>Paper ID: 30 - <a href="https://openreview.net/forum?id=OeRxyWGO4k"> "Model Reconstruction Using Counterfactual Explanations: A Perspective From Polytope Theory"</a></div>
+        	<div>Paper ID: 57 - <a href="https://openreview.net/forum?id=3xMGHSJkXf"> "Policy-shaped prediction: improving world modeling through interpretability"</a></div>
+        	<div>Paper ID: 71 - <a href="https://openreview.net/forum?id=xP1ROUJoyt"> "ProtoS-ViT: Visual foundation models for sparse self-explainable classifications"</a></div>
+        	<div>Paper ID: 44 - <a href="https://openreview.net/forum?id=mZkShMbCaS"> "Disentangling Mean Embeddings for Better Diagnostics of Image Generators"</a></div>
+        	<div>Paper ID: 27 - <a href="https://openreview.net/forum?id=0EUYnGIp4F"> "The effect of whitening on explanation performance"</a></div>
+        	<div>Paper ID: 61 - <a href="https://openreview.net/forum?id=dQR1CSGfog"> "Aligning Characteristic Descriptors with Images for Human-Expert-like Explainability"</a></div>
+        	<div>Paper ID: 4 - <a href="https://openreview.net/forum?id=qvsRFOmB6Z"> "Explainable AI-based analysis of human pancreas sections detects traits of type 2 diabetes"</a></div>
+        	<div>Paper ID: 16 - <a href="https://openreview.net/forum?id=HmuMTOWdiK"> "Right on Time: Revising Time Series Models by Constraining their Explanations"</a></div>
+        	<div>Paper ID: 51 - <a href="https://openreview.net/forum?id=oZLbD3p11a"> "Explainable Concept Generation through Vision-Language Preference Learning"</a></div>
+        	<div>Paper ID: 75 - <a href="https://openreview.net/forum?id=RUictASiLY"> "Riemann Sum Optimization for Accurate Integrated Gradients Computation"</a></div>
+        	<div>Paper ID: 12 - <a href="https://openreview.net/forum?id=TfrQgdcVlm"> "Deep quantum graph dreaming: deciphering neural network insights into quantum experiments"</a></div>
+        	<div>Paper ID: 36 - <a href="https://openreview.net/forum?id=bXMjIjaKtP"> "This Looks Like Those: Illuminating Prototypical Concepts Using Multiple Visualizations"</a></div>
+        	<div>Paper ID: 78 - <a href="https://openreview.net/forum?id=BpJK5lFzfM"> "From Flexibility to Manipulation: The Slippery Slope of Parameterizing Interpretability Evaluation"</a></div>
+        	<div>Paper ID: 20 - <a href="https://openreview.net/forum?id=uojwi6W25V"> "Latent Concept-based Explanation of NLP Models"</a></div>
+        	<div>Paper ID: 72 <b>(Position)</b> - <a href="https://openreview.net/forum?id=FHScolo0WA"> "In Defense of Post-hoc Explainability"</a></div>
+        	<div>Paper ID: 5 <b>(Position)</b> - <a href="https://openreview.net/forum?id=g0I1h8JmtE"> "XAI needs formal notions of explanation correctness"</a></div>
+        </div>          
+        </td>
     </tr>	
     <tr>
         <td class="time">3:45 - 4:15 PM</td>
