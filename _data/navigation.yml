@@ -95,7 +95,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /index.html#speakers
+    url: /index.html#speakers-and-panelists
 
   - titles:
       # @start locale config
