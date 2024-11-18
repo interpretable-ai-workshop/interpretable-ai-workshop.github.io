@@ -324,7 +324,7 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
 
 To be announced
 
-## Speakers
+## Speakers and panelists
 
 
 <div style="display:inline; width:900px; vertical-align: top;">
@@ -393,6 +393,31 @@ To be announced
 </div>
 </div>
 </a>
+
+<a href="https://baulab.info/" target="_blank" class="speaker_profile">
+<div style="display:inline-block; width:270px; margin:20px 0 0 0;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/david_bau.png" alt="David Bau">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">David Bau</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor<br>Northeastern University</p>
+</div>
+</div>
+</a>
+
+<a href="https://scholar.google.com/citations?user=xkn_XZgAAAAJ&hl=en" target="_blank" class="speaker_profile">
+<div style="display:inline-block; width:270px; margin:20px 0 0 0;">
+<div style="display:inline-block; width:101px;">
+<img style="width:100px; height:100px; position: relative; bottom: 40px;" src="{{ site.baseurl }}/assets/images/speakers/Jiaxin.png" alt="Victor Veitch">
+</div>
+<div style="display:inline-block; width:150px; line-height:1.4;">
+<p style="margin:0 0 0 10px;">Victor Veitch</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Assistant Professor<br>University of Chicago</p>
+</div>
+</div>
+</a>
+
 
 
 </div>
