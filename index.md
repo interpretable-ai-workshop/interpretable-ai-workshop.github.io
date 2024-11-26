@@ -391,9 +391,9 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
         <td> 
           <button class="toggle-button" onclick="togglePapers('orals1')">Show Papers</button>
           <div id="orals1" class="papers-container" style="display:none;">
-          <div>Paper ID: 56 - <a href=https://openreview.net/forum?id=Ce8hCJWO2s target="_blank"> "Isometry pursuit"</a></div>
-          <div>Paper ID: 37 - <a href=https://openreview.net/forum?id=0HOHJuNpZl target="_blank"> "GAMformer: Exploring In-Context Learning for Generalized Additive Models"</a></div>
-          <div>Paper ID: 24 - <a href=https://openreview.net/forum?id=sBPRqxPrWh target="_blank"> "Exploiting Interpretable Capabilities with Concept-Enhanced Diffusion and Prototype Networks"</a></div>
+          <div>Paper ID: 56 - <a href="https://openreview.net/forum?id=Ce8hCJWO2s" target="_blank"> "Isometry pursuit"</a></div>
+          <div>Paper ID: 37 - <a href="https://openreview.net/forum?id=0HOHJuNpZl" target="_blank"> "GAMformer: Exploring In-Context Learning for Generalized Additive Models"</a></div>
+          <div>Paper ID: 24 - <a href="https://openreview.net/forum?id=sBPRqxPrWh" target="_blank"> "Exploiting Interpretable Capabilities with Concept-Enhanced Diffusion and Prototype Networks"</a></div>
           </div>
         </td>
     </tr>
@@ -450,9 +450,9 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
         <td>
           <button class="toggle-button" onclick="togglePapers('orals2')">Show Papers</button>
           <div id="orals2" class="papers-container" style="display:none;">
-          <div>Paper ID: 65 - <a href=https://openreview.net/forum?id=OvmW8HnGzK target="_blank"> "Interpretability as Compression: Reconsidering SAE Explanations of Neural Activations"</a></div>
-          <div>Paper ID: 67 - <a href=https://openreview.net/forum?id=tmpMQLxVHh target="_blank"> "Measuring the Reliability of Causal Probing Methods: Tradeoffs, Limitations, and the Plight of Nullifying Interventions"</a></div>
-          <div>Paper ID: 55 - <a href=https://openreview.net/forum?id=jYl7kM1oK0 target="_blank"> "Towards scientific discovery with dictionary learning: Extracting biological concepts from microscopy foundation models"</a></div>
+          <div>Paper ID: 65 - <a href="https://openreview.net/forum?id=OvmW8HnGzK" target="_blank"> "Interpretability as Compression: Reconsidering SAE Explanations of Neural Activations"</a></div>
+          <div>Paper ID: 67 - <a href="https://openreview.net/forum?id=tmpMQLxVHh" target="_blank"> "Measuring the Reliability of Causal Probing Methods: Tradeoffs, Limitations, and the Plight of Nullifying Interventions"</a></div>
+          <div>Paper ID: 55 - <a href="https://openreview.net/forum?id=jYl7kM1oK0" target="_blank"> "Towards scientific discovery with dictionary learning: Extracting biological concepts from microscopy foundation models"</a></div>
           </div>
         </td>
     </tr>
