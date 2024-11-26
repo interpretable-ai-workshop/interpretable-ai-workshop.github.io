@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f8587c42-4ee7-4073-b420-c0d012478937)---
+---
 layout: article
 title: "Interpretable AI: Past, Present and Future"
 excerpt: NeurIPS 2024 Workshop
