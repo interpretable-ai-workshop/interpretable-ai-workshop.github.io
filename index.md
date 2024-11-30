@@ -408,7 +408,7 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
         <td> </td>
     </tr>
     <tr>
-        <td class="time">2:30 - 3:45 AM</td>
+        <td class="time">2:30 - 3:45 PM</td>
         <td>Poster Session 2 + Coffee Break</td>
         <td>
         <button class="toggle-button" onclick="togglePapers('papers2')">Show Papers</button>
