@@ -371,6 +371,18 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
   <div>Paper ID: 5 <b>(Position)</b> - <a href="https://openreview.net/forum?id=g0I1h8JmtE" target="_blank"> "XAI needs formal notions of explanation correctness"</a></div>         
 </div>          
 
+### Oral Papers
+
+<button id="toggle-oral-papers" class="toggle-button">Show Oral Papers</button>
+<div id="oral-papers-list" class="reviewers-container" style="display: none;">
+  <div><span class="paper-title">"Isometry pursuit".</span> <span class="authors">Samson Koelle, Marina Meila.</span></div>
+  <div><span class="paper-title">"GAMformer: Exploring In-Context Learning for Generalized Additive Models".</span> <span class="authors">Andreas Mueller, Julien Siems, Harsha Nori, Rich Caruana, Frank Hutter.</span></div>
+  <div><span class="paper-title">"Exploiting Interpretable Capabilities with Concept-Enhanced Diffusion and Prototype Networks".</span> <span class="authors">Alba Carballo-Castro, Sonia Laguna, Moritz Vandenhirtz, Julia E. Vogt.</span></div>
+  <div><span class="paper-title">"Interpretability as Compression: Reconsidering SAE Explanations of Neural Activations".</span> <span class="authors">Kola Ayonrinde, Michael T. Pearce.</span></div>
+  <div><span class="paper-title">"Measuring the Reliability of Causal Probing Methods: Tradeoffs, Limitations, and the Plight of Nullifying Interventions".</span> <span class="authors">Marc Canby, Adam Davies, Chirag Rastogi, Julia Hockenmaier.</span></div>
+  <div><span class="paper-title">"Towards scientific discovery with dictionary learning: Extracting biological concepts from microscopy foundation models".</span> <span class="authors">Konstantin Donhauser, Gemma Elyse Moran, Aditya Ravuri, Kian Kenyon-Dean, Kristina Ulicna, Cian Eastwood, Jason Hartford.</span></div>
+</div>
+
 
 ## Schedule
 
