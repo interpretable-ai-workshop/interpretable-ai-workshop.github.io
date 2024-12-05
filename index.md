@@ -454,7 +454,13 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
     <tr>
         <td class="time">3:00 - 3:30 PM</td>
         <td>IT5: Neel Nanda</td>
-        <td> </td>
+        <td> 
+          <strong>Title:</strong> Sparse Autoencoders: Assessing the evidence <br>
+          <button class="toggle-button" onclick="toggleAbstract('abstract_neel')">Show Abstract</button>
+            <div id="abstract_neel" style="display:none;">
+              Sparse autoencoders are a technique for interpreting which concepts are represented in a model's activations, and have been a big focus of recent mechanistic interpretability work. In this talk, Neel will assess what we've learned about how well sparse autoencoders work over the past year, the biggest problems with them, and what he sees as next steps for the field.
+            </div>        
+        </td>
     </tr>    
     <tr>
         <td class="time">3:30 - 4:00 PM</td>
