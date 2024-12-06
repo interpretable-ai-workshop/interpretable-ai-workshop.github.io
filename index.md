@@ -416,7 +416,7 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
     <tr>
         <td class="time">11:15 - 12:00 AM</td>
         <td>Panel Discussion</td>
-        <td><strong>Moderator:</strong> David Bau. <strong>Panelists:</strong> Cynthia Rudin, Rich Caruana, and Victor Veitch.</td>
+        <td><strong>Moderator:</strong> Kamalika Chaudhuri. <strong>Panelists:</strong> Cynthia Rudin, Rich Caruana, David Bau, and Victor Veitch.</td>
     </tr>
     <tr>
         <td class="time">12:00 - 1:00 PM</td>
