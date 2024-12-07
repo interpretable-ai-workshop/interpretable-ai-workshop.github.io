@@ -600,7 +600,7 @@ _All times are in Canada/Pacific Time_
 </div>
 <div style="display:inline-block; width:150px; line-height:1.4;">
 <p style="margin:0 0 0 10px;">Suraj Srinivas</p>
-<p style="margin:0 0 0 10px; font-size:10px;">Postdoctoral research fellow at Harvard University, his research focuses on developing the foundations for interpretable machine learning</p>
+<p style="margin:0 0 0 10px; font-size:10px;">Machine Learning Research Scientist at Bosch Research, his research focuses on interpretable and data-centric machine learning</p>
 </div>
 </div>
 </a>
