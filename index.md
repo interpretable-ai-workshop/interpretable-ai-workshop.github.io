@@ -405,7 +405,13 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
     <tr>
         <td class="time">9:30 - 10:00 AM</td>
         <td>IT2: Rich Caruana</td>
-        <td> </td>
+        <td>
+          <strong>Title:</strong> The Unexpected Success of GlassBox Learning with Tabular Data <br>
+          <button class="toggle-button" onclick="toggleAbstract('abstract_rich')">Show Abstract</button>
+            <div id="abstract_rich" style="display:none;">
+              Conventional wisdom was that models simple enough to be interpretable must be less accurate. That is, glassbox models must be less accurate than blackbox models. Surprisingly, this does not appear to be true for tabular data.  Moreover, models that are simple enough to be interpretable have other advantages as well: despite their transparency they are more likely to protect privacy, they are easier to correct when they make mistakes, and they make bias easier to detect and mitigate.  In this talk we'll review a number of unexpected advances in glassbox learning made over the last 30+ years.
+            </div>
+        </td>
     </tr>
     <tr>
         <td class="time">10:00 - 11:15 AM</td>
@@ -443,7 +449,13 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
     <tr>
         <td class="time">2:00 - 2:30 PM</td>
         <td>IT4: Tong Wang</td>
-        <td> </td>
+        <td>
+          <strong>Title:</strong> Using Advanced LLMs to Enhance Smaller LLMs: An Interpretable Knowledge Distillation Approach <br>
+          <button class="toggle-button" onclick="toggleAbstract('abstract_tong')">Show Abstract</button>
+            <div id="abstract_tong" style="display:none;">
+              Advanced Large language models (LLMs) like GPT-4 or LlaMa 3 provide superior performance in complex human-like interactions. But they are costly, or too large for edge devices such as smartphones and are hard to self-host, leading to security and privacy concerns. This talk introduces a novel interpretable knowledge distillation approach to enhance the performance of smaller, more economical LLMs that firms can self-host. We study this problem in the context of building a customer service agent aimed at achieving high customer satisfaction through goal-oriented dialogues. Unlike traditional knowledge distillation, where the "student" model learns directly from the "teacher" model's responses via fine-tuning, our interpretable "strategy" teaching approach involves the teacher providing strategies to improve the student's performance in various scenarios. This method alternates between a "scenario generation" step and a "strategies for improvement" step, creating a customized library of scenarios and optimized strategies for automated prompting. The method requires only black-box access to both student and teacher models; hence it can be used without manipulating model parameters. In our customer service application, the method improves performance, and the learned strategies are transferable to other LLMs and scenarios beyond the training set. The method's interpretability helps safeguard against potential harms through human audit.
+            </div>        
+        </td>
     </tr>
     <tr>
         <td class="time">2:30 - 3:00 PM</td>
