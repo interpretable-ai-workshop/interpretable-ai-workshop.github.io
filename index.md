@@ -87,7 +87,7 @@ article_header:
 ul.menu li::after {
     color: black;
     text-shadow: -20px -8px 17px rgb(0 0 0 / 90%);
-    content:"December 15, 2024 | Vancouver, Canada";
+    content:"December 15, 2024 | East Ballroom A, B | Vancouver, Canada";
 }
 
 ul.menu a {
