@@ -16,7 +16,7 @@ article_header:
   theme: dark
   align: left
   actions:
-    - text: December 15, 2024 | Vancouver, Canada
+    - text: December 15, 2024 | East Ballroom A, B | Vancouver, Canada
   background_image:
     src: /assets/images/home_img.png
 #    gradient: 'linear-gradient(135deg, rgba(52, 140, 96, 0.4), rgba(136, 73, 107, 0.4))'
