@@ -444,7 +444,13 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
     <tr>
         <td class="time">1:30 - 2:00 PM</td>
         <td>IT3: Jiaxin Zhang</td>
-        <td> </td>
+        <td>
+        <strong>Title:</strong> Building AI-Native Customer Experiences with Confidence at Intuit<br>
+          <button class="toggle-button" onclick="toggleAbstract('abstract_jiaxin')">Show Abstract</button>
+            <div id="abstract_jiaxin" style="display:none;">
+              In this talk, I present Intuit's approach to building AI-native customer experiences with a focus on interpretability and confidence. As organizations increasingly deploy AI systems at scale, ensuring reliable and trustworthy interactions becomes critical. I will discuss three key research directions that enable confident AI deployment: hallucination detection and mitigation, prompt optimization, and attribution, along with our proposed innovative work for addressing these challenges.  These advances are already being implemented across Intuit's AI-powered products, serving millions of customers through platforms like TurboTax, QuickBooks, and Credit Karma. The talk will conclude with emerging research questions in building interpretable AI systems at scale.
+            </div>
+        </td>
     </tr>
     <tr>
         <td class="time">2:00 - 2:30 PM</td>
