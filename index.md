@@ -400,7 +400,17 @@ Note: All deadlines are 11:59PM UTC-12:00 <b>Anywhere on Earth (AoE)</b>.
     <tr>
         <td class="time">9:00 - 9:30 AM</td>
         <td>IT1: Cynthia Rudin</td>
-        <td> </td>
+        <td>
+          <strong>Title:</strong> The Marriage of Noise and Simplicity <br>
+          <button class="toggle-button" onclick="toggleAbstract('abstract_cynthia')">Show Abstract</button>
+            <div id="abstract_cynthia" style="display:none;">
+              Noisier data generally leads to simpler machine learning models. My collaborators and I have been studying this phenomenon over many years, aiming to understand why tabular datasets (which often have inherent noise) often admit simple-yet-accurate models. Our latest work provides analytical relationships between noise and implicit sparsity regularization, showing that more noise leads to more regularization (and thus simpler models). These results are exciting because they help explain why more adding more model complexity doesn’t always work, and why, in many cases, it simply cannot work. Policy makers can use this information to understand what levels of complexity are truly needed for certain types of high-stakes decisions.
+
+Zachery Boner*, Lesia Semenova*, Harry Chen*, Cynthia Rudin, Ronald Parr <br>
+Using Noise to Infer Aspects of Simplicity Without Learning. NeurIPS, 2024. <br>
+<a href="https://openreview.net/pdf?id=b172ac0R4L" target="_blank">https://openreview.net/pdf?id=b172ac0R4L</a>
+            </div>          
+        </td>
     </tr>
     <tr>
         <td class="time">9:30 - 10:00 AM</td>
